@@ -1,6 +1,6 @@
-	"https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/clash.meta2/config.yaml"
-	"https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/2/config.yaml"
-	"https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/clash.meta2/2/config.yaml"
-	"https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/3/config.yaml"
-	"https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/config.yaml"
-	'https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml'
+https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/clash.meta2/config.yaml
+https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/2/config.yaml
+https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/clash.meta2/2/config.yaml
+https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/3/config.yaml
+https://gitlab.com/free9999/ipupdate/-/raw/master/clash.meta2/config.yaml
+https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml
