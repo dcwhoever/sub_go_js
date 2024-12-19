@@ -3145,16 +3145,16 @@ proxies:
     cipher: aes-128-gcm
     password: 6601fb90e9b3
     tfo: false
-  - name: KR 🇰🇷-ss | 5-2
-    server: 3.34.255.220
-    port: 443
+  - name: US 🇺🇸-ss | 5-2
+    server: 137.175.97.159
+    port: 8388
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
+    cipher: chacha20-ietf
+    password: asd123456
     tfo: false
-  - name: KR 🇰🇷-ss | 5-3
-    server: 43.203.243.93
+  - name: US 🇺🇸-ss | 5-3
+    server: 18.237.72.225
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -3162,7 +3162,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: KR 🇰🇷-ss | 5-4
-    server: 52.79.248.193
+    server: 3.34.255.220
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -3185,8 +3185,8 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: US 🇺🇸-ss | 5-7
-    server: 35.94.51.2
+  - name: KR 🇰🇷-ss | 5-7
+    server: 3.38.212.48
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -3194,14 +3194,146 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: US 🇺🇸-ss | 5-8
-    server: 18.237.72.225
+    server: 34.215.192.217
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: CN 🇨🇳-trojan | 5-9
+  - name: US 🇺🇸-ss | 5-9
+    server: 35.94.51.2
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: KR 🇰🇷-ss | 5-10
+    server: 43.202.65.32
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: US 🇺🇸-ss | 5-11
+    server: 34.222.132.123
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: KR 🇰🇷-ss | 5-12
+    server: 52.79.52.119
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: KR 🇰🇷-ss | 5-13
+    server: 43.200.1.13
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: KR 🇰🇷-ss | 5-14
+    server: 43.203.243.93
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: KR 🇰🇷-ss | 5-15
+    server: 43.203.198.1
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: KR 🇰🇷-ss | 5-16
+    server: 43.203.141.93
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: KR 🇰🇷-ss | 5-17
+    server: 43.203.122.162
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: US 🇺🇸-ss | 5-18
+    server: 79.110.53.169
+    port: 8080
+    client-fingerprint: chrome
+    type: ss
+    cipher: rc4-md5
+    password: 14fFPrbezE3HDZzsMOr6
+    tfo: false
+  - name: GB 🇬🇧-vmess | 5-19
+    server: 149.7.16.174
+    port: 443
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: meroiy.icu
+  - name: FR 🇫🇷-vmess | 5-20
+    server: 57.129.25.22
+    port: 443
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    servername: >-
+      wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: o.metuji.com
+  - name: US 🇺🇸-vmess | 5-21
+    server: 172.111.38.233
+    port: 443
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 0
+    cipher: auto
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    servername: >-
+      wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    network: ws
+    ws-opts:
+      path: /linkvws
+      headers:
+        Host: muriel.makeup
+  - name: CN 🇨🇳-trojan | 5-22
     server: 36.151.192.239
     port: 42395
     client-fingerprint: chrome
@@ -3209,7 +3341,7 @@ proxies:
     password: DNUMdmnJ
     sni: 36.151.192.239
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-10
+  - name: CN 🇨🇳-trojan | 5-23
     server: 36.151.192.203
     port: 25241
     client-fingerprint: chrome
@@ -3217,7 +3349,7 @@ proxies:
     password: QwwHvrnN
     sni: 36.151.192.203
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-11
+  - name: CloudFlare 🇨🇱-vmess | 5-24
     server: hk1.tiljkc.top
     port: 39042
     client-fingerprint: chrome
@@ -3228,7 +3360,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CN 🇨🇳-vmess | 5-12
+  - name: CN 🇨🇳-vmess | 5-25
     server: 120.198.71.214
     port: 34493
     client-fingerprint: chrome
@@ -3239,7 +3371,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-13
+  - name: CloudFlare 🇨🇱-vmess | 5-26
     server: ccc-v3-11.rabbitpro-in-1.com
     port: 29011
     client-fingerprint: chrome
@@ -3250,7 +3382,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-14
+  - name: CloudFlare 🇨🇱-ss | 5-27
     server: js.wnwwv.cn
     port: 48043
     client-fingerprint: chrome
@@ -3258,7 +3390,7 @@ proxies:
     cipher: aes-128-gcm
     password: 01b60010-2e93-4018-af7c-b7546b26febf
     tfo: false
-  - name: CN 🇨🇳-vmess | 5-15
+  - name: CN 🇨🇳-vmess | 5-28
     server: 183.236.51.23
     port: 46602
     client-fingerprint: chrome
@@ -3269,7 +3401,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CN 🇨🇳-ss | 5-16
+  - name: CN 🇨🇳-ss | 5-29
     server: 114.80.150.220
     port: 52466
     client-fingerprint: chrome
@@ -3277,7 +3409,7 @@ proxies:
     cipher: aes-128-gcm
     password: 34f92654-04c2-456f-9418-ababeef0d77b
     tfo: false
-  - name: CloudFlare 🇨🇱-ss | 5-17
+  - name: CloudFlare 🇨🇱-ss | 5-30
     server: soonhk.soon.guru
     port: 40000
     client-fingerprint: chrome
@@ -3285,7 +3417,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
     tfo: false
-  - name: CN 🇨🇳-ss | 5-18
+  - name: CN 🇨🇳-ss | 5-31
     server: 219.135.227.209
     port: 15010
     client-fingerprint: chrome
@@ -3293,7 +3425,7 @@ proxies:
     cipher: aes-256-gcm
     password: QM1BB5SMWC47IVWA
     tfo: false
-  - name: CloudFlare 🇨🇱-trojan | 5-19
+  - name: CloudFlare 🇨🇱-trojan | 5-32
     server: naiu-other.05vr9nyqg5.download
     port: 13035
     client-fingerprint: chrome
@@ -3301,7 +3433,7 @@ proxies:
     password: 3bb73c5b-2500-484a-8ee4-68aaca381a6d
     sni: cloudflare.node-ssl.cdn-alibaba.com
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-20
+  - name: CloudFlare 🇨🇱-vmess | 5-33
     server: jp1.tiljkc.top
     port: 38951
     client-fingerprint: chrome
@@ -3312,7 +3444,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-21
+  - name: CloudFlare 🇨🇱-vmess | 5-34
     server: ccc-v3-21.rabbitpro-in-1.com
     port: 29021
     client-fingerprint: chrome
@@ -3323,7 +3455,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-22
+  - name: CloudFlare 🇨🇱-ss | 5-35
     server: soonkr.soon.guru
     port: 40032
     client-fingerprint: chrome
@@ -3331,7 +3463,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121
     tfo: false
-  - name: CloudFlare 🇨🇱-vmess | 5-23
+  - name: CloudFlare 🇨🇱-vmess | 5-36
     server: ccc-v3-15.rabbitpro-in-1.com
     port: 29015
     client-fingerprint: chrome
@@ -3342,7 +3474,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-24
+  - name: CloudFlare 🇨🇱-trojan | 5-37
     server: usla.mjt000.com
     port: 443
     client-fingerprint: chrome
@@ -3350,7 +3482,7 @@ proxies:
     password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
     sni: usla.mjt000.com
     skip-cert-verify: false
-  - name: CN 🇨🇳-ss | 5-25
+  - name: CN 🇨🇳-ss | 5-38
     server: 219.135.227.209
     port: 17001
     client-fingerprint: chrome
@@ -3358,7 +3490,7 @@ proxies:
     cipher: aes-256-gcm
     password: BGX8OXD6P10X53LY
     tfo: false
-  - name: SG 🇸🇬-ss | 5-26
+  - name: SG 🇸🇬-ss | 5-39
     server: 52.77.239.64
     port: 443
     client-fingerprint: chrome
@@ -3366,7 +3498,7 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: JP 🇯🇵-ss | 5-27
+  - name: JP 🇯🇵-ss | 5-40
     server: 3.113.31.223
     port: 443
     client-fingerprint: chrome
@@ -3374,15 +3506,7 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: KR 🇰🇷-ss | 5-28
-    server: 43.203.122.162
-    port: 443
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    tfo: false
-  - name: CloudFlare 🇨🇱-trojan | 5-29
+  - name: CloudFlare 🇨🇱-trojan | 5-41
     server: vn.mjt000.com
     port: 443
     client-fingerprint: chrome
@@ -3390,7 +3514,7 @@ proxies:
     password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
     sni: vn.mjt000.com
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-30
+  - name: CloudFlare 🇨🇱-vmess | 5-42
     server: hk1.tiljkc.top
     port: 39042
     client-fingerprint: chrome
@@ -3401,7 +3525,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CN 🇨🇳-vmess | 5-31
+  - name: CN 🇨🇳-vmess | 5-43
     server: 120.198.71.214
     port: 34493
     client-fingerprint: chrome
@@ -3412,7 +3536,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-32
+  - name: CloudFlare 🇨🇱-vmess | 5-44
     server: ccc-v3-11.rabbitpro-in-1.com
     port: 29011
     client-fingerprint: chrome
@@ -3423,7 +3547,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-33
+  - name: CloudFlare 🇨🇱-ss | 5-45
     server: js.wnwwv.cn
     port: 48043
     client-fingerprint: chrome
@@ -3431,7 +3555,7 @@ proxies:
     cipher: ss
     password: //YWVzLTEyOC1nY206MDFiNjAwMTAtMmU5My00MDE4LWFmN2MtYjc1NDZiMjZmZWJm
     tfo: false
-  - name: CN 🇨🇳-vmess | 5-34
+  - name: CN 🇨🇳-vmess | 5-46
     server: 183.236.51.23
     port: 46602
     client-fingerprint: chrome
@@ -3442,7 +3566,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CN 🇨🇳-ss | 5-35
+  - name: CN 🇨🇳-ss | 5-47
     server: 114.80.150.220
     port: 52466
     client-fingerprint: chrome
@@ -3450,7 +3574,7 @@ proxies:
     cipher: ss
     password: //YWVzLTEyOC1nY206MzRmOTI2NTQtMDRjMi00NTZmLTk0MTgtYWJhYmVlZjBkNzdi
     tfo: false
-  - name: CloudFlare 🇨🇱-ss | 5-36
+  - name: CloudFlare 🇨🇱-ss | 5-48
     server: soonhk.soon.guru
     port: 40000
     client-fingerprint: chrome
@@ -3459,7 +3583,7 @@ proxies:
     password: >-
       //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOWZlZmNjMy05YWUxLTRlMDEtYTFkMC01MzRmYzE2NzExMjE
     tfo: false
-  - name: CN 🇨🇳-ss | 5-37
+  - name: CN 🇨🇳-ss | 5-49
     server: 219.135.227.209
     port: 15010
     client-fingerprint: chrome
@@ -3467,7 +3591,7 @@ proxies:
     cipher: ss
     password: //YWVzLTI1Ni1nY206UU0xQkI1U01XQzQ3SVZXQQ
     tfo: false
-  - name: CloudFlare 🇨🇱-vmess | 5-38
+  - name: CloudFlare 🇨🇱-vmess | 5-50
     server: jp1.tiljkc.top
     port: 38951
     client-fingerprint: chrome
@@ -3478,7 +3602,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-39
+  - name: CloudFlare 🇨🇱-vmess | 5-51
     server: ccc-v3-21.rabbitpro-in-1.com
     port: 29021
     client-fingerprint: chrome
@@ -3489,7 +3613,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-40
+  - name: CloudFlare 🇨🇱-ss | 5-52
     server: soonkr.soon.guru
     port: 40032
     client-fingerprint: chrome
@@ -3498,7 +3622,7 @@ proxies:
     password: >-
       //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOWZlZmNjMy05YWUxLTRlMDEtYTFkMC01MzRmYzE2NzExMjE
     tfo: false
-  - name: CloudFlare 🇨🇱-vmess | 5-41
+  - name: CloudFlare 🇨🇱-vmess | 5-53
     server: ccc-v3-15.rabbitpro-in-1.com
     port: 29015
     client-fingerprint: chrome
@@ -3509,7 +3633,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: CN 🇨🇳-ss | 5-42
+  - name: CN 🇨🇳-ss | 5-54
     server: 219.135.227.209
     port: 17001
     client-fingerprint: chrome
@@ -3517,7 +3641,7 @@ proxies:
     cipher: ss
     password: //YWVzLTI1Ni1nY206QkdYOE9YRDZQMTBYNTNMWQ
     tfo: false
-  - name: SG 🇸🇬-ss | 5-43
+  - name: SG 🇸🇬-ss | 5-55
     server: 52.77.239.64
     port: 443
     client-fingerprint: chrome
@@ -3525,7 +3649,7 @@ proxies:
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
     tfo: false
-  - name: JP 🇯🇵-ss | 5-44
+  - name: JP 🇯🇵-ss | 5-56
     server: 3.113.31.223
     port: 443
     client-fingerprint: chrome
@@ -3533,7 +3657,7 @@ proxies:
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
     tfo: false
-  - name: KR 🇰🇷-ss | 5-45
+  - name: KR 🇰🇷-ss | 5-57
     server: 43.203.122.162
     port: 443
     client-fingerprint: chrome
@@ -3541,12 +3665,104 @@ proxies:
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
     tfo: false
-  - name: CloudFlare 🇨🇱-vless | 5-46
+  - name: US 🇺🇸-vless | 5-58
+    server: 190.93.245.137
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 15c64822-1a11-419c-9ec2-7cb2807ec3b4
+    tls: true
+    tfo: false
+    skip-cert-verify: false
+    servername: www.arashiphone.com.
+    network: ws
+    ws-opts:
+      path: /?ed=2560fp=chrome
+      headers:
+        Host: www.arashiphone.com.
+  - name: DE 🇩🇪-vless | 5-59
+    server: 132.226.203.64
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: DE 🇩🇪-vless | 5-60
+    server: 141.144.244.120
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: HK 🇭🇰-trojan | 5-61
+    server: 43.198.203.106
+    port: 40091
+    client-fingerprint: chrome
+    type: trojan
+    password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb
+    sni: hk12.bilibili.com
+    skip-cert-verify: false
+  - name: HK 🇭🇰-trojan | 5-62
+    server: 43.198.107.166
+    port: 40091
+    client-fingerprint: chrome
+    type: trojan
+    password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb
+    sni: hk12.bilibili.com
+    skip-cert-verify: false
+  - name: HK 🇭🇰-trojan | 5-63
+    server: 18.167.167.110
+    port: 40091
+    client-fingerprint: chrome
+    type: trojan
+    password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb
+    sni: hk12.bilibili.com
+    skip-cert-verify: false
+  - name: HK 🇭🇰-trojan | 5-64
+    server: 18.166.212.182
+    port: 40091
+    client-fingerprint: chrome
+    type: trojan
+    password: 3e5cb4f5-8dcf-492a-b4c8-06bc06f158bb
+    sni: hk12.bilibili.com
+    skip-cert-verify: false
+  - name: JP 🇯🇵-vless | 5-65
+    server: 150.230.216.127
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: CloudFlare 🇨🇱-vless | 5-66
     server: zmaoz.faculty.ucdavis.edu
     port: 443
     client-fingerprint: chrome
     type: vless
-    uuid: 64c84156-8507-4d9f-8b4a-6c5f028e6264
+    uuid: 99f0273f-b1ea-49d8-bfba-e8d9080492bc
     tls: true
     tfo: false
     skip-cert-verify: false
@@ -3557,7 +3773,22 @@ proxies:
         /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480fp=randomized
       headers:
         Host: zmaoz.faculty.ucdavis.edu
-  - name: KZ 🇰🇿-trojan | 5-47
+  - name: KR 🇰🇷-vless | 5-67
+    server: 144.24.73.232
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: KZ 🇰🇿-trojan | 5-68
     server: 194.76.18.129
     port: 443
     client-fingerprint: chrome
@@ -3570,7 +3801,52 @@ proxies:
       path: /
       headers:
         Host: torjan.xn--xhq44j.eu.org
-  - name: RU 🇷🇺-trojan | 5-48
+  - name: NL 🇳🇱-vless | 5-69
+    server: 158.101.205.99
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: NL 🇳🇱-vless | 5-70
+    server: 141.148.227.53
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: NL 🇳🇱-vless | 5-71
+    server: 158.101.209.76
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: RU 🇷🇺-trojan | 5-72
     server: 45.67.215.95
     port: 443
     client-fingerprint: chrome
@@ -3583,359 +3859,97 @@ proxies:
       path: /
       headers:
         Host: torjan.xn--xhq44j.eu.org
-  - name: US 🇺🇸-vless | 5-49
-    server: 172.67.163.189
-    port: 8080
+  - name: SE 🇸🇪-vless | 5-73
+    server: 129.151.204.91
+    port: 443
     client-fingerprint: chrome
     type: vless
-    uuid: dc580147-c87c-4527-bf90-192eb1cf62d1
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
     tls: false
     tfo: false
     skip-cert-verify: false
-    servername: stArt.siTEG52770.WorKeRS.deV
+    servername: vdb.bgm2024.us.kg
     network: ws
     ws-opts:
-      path: /V7zmCPZUuL2T1r5r/MC4wLjAuMA==?ed=2560
+      path: /?ed=2560security=tls
       headers:
-        Host: stArt.siTEG52770.WorKeRS.deV
-  - name: CloudFlare 🇨🇱-vless | 5-50
-    server: ghk.cishanjichang.me
+        Host: vdb.bgm2024.us.kg
+  - name: US 🇺🇸-vless | 5-74
+    server: 160.79.105.205
     port: 443
     client-fingerprint: chrome
     type: vless
-    uuid: 89b90001-4206-4871-a99d-1744d48f215b
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
     tls: false
     tfo: false
     skip-cert-verify: false
-    servername: ghk.cishanjichang.me
-    network: grpc
-    grpc-opts:
-      grpc-service-name: swordnewnewsecurity=tls
-  - name: CloudFlare 🇨🇱-vless | 5-51
-    server: gbr.cishanjichang.me
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: US 🇺🇸-vless | 5-75
+    server: 63.141.128.214
     port: 443
     client-fingerprint: chrome
     type: vless
-    uuid: 89b90001-4206-4871-a99d-1744d48f215b
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
     tls: false
     tfo: false
     skip-cert-verify: false
-    servername: gbr.cishanjichang.me
-    network: grpc
-    grpc-opts:
-      grpc-service-name: swordnewnewsecurity=tls
-  - name: CloudFlare 🇨🇱-vless | 5-52
-    server: cf.cishanjichang.me
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: US 🇺🇸-vless | 5-76
+    server: 160.79.104.82
     port: 443
     client-fingerprint: chrome
     type: vless
-    uuid: 89b90001-4206-4871-a99d-1744d48f215b
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
     tls: false
     tfo: false
     skip-cert-verify: false
-    servername: gbr.cishanjichang.me
-    network: grpc
-    grpc-opts:
-      grpc-service-name: swordnewnewsecurity=tls
-  - name: US 🇺🇸-vless | 5-53
-    server: 172.67.75.52
-    port: 2083
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
+    servername: vdb.bgm2024.us.kg
     network: ws
     ws-opts:
-      path: /?ed=2560fp=random
+      path: /?ed=2560security=tls
       headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: 🏳 CloudFlare-vless | 5-54
-    server: 104.26.4.57
-    port: 2087
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-vless | 5-55
-    server: 172.67.71.122
-    port: 2087
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: 🏳 CloudFlare-vless | 5-56
-    server: 104.26.4.157
-    port: 2083
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: 🏳 CloudFlare-vless | 5-57
-    server: 104.26.5.157
-    port: 2083
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: 🏳 CloudFlare-vless | 5-58
-    server: 104.26.13.140
-    port: 8443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-vless | 5-59
-    server: 172.67.75.194
-    port: 8443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: 🏳 CloudFlare-vless | 5-60
-    server: 104.26.5.57
-    port: 2087
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: 🏳 CloudFlare-vless | 5-61
-    server: 104.26.12.140
-    port: 8443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-vless | 5-62
-    server: 172.64.146.66
-    port: 8443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: 🏳 CloudFlare-vless | 5-63
-    server: 104.18.41.190
-    port: 8443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-vless | 5-64
-    server: 199.232.125.44
+        Host: vdb.bgm2024.us.kg
+  - name: US 🇺🇸-vless | 5-77
+    server: 129.153.223.37
     port: 443
     client-fingerprint: chrome
     type: vless
-    uuid: 8f6f8193-0f0b-5933-9346-718542befff9
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: ELiV2--ELENA.COM
-    network: ws
-    ws-opts:
-      path: /fp=qq
-      headers:
-        Host: ELiV2--ELENA.COM
-  - name: US 🇺🇸-vless | 5-65
-    server: 151.101.64.155
-    port: 80
-    client-fingerprint: chrome
-    type: vless
-    uuid: 64ccb313-d2bd-4b44-a6fd-522a14c819fd
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
     tls: false
     tfo: false
     skip-cert-verify: false
-    servername: iranvpn.com.
+    servername: vdb.bgm2024.us.kg
     network: ws
     ws-opts:
-      path: /?ed=1024
+      path: /?ed=2560security=tls
       headers:
-        Host: iranvpn.com.
-  - name: US 🇺🇸-vless | 5-66
-    server: 199.232.125.43
+        Host: vdb.bgm2024.us.kg
+  - name: US 🇺🇸-vless | 5-78
+    server: 69.84.182.27
     port: 443
     client-fingerprint: chrome
     type: vless
-    uuid: ec1540bf-39b1-5901-bc00-4aa9c81e27af
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: ELI-V2-RAY.COM
-    network: ws
-    ws-opts:
-      path: /fp=qq
-      headers:
-        Host: ELI-V2-RAY.COM
-  - name: 🏳 CloudFlare-vless | 5-67
-    server: 104.16.148.244
-    port: 2087
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-vless | 5-68
-    server: 199.232.125.50
-    port: 443
-    client-fingerprint: chrome
-    type: vless
-    uuid: e9f6766e-b137-5a7d-97d7-373ef67e46b2
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: ELI-V2-RAY.COM
-    network: ws
-    ws-opts:
-      path: /fp=qq
-      headers:
-        Host: ELI-V2-RAY.COM
-  - name: US 🇺🇸-vless | 5-69
-    server: 172.64.146.66
-    port: 8443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=randomfp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: CloudFlare 🇨🇱-vless | 5-70
-    server: gro.cishanjichang.me
-    port: 443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 89b90001-4206-4871-a99d-1744d48f215b
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
     tls: false
     tfo: false
     skip-cert-verify: false
-    servername: gro.cishanjichang.me
-    network: grpc
-    grpc-opts:
-      grpc-service-name: swordnewnewsecurity=tls
-  - name: 🏳 CloudFlare-vless | 5-71
-    server: 104.16.149.244
-    port: 2087
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
+    servername: vdb.bgm2024.us.kg
     network: ws
     ws-opts:
-      path: /?ed=2560fp=random
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.iosecurity=tls
       headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-vless | 5-72
-    server: 172.67.75.52
-    port: 2083
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=randomfp=random
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-trojan | 5-73
+        Host: vdb.bgm2024.us.kg
+  - name: US 🇺🇸-trojan | 5-79
     server: 216.24.57.30
     port: 443
     client-fingerprint: chrome
@@ -3948,55 +3962,7 @@ proxies:
       path: /
       headers:
         Host: torjan.xn--xhq44j.eu.org
-  - name: CloudFlare 🇨🇱-vless | 5-74
-    server: speedtest.net
-    port: 80
-    client-fingerprint: chrome
-    type: vless
-    uuid: 64c84156-8507-4d9f-8b4a-6c5f028e6264
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    servername: >-
-      JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-    network: ws
-    ws-opts:
-      path: >-
-        /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480
-      headers:
-        Host: >-
-          JOIN.unlimiteddev.4.4.4.4.wWw.CloudFlare.cOm.wWw.SpeedTeSt.cOm.Home.iRan.0.0.0.0.Hide.my.IP.xXx.333.22.1.CDN.Free.unlimiteddev.DDNS1-IP.nEt
-  - name: US 🇺🇸-vless | 5-75
-    server: 151.101.3.8
-    port: 80
-    client-fingerprint: chrome
-    type: vless
-    uuid: 5e32df7f-dbf7-5bb8-8a37-c189e11365e6
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    servername: www.x-ui.com
-    network: ws
-    ws-opts:
-      path: /vless?ed=1048
-      headers:
-        Host: www.x-ui.com
-  - name: 🏳 CloudFlare-vless | 5-76
-    server: 104.26.4.157
-    port: 2083
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /security=tls
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-trojan | 5-77
+  - name: US 🇺🇸-trojan | 5-80
     server: 198.62.62.67
     port: 443
     client-fingerprint: chrome
@@ -4009,52 +3975,52 @@ proxies:
       path: /
       headers:
         Host: torjan.xn--xhq44j.eu.org
-  - name: US 🇺🇸-vless | 5-78
-    server: 172.64.146.66
-    port: 8443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /security=tls
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: 🏳 CloudFlare-vless | 5-79
-    server: 104.18.41.190
-    port: 8443
-    client-fingerprint: chrome
-    type: vless
-    uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: 3-fs4f6s46.huangyurong.cfd
-    network: ws
-    ws-opts:
-      path: /?ed=2560fp=randomfp=chrome
-      headers:
-        Host: 3-fs4f6s46.huangyurong.cfd
-  - name: US 🇺🇸-vless | 5-80
-    server: 172.67.160.44
+  - name: US 🇺🇸-vless | 5-81
+    server: 69.84.182.178
     port: 443
     client-fingerprint: chrome
     type: vless
-    uuid: 1aae9657-c653-495d-e8ad-8ca52916cea8
-    tls: true
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
     tfo: false
     skip-cert-verify: false
-    servername: de.bolagskontaktstockholm.se
+    servername: vdb.bgm2024.us.kg
     network: ws
     ws-opts:
-      path: /wsfp=chrome
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.iosecurity=tls
       headers:
-        Host: de.bolagskontaktstockholm.se
-  - name: CN 🇨🇳-vmess | 5-81
+        Host: vdb.bgm2024.us.kg
+  - name: US 🇺🇸-vless | 5-82
+    server: 198.62.62.91
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /ProxyIP=ProxyIP.US.fxxk.dedyn.iosecurity=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: US 🇺🇸-vless | 5-83
+    server: 160.79.105.247
+    port: 443
+    client-fingerprint: chrome
+    type: vless
+    uuid: 531bf100-1477-487c-a979-6adebf8f105f
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    servername: vdb.bgm2024.us.kg
+    network: ws
+    ws-opts:
+      path: /?ed=2560security=tls
+      headers:
+        Host: vdb.bgm2024.us.kg
+  - name: CN 🇨🇳-vmess | 5-84
     server: 42.236.73.72
     port: 443
     client-fingerprint: chrome
@@ -4066,7 +4032,7 @@ proxies:
     tfo: false
     skip-cert-verify: false
     servername: www.zitian.cn
-  - name: CN 🇨🇳-trojan | 5-82
+  - name: CN 🇨🇳-trojan | 5-85
     server: 42.236.73.72
     port: 443
     client-fingerprint: chrome
@@ -4149,7 +4115,7 @@ proxies:
     ws-opts:
       path: github.com/Alvin9999
       headers:
-        Host: y176.164748.xyz
+        Host: y200.164748.xyz
     grpc-opts:
       serviceName: /
     h2-opts:
@@ -4370,87 +4336,90 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-100
       - CloudFlare 🇨🇱-vmess | 4-101
       - CloudFlare 🇨🇱-ss | 5-1
-      - KR 🇰🇷-ss | 5-2
-      - KR 🇰🇷-ss | 5-3
+      - US 🇺🇸-ss | 5-2
+      - US 🇺🇸-ss | 5-3
       - KR 🇰🇷-ss | 5-4
       - US 🇺🇸-ss | 5-5
       - US 🇺🇸-ss | 5-6
-      - US 🇺🇸-ss | 5-7
+      - KR 🇰🇷-ss | 5-7
       - US 🇺🇸-ss | 5-8
-      - CN 🇨🇳-trojan | 5-9
-      - CN 🇨🇳-trojan | 5-10
-      - CloudFlare 🇨🇱-vmess | 5-11
-      - CN 🇨🇳-vmess | 5-12
-      - CloudFlare 🇨🇱-vmess | 5-13
-      - CloudFlare 🇨🇱-ss | 5-14
-      - CN 🇨🇳-vmess | 5-15
-      - CN 🇨🇳-ss | 5-16
-      - CloudFlare 🇨🇱-ss | 5-17
-      - CN 🇨🇳-ss | 5-18
-      - CloudFlare 🇨🇱-trojan | 5-19
-      - CloudFlare 🇨🇱-vmess | 5-20
-      - CloudFlare 🇨🇱-vmess | 5-21
-      - CloudFlare 🇨🇱-ss | 5-22
-      - CloudFlare 🇨🇱-vmess | 5-23
-      - CloudFlare 🇨🇱-trojan | 5-24
-      - CN 🇨🇳-ss | 5-25
-      - SG 🇸🇬-ss | 5-26
-      - JP 🇯🇵-ss | 5-27
-      - KR 🇰🇷-ss | 5-28
-      - CloudFlare 🇨🇱-trojan | 5-29
-      - CloudFlare 🇨🇱-vmess | 5-30
-      - CN 🇨🇳-vmess | 5-31
-      - CloudFlare 🇨🇱-vmess | 5-32
-      - CloudFlare 🇨🇱-ss | 5-33
-      - CN 🇨🇳-vmess | 5-34
-      - CN 🇨🇳-ss | 5-35
-      - CloudFlare 🇨🇱-ss | 5-36
-      - CN 🇨🇳-ss | 5-37
-      - CloudFlare 🇨🇱-vmess | 5-38
-      - CloudFlare 🇨🇱-vmess | 5-39
-      - CloudFlare 🇨🇱-ss | 5-40
-      - CloudFlare 🇨🇱-vmess | 5-41
-      - CN 🇨🇳-ss | 5-42
-      - SG 🇸🇬-ss | 5-43
-      - JP 🇯🇵-ss | 5-44
-      - KR 🇰🇷-ss | 5-45
-      - CloudFlare 🇨🇱-vless | 5-46
-      - KZ 🇰🇿-trojan | 5-47
-      - RU 🇷🇺-trojan | 5-48
-      - US 🇺🇸-vless | 5-49
-      - CloudFlare 🇨🇱-vless | 5-50
-      - CloudFlare 🇨🇱-vless | 5-51
-      - CloudFlare 🇨🇱-vless | 5-52
-      - US 🇺🇸-vless | 5-53
-      - 🏳 CloudFlare-vless | 5-54
-      - US 🇺🇸-vless | 5-55
-      - 🏳 CloudFlare-vless | 5-56
-      - 🏳 CloudFlare-vless | 5-57
-      - 🏳 CloudFlare-vless | 5-58
-      - US 🇺🇸-vless | 5-59
-      - 🏳 CloudFlare-vless | 5-60
-      - 🏳 CloudFlare-vless | 5-61
-      - US 🇺🇸-vless | 5-62
-      - 🏳 CloudFlare-vless | 5-63
-      - US 🇺🇸-vless | 5-64
-      - US 🇺🇸-vless | 5-65
-      - US 🇺🇸-vless | 5-66
-      - 🏳 CloudFlare-vless | 5-67
-      - US 🇺🇸-vless | 5-68
-      - US 🇺🇸-vless | 5-69
-      - CloudFlare 🇨🇱-vless | 5-70
-      - 🏳 CloudFlare-vless | 5-71
-      - US 🇺🇸-vless | 5-72
-      - US 🇺🇸-trojan | 5-73
-      - CloudFlare 🇨🇱-vless | 5-74
+      - US 🇺🇸-ss | 5-9
+      - KR 🇰🇷-ss | 5-10
+      - US 🇺🇸-ss | 5-11
+      - KR 🇰🇷-ss | 5-12
+      - KR 🇰🇷-ss | 5-13
+      - KR 🇰🇷-ss | 5-14
+      - KR 🇰🇷-ss | 5-15
+      - KR 🇰🇷-ss | 5-16
+      - KR 🇰🇷-ss | 5-17
+      - US 🇺🇸-ss | 5-18
+      - GB 🇬🇧-vmess | 5-19
+      - FR 🇫🇷-vmess | 5-20
+      - US 🇺🇸-vmess | 5-21
+      - CN 🇨🇳-trojan | 5-22
+      - CN 🇨🇳-trojan | 5-23
+      - CloudFlare 🇨🇱-vmess | 5-24
+      - CN 🇨🇳-vmess | 5-25
+      - CloudFlare 🇨🇱-vmess | 5-26
+      - CloudFlare 🇨🇱-ss | 5-27
+      - CN 🇨🇳-vmess | 5-28
+      - CN 🇨🇳-ss | 5-29
+      - CloudFlare 🇨🇱-ss | 5-30
+      - CN 🇨🇳-ss | 5-31
+      - CloudFlare 🇨🇱-trojan | 5-32
+      - CloudFlare 🇨🇱-vmess | 5-33
+      - CloudFlare 🇨🇱-vmess | 5-34
+      - CloudFlare 🇨🇱-ss | 5-35
+      - CloudFlare 🇨🇱-vmess | 5-36
+      - CloudFlare 🇨🇱-trojan | 5-37
+      - CN 🇨🇳-ss | 5-38
+      - SG 🇸🇬-ss | 5-39
+      - JP 🇯🇵-ss | 5-40
+      - CloudFlare 🇨🇱-trojan | 5-41
+      - CloudFlare 🇨🇱-vmess | 5-42
+      - CN 🇨🇳-vmess | 5-43
+      - CloudFlare 🇨🇱-vmess | 5-44
+      - CloudFlare 🇨🇱-ss | 5-45
+      - CN 🇨🇳-vmess | 5-46
+      - CN 🇨🇳-ss | 5-47
+      - CloudFlare 🇨🇱-ss | 5-48
+      - CN 🇨🇳-ss | 5-49
+      - CloudFlare 🇨🇱-vmess | 5-50
+      - CloudFlare 🇨🇱-vmess | 5-51
+      - CloudFlare 🇨🇱-ss | 5-52
+      - CloudFlare 🇨🇱-vmess | 5-53
+      - CN 🇨🇳-ss | 5-54
+      - SG 🇸🇬-ss | 5-55
+      - JP 🇯🇵-ss | 5-56
+      - KR 🇰🇷-ss | 5-57
+      - US 🇺🇸-vless | 5-58
+      - DE 🇩🇪-vless | 5-59
+      - DE 🇩🇪-vless | 5-60
+      - HK 🇭🇰-trojan | 5-61
+      - HK 🇭🇰-trojan | 5-62
+      - HK 🇭🇰-trojan | 5-63
+      - HK 🇭🇰-trojan | 5-64
+      - JP 🇯🇵-vless | 5-65
+      - CloudFlare 🇨🇱-vless | 5-66
+      - KR 🇰🇷-vless | 5-67
+      - KZ 🇰🇿-trojan | 5-68
+      - NL 🇳🇱-vless | 5-69
+      - NL 🇳🇱-vless | 5-70
+      - NL 🇳🇱-vless | 5-71
+      - RU 🇷🇺-trojan | 5-72
+      - SE 🇸🇪-vless | 5-73
+      - US 🇺🇸-vless | 5-74
       - US 🇺🇸-vless | 5-75
-      - 🏳 CloudFlare-vless | 5-76
-      - US 🇺🇸-trojan | 5-77
+      - US 🇺🇸-vless | 5-76
+      - US 🇺🇸-vless | 5-77
       - US 🇺🇸-vless | 5-78
-      - 🏳 CloudFlare-vless | 5-79
-      - US 🇺🇸-vless | 5-80
-      - CN 🇨🇳-vmess | 5-81
-      - CN 🇨🇳-trojan | 5-82
+      - US 🇺🇸-trojan | 5-79
+      - US 🇺🇸-trojan | 5-80
+      - US 🇺🇸-vless | 5-81
+      - US 🇺🇸-vless | 5-82
+      - US 🇺🇸-vless | 5-83
+      - CN 🇨🇳-vmess | 5-84
+      - CN 🇨🇳-trojan | 5-85
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -4671,87 +4640,90 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-100
       - CloudFlare 🇨🇱-vmess | 4-101
       - CloudFlare 🇨🇱-ss | 5-1
-      - KR 🇰🇷-ss | 5-2
-      - KR 🇰🇷-ss | 5-3
+      - US 🇺🇸-ss | 5-2
+      - US 🇺🇸-ss | 5-3
       - KR 🇰🇷-ss | 5-4
       - US 🇺🇸-ss | 5-5
       - US 🇺🇸-ss | 5-6
-      - US 🇺🇸-ss | 5-7
+      - KR 🇰🇷-ss | 5-7
       - US 🇺🇸-ss | 5-8
-      - CN 🇨🇳-trojan | 5-9
-      - CN 🇨🇳-trojan | 5-10
-      - CloudFlare 🇨🇱-vmess | 5-11
-      - CN 🇨🇳-vmess | 5-12
-      - CloudFlare 🇨🇱-vmess | 5-13
-      - CloudFlare 🇨🇱-ss | 5-14
-      - CN 🇨🇳-vmess | 5-15
-      - CN 🇨🇳-ss | 5-16
-      - CloudFlare 🇨🇱-ss | 5-17
-      - CN 🇨🇳-ss | 5-18
-      - CloudFlare 🇨🇱-trojan | 5-19
-      - CloudFlare 🇨🇱-vmess | 5-20
-      - CloudFlare 🇨🇱-vmess | 5-21
-      - CloudFlare 🇨🇱-ss | 5-22
-      - CloudFlare 🇨🇱-vmess | 5-23
-      - CloudFlare 🇨🇱-trojan | 5-24
-      - CN 🇨🇳-ss | 5-25
-      - SG 🇸🇬-ss | 5-26
-      - JP 🇯🇵-ss | 5-27
-      - KR 🇰🇷-ss | 5-28
-      - CloudFlare 🇨🇱-trojan | 5-29
-      - CloudFlare 🇨🇱-vmess | 5-30
-      - CN 🇨🇳-vmess | 5-31
-      - CloudFlare 🇨🇱-vmess | 5-32
-      - CloudFlare 🇨🇱-ss | 5-33
-      - CN 🇨🇳-vmess | 5-34
-      - CN 🇨🇳-ss | 5-35
-      - CloudFlare 🇨🇱-ss | 5-36
-      - CN 🇨🇳-ss | 5-37
-      - CloudFlare 🇨🇱-vmess | 5-38
-      - CloudFlare 🇨🇱-vmess | 5-39
-      - CloudFlare 🇨🇱-ss | 5-40
-      - CloudFlare 🇨🇱-vmess | 5-41
-      - CN 🇨🇳-ss | 5-42
-      - SG 🇸🇬-ss | 5-43
-      - JP 🇯🇵-ss | 5-44
-      - KR 🇰🇷-ss | 5-45
-      - CloudFlare 🇨🇱-vless | 5-46
-      - KZ 🇰🇿-trojan | 5-47
-      - RU 🇷🇺-trojan | 5-48
-      - US 🇺🇸-vless | 5-49
-      - CloudFlare 🇨🇱-vless | 5-50
-      - CloudFlare 🇨🇱-vless | 5-51
-      - CloudFlare 🇨🇱-vless | 5-52
-      - US 🇺🇸-vless | 5-53
-      - 🏳 CloudFlare-vless | 5-54
-      - US 🇺🇸-vless | 5-55
-      - 🏳 CloudFlare-vless | 5-56
-      - 🏳 CloudFlare-vless | 5-57
-      - 🏳 CloudFlare-vless | 5-58
-      - US 🇺🇸-vless | 5-59
-      - 🏳 CloudFlare-vless | 5-60
-      - 🏳 CloudFlare-vless | 5-61
-      - US 🇺🇸-vless | 5-62
-      - 🏳 CloudFlare-vless | 5-63
-      - US 🇺🇸-vless | 5-64
-      - US 🇺🇸-vless | 5-65
-      - US 🇺🇸-vless | 5-66
-      - 🏳 CloudFlare-vless | 5-67
-      - US 🇺🇸-vless | 5-68
-      - US 🇺🇸-vless | 5-69
-      - CloudFlare 🇨🇱-vless | 5-70
-      - 🏳 CloudFlare-vless | 5-71
-      - US 🇺🇸-vless | 5-72
-      - US 🇺🇸-trojan | 5-73
-      - CloudFlare 🇨🇱-vless | 5-74
+      - US 🇺🇸-ss | 5-9
+      - KR 🇰🇷-ss | 5-10
+      - US 🇺🇸-ss | 5-11
+      - KR 🇰🇷-ss | 5-12
+      - KR 🇰🇷-ss | 5-13
+      - KR 🇰🇷-ss | 5-14
+      - KR 🇰🇷-ss | 5-15
+      - KR 🇰🇷-ss | 5-16
+      - KR 🇰🇷-ss | 5-17
+      - US 🇺🇸-ss | 5-18
+      - GB 🇬🇧-vmess | 5-19
+      - FR 🇫🇷-vmess | 5-20
+      - US 🇺🇸-vmess | 5-21
+      - CN 🇨🇳-trojan | 5-22
+      - CN 🇨🇳-trojan | 5-23
+      - CloudFlare 🇨🇱-vmess | 5-24
+      - CN 🇨🇳-vmess | 5-25
+      - CloudFlare 🇨🇱-vmess | 5-26
+      - CloudFlare 🇨🇱-ss | 5-27
+      - CN 🇨🇳-vmess | 5-28
+      - CN 🇨🇳-ss | 5-29
+      - CloudFlare 🇨🇱-ss | 5-30
+      - CN 🇨🇳-ss | 5-31
+      - CloudFlare 🇨🇱-trojan | 5-32
+      - CloudFlare 🇨🇱-vmess | 5-33
+      - CloudFlare 🇨🇱-vmess | 5-34
+      - CloudFlare 🇨🇱-ss | 5-35
+      - CloudFlare 🇨🇱-vmess | 5-36
+      - CloudFlare 🇨🇱-trojan | 5-37
+      - CN 🇨🇳-ss | 5-38
+      - SG 🇸🇬-ss | 5-39
+      - JP 🇯🇵-ss | 5-40
+      - CloudFlare 🇨🇱-trojan | 5-41
+      - CloudFlare 🇨🇱-vmess | 5-42
+      - CN 🇨🇳-vmess | 5-43
+      - CloudFlare 🇨🇱-vmess | 5-44
+      - CloudFlare 🇨🇱-ss | 5-45
+      - CN 🇨🇳-vmess | 5-46
+      - CN 🇨🇳-ss | 5-47
+      - CloudFlare 🇨🇱-ss | 5-48
+      - CN 🇨🇳-ss | 5-49
+      - CloudFlare 🇨🇱-vmess | 5-50
+      - CloudFlare 🇨🇱-vmess | 5-51
+      - CloudFlare 🇨🇱-ss | 5-52
+      - CloudFlare 🇨🇱-vmess | 5-53
+      - CN 🇨🇳-ss | 5-54
+      - SG 🇸🇬-ss | 5-55
+      - JP 🇯🇵-ss | 5-56
+      - KR 🇰🇷-ss | 5-57
+      - US 🇺🇸-vless | 5-58
+      - DE 🇩🇪-vless | 5-59
+      - DE 🇩🇪-vless | 5-60
+      - HK 🇭🇰-trojan | 5-61
+      - HK 🇭🇰-trojan | 5-62
+      - HK 🇭🇰-trojan | 5-63
+      - HK 🇭🇰-trojan | 5-64
+      - JP 🇯🇵-vless | 5-65
+      - CloudFlare 🇨🇱-vless | 5-66
+      - KR 🇰🇷-vless | 5-67
+      - KZ 🇰🇿-trojan | 5-68
+      - NL 🇳🇱-vless | 5-69
+      - NL 🇳🇱-vless | 5-70
+      - NL 🇳🇱-vless | 5-71
+      - RU 🇷🇺-trojan | 5-72
+      - SE 🇸🇪-vless | 5-73
+      - US 🇺🇸-vless | 5-74
       - US 🇺🇸-vless | 5-75
-      - 🏳 CloudFlare-vless | 5-76
-      - US 🇺🇸-trojan | 5-77
+      - US 🇺🇸-vless | 5-76
+      - US 🇺🇸-vless | 5-77
       - US 🇺🇸-vless | 5-78
-      - 🏳 CloudFlare-vless | 5-79
-      - US 🇺🇸-vless | 5-80
-      - CN 🇨🇳-vmess | 5-81
-      - CN 🇨🇳-trojan | 5-82
+      - US 🇺🇸-trojan | 5-79
+      - US 🇺🇸-trojan | 5-80
+      - US 🇺🇸-vless | 5-81
+      - US 🇺🇸-vless | 5-82
+      - US 🇺🇸-vless | 5-83
+      - CN 🇨🇳-vmess | 5-84
+      - CN 🇨🇳-trojan | 5-85
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
