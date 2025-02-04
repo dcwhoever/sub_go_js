@@ -33134,9 +33134,9 @@ proxies:
         Host: ip23.6016725.xyz
   - name: RU 🇷🇺-Hysteria | 0-0
     type: hysteria
-    server: 46.17.43.223
-    port: 12345
-    ports: 12345
+    server: 185.22.155.71
+    port: 15424
+    ports: 30000
     auth-str: dongtaiwang.com
     up: 80
     down: 100
