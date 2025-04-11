@@ -33130,11 +33130,25 @@ proxies:
   - name: RU 🇷🇺-Hysteria2 | 0-0
     type: hysteria2
     server: 46.17.41.217
+    port: 64816
+    password: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
+  - name: RU 🇷🇺-Hysteria2 | 1-0
+    type: hysteria2
+    server: 46.29.163.171
+    port: 32555
+    password: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
+  - name: RU 🇷🇺-Hysteria2 | 9-0
+    type: hysteria2
+    server: 46.17.41.217
     port: 4395
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
-  - name: RU 🇷🇺-Hysteria2 | 1-0
+  - name: RU 🇷🇺-Hysteria2 | 11-0
     type: hysteria2
     server: 46.29.163.171
     port: 35751
@@ -35371,6 +35385,8 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
       - RU 🇷🇺-Hysteria2 | 1-0
+      - RU 🇷🇺-Hysteria2 | 9-0
+      - RU 🇷🇺-Hysteria2 | 11-0
       - TW 🇹🇼-vless | 2-0
   - name: ♻️ 自动选择
     type: url-test
@@ -37587,6 +37603,8 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
       - RU 🇷🇺-Hysteria2 | 1-0
+      - RU 🇷🇺-Hysteria2 | 9-0
+      - RU 🇷🇺-Hysteria2 | 11-0
       - TW 🇹🇼-vless | 2-0
   - name: 📺 巴哈姆特
     type: select
