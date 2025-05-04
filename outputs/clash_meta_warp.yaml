@@ -33132,11 +33132,11 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: ip23.6016725.xyz
-  - name: RU 🇷🇺-Hysteria | 0-0
+  - name: US 🇺🇸-Hysteria | 0-0
     type: hysteria
-    server: 46.17.41.174
-    port: 10469
-    ports: 10469
+    server: 208.87.243.187
+    port: 40528
+    ports: 40528
     auth-str: dongtaiwang.com
     up: 80
     down: 100
@@ -35381,7 +35381,7 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-99
       - CloudFlare 🇨🇱-vmess | 4-100
       - CloudFlare 🇨🇱-vmess | 4-101
-      - RU 🇷🇺-Hysteria | 0-0
+      - US 🇺🇸-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
   - name: ♻️ 自动选择
@@ -37596,7 +37596,7 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-99
       - CloudFlare 🇨🇱-vmess | 4-100
       - CloudFlare 🇨🇱-vmess | 4-101
-      - RU 🇷🇺-Hysteria | 0-0
+      - US 🇺🇸-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
   - name: ⚖ 负载均衡
@@ -39811,7 +39811,7 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-99
       - CloudFlare 🇨🇱-vmess | 4-100
       - CloudFlare 🇨🇱-vmess | 4-101
-      - RU 🇷🇺-Hysteria | 0-0
+      - US 🇺🇸-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
   - name: ☁ WARP前置节点
