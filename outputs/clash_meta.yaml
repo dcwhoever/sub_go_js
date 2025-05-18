@@ -33130,6 +33130,13 @@ proxies:
   - name: CloudFlare 🇨🇱-Hysteria2 | 0-0
     type: hysteria2
     server: hy2.694463.xyz
+    port: 30033
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: CloudFlare 🇨🇱-Hysteria2 | 9-0
+    type: hysteria2
+    server: hy2.694463.xyz
     port: 10011
     password: dongtaiwang.com
     sni: www.bing.com
@@ -35363,6 +35370,7 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-101
       - RU 🇷🇺-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
+      - CloudFlare 🇨🇱-Hysteria2 | 9-0
       - TW 🇹🇼-vless | 2-0
   - name: ♻️ 自动选择
     type: url-test
@@ -37578,6 +37586,7 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-101
       - RU 🇷🇺-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
+      - CloudFlare 🇨🇱-Hysteria2 | 9-0
       - TW 🇹🇼-vless | 2-0
   - name: 📺 巴哈姆特
     type: select
