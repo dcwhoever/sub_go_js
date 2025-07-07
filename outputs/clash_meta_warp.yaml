@@ -33153,13 +33153,6 @@ proxies:
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
-  - name: RU 🇷🇺-Hysteria2 | 1-0
-    type: hysteria2
-    server: 46.17.41.217
-    port: 30033
-    password: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: true
   - name: RU 🇷🇺-Hysteria2 | 2-0
     type: hysteria2
     server: 45.129.2.248
@@ -35397,7 +35390,6 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-101
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
-      - RU 🇷🇺-Hysteria2 | 1-0
       - RU 🇷🇺-Hysteria2 | 2-0
       - TW 🇹🇼-vless | 2-0
   - name: ♻️ 自动选择
@@ -37614,7 +37606,6 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-101
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
-      - RU 🇷🇺-Hysteria2 | 1-0
       - RU 🇷🇺-Hysteria2 | 2-0
       - TW 🇹🇼-vless | 2-0
   - name: ⚖ 负载均衡
@@ -39831,7 +39822,6 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-101
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
-      - RU 🇷🇺-Hysteria2 | 1-0
       - RU 🇷🇺-Hysteria2 | 2-0
       - TW 🇹🇼-vless | 2-0
   - name: ☁ WARP前置节点
