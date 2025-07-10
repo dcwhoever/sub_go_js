@@ -33160,7 +33160,14 @@ proxies:
     password: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: true
-  - name: RU 🇷🇺-Hysteria2 | 2-0
+  - name: NL 🇳🇱-Hysteria2 | 2-0
+    type: hysteria2
+    server: 163.172.217.10
+    port: 10011
+    password: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: true
+  - name: RU 🇷🇺-Hysteria2 | 11-0
     type: hysteria2
     server: 45.129.2.248
     port: 23579
@@ -35398,7 +35405,8 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
       - RU 🇷🇺-Hysteria2 | 1-0
-      - RU 🇷🇺-Hysteria2 | 2-0
+      - NL 🇳🇱-Hysteria2 | 2-0
+      - RU 🇷🇺-Hysteria2 | 11-0
       - TW 🇹🇼-vless | 2-0
   - name: ♻️ 自动选择
     type: url-test
@@ -37615,7 +37623,8 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
       - RU 🇷🇺-Hysteria2 | 1-0
-      - RU 🇷🇺-Hysteria2 | 2-0
+      - NL 🇳🇱-Hysteria2 | 2-0
+      - RU 🇷🇺-Hysteria2 | 11-0
       - TW 🇹🇼-vless | 2-0
   - name: ⚖ 负载均衡
     type: load-balance
@@ -39832,7 +39841,8 @@ proxy-groups:
       - RU 🇷🇺-Hysteria | 0-0
       - RU 🇷🇺-Hysteria2 | 0-0
       - RU 🇷🇺-Hysteria2 | 1-0
-      - RU 🇷🇺-Hysteria2 | 2-0
+      - NL 🇳🇱-Hysteria2 | 2-0
+      - RU 🇷🇺-Hysteria2 | 11-0
       - TW 🇹🇼-vless | 2-0
   - name: ☁ WARP前置节点
     type: select
