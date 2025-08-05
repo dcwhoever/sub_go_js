@@ -33235,7 +33235,7 @@ proxies:
     skip-cert-verify: false
     udp: true
   - name: IN 🇮🇳-ss | 5-12
-    server: 13.234.32.160
+    server: 13.127.216.146
     port: 443
     type: ss
     cipher: aes-256-cfb
@@ -33267,7 +33267,7 @@ proxies:
     server: hkt.gotochinatown.net
     port: 80
     type: vmess
-    uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+    uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
     alterId: 2
     cipher: auto
     tls: false
@@ -33278,28 +33278,21 @@ proxies:
       headers:
         Host: broadcastlv.chat.bilibili.com
     udp: true
-  - name: HK 🇭🇰-trojan | 5-16
-    server: 58.152.30.37
-    port: 443
+  - name: CN 🇨🇳-trojan | 5-16
+    server: 36.156.102.125
+    port: 447
     type: trojan
     password: d0d08cddacc3190ea81b1b792e1b5fde
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: CloudFlare 🇨🇱-vmess | 5-17
-    server: hkt.gotochinatown.net
-    port: 80
-    type: vmess
-    uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
-    alterId: 2
-    cipher: auto
-    tls: false
+  - name: CloudFlare 🇨🇱-trojan | 5-17
+    server: gz-43e866.kaiqsz.com
+    port: 12221
+    type: trojan
+    password: dfd4867b-26c6-4e49-9b96-ef4dbbb3f31f
+    sni: mmbiz.redapricotcloud.com
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
     udp: true
   - name: CN 🇨🇳-trojan | 5-18
     server: 36.156.102.125
@@ -33309,12 +33302,20 @@ proxies:
     sni: www.ithome.com
     skip-cert-verify: false
     udp: true
-  - name: HK 🇭🇰-ss | 5-19
-    server: 103.149.183.154
-    port: 8388
-    type: ss
-    cipher: chacha20-ietf
-    password: asd123456
+  - name: CloudFlare 🇨🇱-vmess | 5-19
+    server: hkt.gotochinatown.net
+    port: 80
+    type: vmess
+    uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
     udp: true
   - name: CloudFlare 🇨🇱-ss | 5-20
     server: cn01.efan8867801.xyz
@@ -33398,27 +33399,27 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: US 🇺🇸-trojan | 5-30
-    server: 143.110.155.169
-    port: 443
+  - name: CN 🇨🇳-trojan | 5-30
+    server: 36.156.102.125
+    port: 472
     type: trojan
     password: d0d08cddacc3190ea81b1b792e1b5fde
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: IN 🇮🇳-ss | 5-31
-    server: 13.234.32.160
+  - name: VN 🇻🇳-ss | 5-31
+    server: 103.186.155.20
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: IN 🇮🇳-ss | 5-32
+    server: 13.127.216.146
     port: 443
     type: ss
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-    udp: true
-  - name: HK 🇭🇰-ss | 5-32
-    server: 103.149.183.154
-    port: 8388
-    type: ss
-    cipher: ss
-    password: //Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY
     udp: true
   - name: US 🇺🇸-trojan | 5-33
     server: 172.67.214.21
@@ -33433,356 +33434,26 @@ proxies:
       headers:
         Host: xXcdvFgt.191268.XYz
     udp: true
-  - name: JP 🇯🇵-trojan | 5-34
-    server: 103.116.7.103
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
+  - name: VN 🇻🇳-ss | 5-34
+    server: 103.186.155.20
+    port: 38388
+    type: ss
+    cipher: ss
+    password: >-
+      //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
     udp: true
-  - name: JP 🇯🇵-trojan | 5-35
-    server: 103.116.7.220
-    port: 2096
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: JP 🇯🇵-trojan | 5-36
-    server: 103.116.7.100
-    port: 2087
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: KZ 🇰🇿-trojan | 5-37
-    server: 31.43.179.27
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: SC 🇸🇨-trojan | 5-38
-    server: 154.83.2.88
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: RU 🇷🇺-trojan | 5-39
-    server: 92.243.74.180
-    port: 8443
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: RU 🇷🇺-trojan | 5-40
-    server: 92.243.74.239
-    port: 8443
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: RU 🇷🇺-trojan | 5-41
-    server: 92.243.74.180
-    port: 8443
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-42
-    server: 198.62.62.192
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-43
-    server: 198.62.62.192
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-44
-    server: 160.79.105.156
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-45
-    server: 192.200.160.35
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-46
-    server: 192.0.54.7
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-47
-    server: 192.200.160.15
-    port: 8443
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-48
-    server: 66.81.247.230
-    port: 2096
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-49
-    server: 130.250.137.63
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-50
-    server: 161.145.150.29
-    port: 2083
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-51
-    server: 160.79.105.160
-    port: 8443
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-52
-    server: 167.68.4.131
-    port: 8443
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-53
-    server: 167.68.5.248
-    port: 2087
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-54
-    server: 167.68.4.7
-    port: 2053
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-55
-    server: 216.24.57.30
-    port: 443
-    type: trojan
-    password: tg-fq521free
-    sni: torjan.xn--xhq44j.eu.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: torjan.xn--xhq44j.eu.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-56
-    server: 167.68.4.199
-    port: 2053
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-57
-    server: 216.24.57.1
-    port: 2053
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-58
-    server: 135.84.64.77
-    port: 2096
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: US 🇺🇸-trojan | 5-59
-    server: 161.145.150.26
-    port: 2087
-    type: trojan
-    password: Aimer
-    sni: epga.aimercc.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epga.aimercc.dpdns.org
-    udp: true
-  - name: CloudFlare 🇨🇱-ss | 5-60
+  - name: CloudFlare 🇨🇱-ss | 5-35
     server: cn01.efan8867801.xyz
-    port: 8766
+    port: 8774
     type: ss
     cipher: rc4-md5
     password: efanccyun
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202507282137611-5Up7OUIi18.download.microsoft.com
+      host: 202507282137611-T3mfnF0MuU.download.microsoft.com
     udp: true
-  - name: JP 🇯🇵-ss | 5-61
+  - name: JP 🇯🇵-ss | 5-36
     server: 137.220.191.40
     port: 636
     type: ss
@@ -33797,18 +33468,7 @@ proxies:
       mux: true
       skip-cert-verify: false
     udp: true
-  - name: CloudFlare 🇨🇱-ss | 5-62
-    server: cn01.efan8867801.xyz
-    port: 8774
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-5Up7OUIi18.download.microsoft.com
-    udp: true
-  - name: HK 🇭🇰-ss | 5-63
+  - name: HK 🇭🇰-ss | 5-37
     server: 103.103.245.158
     port: 636
     type: ss
@@ -33822,6 +33482,17 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-38
+    server: cn01.efan8867801.xyz
+    port: 8766
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202507282137611-T3mfnF0MuU.download.microsoft.com
     udp: true
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
@@ -36086,10 +35757,10 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 5-13
       - HK 🇭🇰-ss | 5-14
       - CloudFlare 🇨🇱-vmess | 5-15
-      - HK 🇭🇰-trojan | 5-16
-      - CloudFlare 🇨🇱-vmess | 5-17
+      - CN 🇨🇳-trojan | 5-16
+      - CloudFlare 🇨🇱-trojan | 5-17
       - CN 🇨🇳-trojan | 5-18
-      - HK 🇭🇰-ss | 5-19
+      - CloudFlare 🇨🇱-vmess | 5-19
       - CloudFlare 🇨🇱-ss | 5-20
       - JP 🇯🇵-ss | 5-21
       - CN 🇨🇳-trojan | 5-22
@@ -36100,40 +35771,15 @@ proxy-groups:
       - US 🇺🇸-trojan | 5-27
       - CloudFlare 🇨🇱-ss | 5-28
       - CN 🇨🇳-trojan | 5-29
-      - US 🇺🇸-trojan | 5-30
-      - IN 🇮🇳-ss | 5-31
-      - HK 🇭🇰-ss | 5-32
+      - CN 🇨🇳-trojan | 5-30
+      - VN 🇻🇳-ss | 5-31
+      - IN 🇮🇳-ss | 5-32
       - US 🇺🇸-trojan | 5-33
-      - JP 🇯🇵-trojan | 5-34
-      - JP 🇯🇵-trojan | 5-35
-      - JP 🇯🇵-trojan | 5-36
-      - KZ 🇰🇿-trojan | 5-37
-      - SC 🇸🇨-trojan | 5-38
-      - RU 🇷🇺-trojan | 5-39
-      - RU 🇷🇺-trojan | 5-40
-      - RU 🇷🇺-trojan | 5-41
-      - US 🇺🇸-trojan | 5-42
-      - US 🇺🇸-trojan | 5-43
-      - US 🇺🇸-trojan | 5-44
-      - US 🇺🇸-trojan | 5-45
-      - US 🇺🇸-trojan | 5-46
-      - US 🇺🇸-trojan | 5-47
-      - US 🇺🇸-trojan | 5-48
-      - US 🇺🇸-trojan | 5-49
-      - US 🇺🇸-trojan | 5-50
-      - US 🇺🇸-trojan | 5-51
-      - US 🇺🇸-trojan | 5-52
-      - US 🇺🇸-trojan | 5-53
-      - US 🇺🇸-trojan | 5-54
-      - US 🇺🇸-trojan | 5-55
-      - US 🇺🇸-trojan | 5-56
-      - US 🇺🇸-trojan | 5-57
-      - US 🇺🇸-trojan | 5-58
-      - US 🇺🇸-trojan | 5-59
-      - CloudFlare 🇨🇱-ss | 5-60
-      - JP 🇯🇵-ss | 5-61
-      - CloudFlare 🇨🇱-ss | 5-62
-      - HK 🇭🇰-ss | 5-63
+      - VN 🇻🇳-ss | 5-34
+      - CloudFlare 🇨🇱-ss | 5-35
+      - JP 🇯🇵-ss | 5-36
+      - HK 🇭🇰-ss | 5-37
+      - CloudFlare 🇨🇱-ss | 5-38
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
@@ -38364,10 +38010,10 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 5-13
       - HK 🇭🇰-ss | 5-14
       - CloudFlare 🇨🇱-vmess | 5-15
-      - HK 🇭🇰-trojan | 5-16
-      - CloudFlare 🇨🇱-vmess | 5-17
+      - CN 🇨🇳-trojan | 5-16
+      - CloudFlare 🇨🇱-trojan | 5-17
       - CN 🇨🇳-trojan | 5-18
-      - HK 🇭🇰-ss | 5-19
+      - CloudFlare 🇨🇱-vmess | 5-19
       - CloudFlare 🇨🇱-ss | 5-20
       - JP 🇯🇵-ss | 5-21
       - CN 🇨🇳-trojan | 5-22
@@ -38378,40 +38024,15 @@ proxy-groups:
       - US 🇺🇸-trojan | 5-27
       - CloudFlare 🇨🇱-ss | 5-28
       - CN 🇨🇳-trojan | 5-29
-      - US 🇺🇸-trojan | 5-30
-      - IN 🇮🇳-ss | 5-31
-      - HK 🇭🇰-ss | 5-32
+      - CN 🇨🇳-trojan | 5-30
+      - VN 🇻🇳-ss | 5-31
+      - IN 🇮🇳-ss | 5-32
       - US 🇺🇸-trojan | 5-33
-      - JP 🇯🇵-trojan | 5-34
-      - JP 🇯🇵-trojan | 5-35
-      - JP 🇯🇵-trojan | 5-36
-      - KZ 🇰🇿-trojan | 5-37
-      - SC 🇸🇨-trojan | 5-38
-      - RU 🇷🇺-trojan | 5-39
-      - RU 🇷🇺-trojan | 5-40
-      - RU 🇷🇺-trojan | 5-41
-      - US 🇺🇸-trojan | 5-42
-      - US 🇺🇸-trojan | 5-43
-      - US 🇺🇸-trojan | 5-44
-      - US 🇺🇸-trojan | 5-45
-      - US 🇺🇸-trojan | 5-46
-      - US 🇺🇸-trojan | 5-47
-      - US 🇺🇸-trojan | 5-48
-      - US 🇺🇸-trojan | 5-49
-      - US 🇺🇸-trojan | 5-50
-      - US 🇺🇸-trojan | 5-51
-      - US 🇺🇸-trojan | 5-52
-      - US 🇺🇸-trojan | 5-53
-      - US 🇺🇸-trojan | 5-54
-      - US 🇺🇸-trojan | 5-55
-      - US 🇺🇸-trojan | 5-56
-      - US 🇺🇸-trojan | 5-57
-      - US 🇺🇸-trojan | 5-58
-      - US 🇺🇸-trojan | 5-59
-      - CloudFlare 🇨🇱-ss | 5-60
-      - JP 🇯🇵-ss | 5-61
-      - CloudFlare 🇨🇱-ss | 5-62
-      - HK 🇭🇰-ss | 5-63
+      - VN 🇻🇳-ss | 5-34
+      - CloudFlare 🇨🇱-ss | 5-35
+      - JP 🇯🇵-ss | 5-36
+      - HK 🇭🇰-ss | 5-37
+      - CloudFlare 🇨🇱-ss | 5-38
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
