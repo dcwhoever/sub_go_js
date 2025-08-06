@@ -33461,33 +33461,7 @@ proxies:
     password: >-
       //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
     udp: true
-  - name: CloudFlare 🇨🇱-ss | 5-35
-    server: cn01.efan8867801.xyz
-    port: 8774
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202507282137611-T3mfnF0MuU.download.microsoft.com
-    udp: true
-  - name: JP 🇯🇵-ss | 5-36
-    server: 137.220.191.40
-    port: 636
-    type: ss
-    cipher: aes-256-gcm
-    password: 823e135ed103
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: jp7v1.lingjfjkm002.com
-      path: /dchlbvrbbotc
-      tls: true
-      mux: true
-      skip-cert-verify: false
-    udp: true
-  - name: HK 🇭🇰-ss | 5-37
+  - name: HK 🇭🇰-ss | 5-35
     server: 103.103.245.158
     port: 636
     type: ss
@@ -33498,6 +33472,32 @@ proxies:
       mode: websocket
       host: newroot2v1.dsjsapp.com
       path: /cauejypbltqt
+      tls: true
+      mux: true
+      skip-cert-verify: false
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-36
+    server: cn01.efan8867801.xyz
+    port: 8774
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202507282137611-T3mfnF0MuU.download.microsoft.com
+    udp: true
+  - name: JP 🇯🇵-ss | 5-37
+    server: 137.220.191.40
+    port: 636
+    type: ss
+    cipher: aes-256-gcm
+    password: 823e135ed103
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: jp7v1.lingjfjkm002.com
+      path: /dchlbvrbbotc
       tls: true
       mux: true
       skip-cert-verify: false
@@ -35796,9 +35796,9 @@ proxy-groups:
       - IN 🇮🇳-ss | 5-32
       - US 🇺🇸-trojan | 5-33
       - VN 🇻🇳-ss | 5-34
-      - CloudFlare 🇨🇱-ss | 5-35
-      - JP 🇯🇵-ss | 5-36
-      - HK 🇭🇰-ss | 5-37
+      - HK 🇭🇰-ss | 5-35
+      - CloudFlare 🇨🇱-ss | 5-36
+      - JP 🇯🇵-ss | 5-37
       - CloudFlare 🇨🇱-ss | 5-38
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
@@ -38049,9 +38049,9 @@ proxy-groups:
       - IN 🇮🇳-ss | 5-32
       - US 🇺🇸-trojan | 5-33
       - VN 🇻🇳-ss | 5-34
-      - CloudFlare 🇨🇱-ss | 5-35
-      - JP 🇯🇵-ss | 5-36
-      - HK 🇭🇰-ss | 5-37
+      - HK 🇭🇰-ss | 5-35
+      - CloudFlare 🇨🇱-ss | 5-36
+      - JP 🇯🇵-ss | 5-37
       - CloudFlare 🇨🇱-ss | 5-38
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
@@ -40302,9 +40302,9 @@ proxy-groups:
       - IN 🇮🇳-ss | 5-32
       - US 🇺🇸-trojan | 5-33
       - VN 🇻🇳-ss | 5-34
-      - CloudFlare 🇨🇱-ss | 5-35
-      - JP 🇯🇵-ss | 5-36
-      - HK 🇭🇰-ss | 5-37
+      - HK 🇭🇰-ss | 5-35
+      - CloudFlare 🇨🇱-ss | 5-36
+      - JP 🇯🇵-ss | 5-37
       - CloudFlare 🇨🇱-ss | 5-38
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
