@@ -33113,6 +33113,377 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: ip23.6016725.xyz
+  - name: CloudFlare 🇨🇱-vmess | 5-1
+    server: sslvpn.51job.com
+    port: 1443
+    type: vmess
+    uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /634c5c4f9782
+      headers:
+        Host: centos7
+    udp: true
+  - name: SK 🇸🇰-ss | 5-2
+    server: 156.146.40.194
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    udp: true
+  - name: CN 🇨🇳-vmess | 5-3
+    server: 183.236.51.38
+    port: 49291
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: CloudFlare 🇨🇱-trojan | 5-4
+    server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
+    port: 15229
+    type: trojan
+    password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    skip-cert-verify: false
+    udp: true
+  - name: JP 🇯🇵-vmess | 5-5
+    server: 38.47.96.30
+    port: 443
+    type: vmess
+    uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /lzjjj
+      headers:
+        Host: th.lzj520hxw.dpdns.org
+    udp: true
+  - name: KR 🇰🇷-ss | 5-6
+    server: 125.141.31.72
+    port: 15098
+    type: ss
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+    udp: true
+  - name: CloudFlare 🇨🇱-vmess | 5-7
+    server: v29.heduian.link
+    port: 30829
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: ocbc.com
+    udp: true
+  - name: CloudFlare 🇨🇱-vmess | 5-8
+    server: de.vmess.comnpmjs.com
+    port: 443
+    type: vmess
+    uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: de.vmess.comnpmjs.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    udp: true
+  - name: CloudFlare 🇨🇱-vmess | 5-9
+    server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+    port: 8080
+    type: vmess
+    uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+    udp: true
+  - name: CloudFlare 🇨🇱-trojan | 5-10
+    server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+    port: 15229
+    type: trojan
+    password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+    sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
+    skip-cert-verify: false
+    udp: true
+  - name: CloudFlare 🇨🇱-trojan | 5-11
+    server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+    port: 15229
+    type: trojan
+    password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
+    sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
+    skip-cert-verify: false
+    udp: true
+  - name: AU 🇦🇺-ss | 5-12
+    server: 13.55.202.54
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+  - name: CloudFlare 🇨🇱-vmess | 5-13
+    server: v9.heduian.link
+    port: 30809
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: baidu.com
+    udp: true
+  - name: HK 🇭🇰-ss | 5-14
+    server: 103.103.245.158
+    port: 636
+    type: ss
+    cipher: aes-256-gcm
+    password: 9bfdde71b4c0
+    udp: true
+  - name: CN 🇨🇳-trojan | 5-15
+    server: 36.156.102.125
+    port: 447
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: false
+    udp: true
+  - name: CN 🇨🇳-trojan | 5-16
+    server: 36.156.102.125
+    port: 444
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.ithome.com
+    skip-cert-verify: false
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-17
+    server: cn01.efan8867801.xyz
+    port: 8766
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    udp: true
+  - name: JP 🇯🇵-ss | 5-18
+    server: 137.220.191.40
+    port: 636
+    type: ss
+    cipher: aes-256-gcm
+    password: 823e135ed103
+    udp: true
+  - name: JP 🇯🇵-trojan | 5-19
+    server: 157.120.32.122
+    port: 443
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: false
+    udp: true
+  - name: CN 🇨🇳-trojan | 5-20
+    server: 36.156.102.125
+    port: 461
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: false
+    udp: true
+  - name: CloudFlare 🇨🇱-trojan | 5-21
+    server: okanc.iepl.cac.cab
+    port: 23007
+    type: trojan
+    password: 6bc1c915-2fee-469b-b0e2-01968be45bf6
+    sni: www.bilibili.com
+    skip-cert-verify: false
+    udp: true
+  - name: CloudFlare 🇨🇱-trojan | 5-22
+    server: okanc.iepl.cac.cab
+    port: 24001
+    type: trojan
+    password: 6bc1c915-2fee-469b-b0e2-01968be45bf6
+    sni: www.bilibili.com
+    skip-cert-verify: false
+    udp: true
+  - name: CN 🇨🇳-trojan | 5-23
+    server: 139.199.194.86
+    port: 36009
+    type: trojan
+    password: 005fddef-e432-482f-a98c-2715563a2b25
+    skip-cert-verify: false
+    udp: true
+  - name: SG 🇸🇬-trojan | 5-24
+    server: 165.22.55.206
+    port: 443
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: false
+    udp: true
+  - name: CN 🇨🇳-trojan | 5-25
+    server: 36.156.102.125
+    port: 406
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: false
+    udp: true
+  - name: US 🇺🇸-trojan | 5-26
+    server: 172.67.214.21
+    port: 443
+    type: trojan
+    password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+    sni: xXcdvFgt.191268.XYz
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /ctdmgeIg3NII3ibrzzKXJGy3S1
+      headers:
+        Host: xXcdvFgt.191268.XYz
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-27
+    server: cn01.efan8867801.xyz
+    port: 8774
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    udp: true
+  - name: CN 🇨🇳-trojan | 5-28
+    server: 36.156.102.125
+    port: 329
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: false
+    udp: true
+  - name: CN 🇨🇳-trojan | 5-29
+    server: 36.156.102.125
+    port: 472
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: false
+    udp: true
+  - name: VN 🇻🇳-ss | 5-30
+    server: 103.186.155.20
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: AU 🇦🇺-ss | 5-31
+    server: 13.55.202.54
+    port: 443
+    type: ss
+    cipher: ss
+    password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+    udp: true
+  - name: US 🇺🇸-trojan | 5-32
+    server: 172.67.214.21
+    port: 443
+    type: trojan
+    password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+    sni: xXcdvFgt.191268.XYz
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /ctdmgeIg3NII3ibrzzKXJGy3S1
+      headers:
+        Host: xXcdvFgt.191268.XYz
+    udp: true
+  - name: VN 🇻🇳-ss | 5-33
+    server: 103.186.155.20
+    port: 38388
+    type: ss
+    cipher: ss
+    password: >-
+      //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
+    udp: true
+  - name: US 🇺🇸-trojan | 5-34
+    server: 216.24.57.30
+    port: 443
+    type: trojan
+    password: tg-fq521free
+    sni: torjan.xn--xhq44j.eu.org
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: torjan.xn--xhq44j.eu.org
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-35
+    server: cn01.efan8867801.xyz
+    port: 8774
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-36
+    server: cn01.efan8867801.xyz
+    port: 8766
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202507282137611-Ibej7QBdUa.download.microsoft.com
+    udp: true
+  - name: HK 🇭🇰-ss | 5-37
+    server: 103.103.245.158
+    port: 636
+    type: ss
+    cipher: aes-256-gcm
+    password: 9bfdde71b4c0
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: newroot2v1.dsjsapp.com
+      path: /cauejypbltqt
+      tls: true
+      mux: true
+      skip-cert-verify: false
+    udp: true
+  - name: JP 🇯🇵-ss | 5-38
+    server: 137.220.191.40
+    port: 636
+    type: ss
+    cipher: aes-256-gcm
+    password: 823e135ed103
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: jp7v1.lingjfjkm002.com
+      path: /dchlbvrbbotc
+      tls: true
+      mux: true
+      skip-cert-verify: false
+    udp: true
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
     server: 109.104.153.91
@@ -35361,6 +35732,44 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-99
       - CloudFlare 🇨🇱-vmess | 4-100
       - CloudFlare 🇨🇱-vmess | 4-101
+      - CloudFlare 🇨🇱-vmess | 5-1
+      - SK 🇸🇰-ss | 5-2
+      - CN 🇨🇳-vmess | 5-3
+      - CloudFlare 🇨🇱-trojan | 5-4
+      - JP 🇯🇵-vmess | 5-5
+      - KR 🇰🇷-ss | 5-6
+      - CloudFlare 🇨🇱-vmess | 5-7
+      - CloudFlare 🇨🇱-vmess | 5-8
+      - CloudFlare 🇨🇱-vmess | 5-9
+      - CloudFlare 🇨🇱-trojan | 5-10
+      - CloudFlare 🇨🇱-trojan | 5-11
+      - AU 🇦🇺-ss | 5-12
+      - CloudFlare 🇨🇱-vmess | 5-13
+      - HK 🇭🇰-ss | 5-14
+      - CN 🇨🇳-trojan | 5-15
+      - CN 🇨🇳-trojan | 5-16
+      - CloudFlare 🇨🇱-ss | 5-17
+      - JP 🇯🇵-ss | 5-18
+      - JP 🇯🇵-trojan | 5-19
+      - CN 🇨🇳-trojan | 5-20
+      - CloudFlare 🇨🇱-trojan | 5-21
+      - CloudFlare 🇨🇱-trojan | 5-22
+      - CN 🇨🇳-trojan | 5-23
+      - SG 🇸🇬-trojan | 5-24
+      - CN 🇨🇳-trojan | 5-25
+      - US 🇺🇸-trojan | 5-26
+      - CloudFlare 🇨🇱-ss | 5-27
+      - CN 🇨🇳-trojan | 5-28
+      - CN 🇨🇳-trojan | 5-29
+      - VN 🇻🇳-ss | 5-30
+      - AU 🇦🇺-ss | 5-31
+      - US 🇺🇸-trojan | 5-32
+      - VN 🇻🇳-ss | 5-33
+      - US 🇺🇸-trojan | 5-34
+      - CloudFlare 🇨🇱-ss | 5-35
+      - CloudFlare 🇨🇱-ss | 5-36
+      - HK 🇭🇰-ss | 5-37
+      - JP 🇯🇵-ss | 5-38
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
@@ -37576,6 +37985,44 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 4-99
       - CloudFlare 🇨🇱-vmess | 4-100
       - CloudFlare 🇨🇱-vmess | 4-101
+      - CloudFlare 🇨🇱-vmess | 5-1
+      - SK 🇸🇰-ss | 5-2
+      - CN 🇨🇳-vmess | 5-3
+      - CloudFlare 🇨🇱-trojan | 5-4
+      - JP 🇯🇵-vmess | 5-5
+      - KR 🇰🇷-ss | 5-6
+      - CloudFlare 🇨🇱-vmess | 5-7
+      - CloudFlare 🇨🇱-vmess | 5-8
+      - CloudFlare 🇨🇱-vmess | 5-9
+      - CloudFlare 🇨🇱-trojan | 5-10
+      - CloudFlare 🇨🇱-trojan | 5-11
+      - AU 🇦🇺-ss | 5-12
+      - CloudFlare 🇨🇱-vmess | 5-13
+      - HK 🇭🇰-ss | 5-14
+      - CN 🇨🇳-trojan | 5-15
+      - CN 🇨🇳-trojan | 5-16
+      - CloudFlare 🇨🇱-ss | 5-17
+      - JP 🇯🇵-ss | 5-18
+      - JP 🇯🇵-trojan | 5-19
+      - CN 🇨🇳-trojan | 5-20
+      - CloudFlare 🇨🇱-trojan | 5-21
+      - CloudFlare 🇨🇱-trojan | 5-22
+      - CN 🇨🇳-trojan | 5-23
+      - SG 🇸🇬-trojan | 5-24
+      - CN 🇨🇳-trojan | 5-25
+      - US 🇺🇸-trojan | 5-26
+      - CloudFlare 🇨🇱-ss | 5-27
+      - CN 🇨🇳-trojan | 5-28
+      - CN 🇨🇳-trojan | 5-29
+      - VN 🇻🇳-ss | 5-30
+      - AU 🇦🇺-ss | 5-31
+      - US 🇺🇸-trojan | 5-32
+      - VN 🇻🇳-ss | 5-33
+      - US 🇺🇸-trojan | 5-34
+      - CloudFlare 🇨🇱-ss | 5-35
+      - CloudFlare 🇨🇱-ss | 5-36
+      - HK 🇭🇰-ss | 5-37
+      - JP 🇯🇵-ss | 5-38
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
