@@ -33214,7 +33214,7 @@ proxies:
     skip-cert-verify: false
     udp: true
   - name: IE 🇮🇪-ss | 5-11
-    server: 34.242.33.79
+    server: 34.244.73.113
     port: 443
     type: ss
     cipher: aes-256-cfb
@@ -33260,28 +33260,20 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: CloudFlare 🇨🇱-vmess | 5-16
-    server: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
-    port: 80
-    type: vmess
-    uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-    udp: true
-  - name: CN 🇨🇳-trojan | 5-17
+  - name: CN 🇨🇳-trojan | 5-16
     server: 36.156.102.125
     port: 444
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.ithome.com
     skip-cert-verify: false
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-17
+    server: hk1-20250813213806be3c17japantm01.tmdns-sing.top
+    port: 13872
+    type: ss
+    cipher: aes-128-gcm
+    password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
     udp: true
   - name: CN 🇨🇳-vmess | 5-18
     server: 183.240.245.239
@@ -33294,20 +33286,27 @@ proxies:
     skip-cert-verify: false
     udp: true
   - name: CloudFlare 🇨🇱-ss | 5-19
+    server: twlite-20250815011717878c9d.tmdns-sing.top
+    port: 13876
+    type: ss
+    cipher: aes-128-gcm
+    password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-20
     server: cn01.efan8867801.xyz
     port: 8766
     type: ss
     cipher: rc4-md5
     password: efanccyun
     udp: true
-  - name: JP 🇯🇵-ss | 5-20
+  - name: JP 🇯🇵-ss | 5-21
     server: 137.220.191.40
     port: 636
     type: ss
     cipher: aes-256-gcm
     password: 823e135ed103
     udp: true
-  - name: CN 🇨🇳-trojan | 5-21
+  - name: CN 🇨🇳-trojan | 5-22
     server: 36.156.102.78
     port: 409
     type: trojan
@@ -33315,7 +33314,7 @@ proxies:
     sni: 1-dy.ixigua.com
     skip-cert-verify: false
     udp: true
-  - name: CN 🇨🇳-trojan | 5-22
+  - name: CN 🇨🇳-trojan | 5-23
     server: 36.156.102.125
     port: 461
     type: trojan
@@ -33323,15 +33322,21 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: JP 🇯🇵-trojan | 5-23
-    server: 52.194.230.74
-    port: 6668
-    type: trojan
-    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-    sni: baidu.com
-    skip-cert-verify: false
+  - name: CloudFlare 🇨🇱-ss | 5-24
+    server: japan001.tmdns-sing.top
+    port: 13890
+    type: ss
+    cipher: aes-128-gcm
+    password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
     udp: true
-  - name: CN 🇨🇳-trojan | 5-24
+  - name: CloudFlare 🇨🇱-ss | 5-25
+    server: hanguo01.tmdns-sing.top
+    port: 13882
+    type: ss
+    cipher: aes-128-gcm
+    password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+    udp: true
+  - name: CN 🇨🇳-trojan | 5-26
     server: 36.156.102.125
     port: 1256
     type: trojan
@@ -33339,7 +33344,7 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: CN 🇨🇳-trojan | 5-25
+  - name: CN 🇨🇳-trojan | 5-27
     server: 36.156.102.125
     port: 406
     type: trojan
@@ -33347,7 +33352,14 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: US 🇺🇸-trojan | 5-26
+  - name: CloudFlare 🇨🇱-ss | 5-28
+    server: xinjiapo.tmdns-sing.top
+    port: 13886
+    type: ss
+    cipher: aes-128-gcm
+    password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+    udp: true
+  - name: US 🇺🇸-trojan | 5-29
     server: 172.67.214.21
     port: 443
     type: trojan
@@ -33360,14 +33372,14 @@ proxies:
       headers:
         Host: xXcdvFgt.191268.XYz
     udp: true
-  - name: CloudFlare 🇨🇱-ss | 5-27
+  - name: CloudFlare 🇨🇱-ss | 5-30
     server: cn01.efan8867801.xyz
     port: 8774
     type: ss
     cipher: rc4-md5
     password: efanccyun
     udp: true
-  - name: CN 🇨🇳-trojan | 5-28
+  - name: CN 🇨🇳-trojan | 5-31
     server: 36.156.102.125
     port: 347
     type: trojan
@@ -33375,7 +33387,7 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: CN 🇨🇳-trojan | 5-29
+  - name: CN 🇨🇳-trojan | 5-32
     server: 36.156.102.67
     port: 22006
     type: trojan
@@ -33383,21 +33395,21 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: false
     udp: true
-  - name: VN 🇻🇳-ss | 5-30
-    server: 103.186.154.24
-    port: 38388
+  - name: CloudFlare 🇨🇱-ss | 5-33
+    server: usa20250815010624020199.tmdns-sing.top
+    port: 13874
     type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    cipher: aes-128-gcm
+    password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
     udp: true
-  - name: IE 🇮🇪-ss | 5-31
-    server: 34.242.33.79
+  - name: IE 🇮🇪-ss | 5-34
+    server: 34.244.73.113
     port: 443
     type: ss
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
     udp: true
-  - name: HK 🇭🇰-vmess | 5-32
+  - name: HK 🇭🇰-vmess | 5-35
     server: 43.247.134.190
     port: 21186
     type: vmess
@@ -33407,7 +33419,14 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: CN 🇨🇳-vmess | 5-33
+  - name: CloudFlare 🇨🇱-ss | 5-36
+    server: hk1-20250813213806be3c17japantm01.tmdns-sing.top
+    port: 13872
+    type: ss
+    cipher: ss
+    password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx
+    udp: true
+  - name: CN 🇨🇳-vmess | 5-37
     server: 183.240.245.239
     port: 42272
     type: vmess
@@ -33417,7 +33436,35 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: US 🇺🇸-trojan | 5-34
+  - name: CloudFlare 🇨🇱-ss | 5-38
+    server: twlite-20250815011717878c9d.tmdns-sing.top
+    port: 13876
+    type: ss
+    cipher: ss
+    password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-39
+    server: japan001.tmdns-sing.top
+    port: 13890
+    type: ss
+    cipher: ss
+    password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-40
+    server: hanguo01.tmdns-sing.top
+    port: 13882
+    type: ss
+    cipher: ss
+    password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx
+    udp: true
+  - name: CloudFlare 🇨🇱-ss | 5-41
+    server: xinjiapo.tmdns-sing.top
+    port: 13886
+    type: ss
+    cipher: ss
+    password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx
+    udp: true
+  - name: US 🇺🇸-trojan | 5-42
     server: 172.67.214.21
     port: 443
     type: trojan
@@ -33430,15 +33477,14 @@ proxies:
       headers:
         Host: xXcdvFgt.191268.XYz
     udp: true
-  - name: VN 🇻🇳-ss | 5-35
-    server: 103.186.154.24
-    port: 38388
+  - name: CloudFlare 🇨🇱-ss | 5-43
+    server: usa20250815010624020199.tmdns-sing.top
+    port: 13874
     type: ss
     cipher: ss
-    password: >-
-      //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
+    password: //YWVzLTEyOC1nY206NmIxZTU0NzUtNzY2MS00OTIxLWFhMjYtZDExNzU4YjJmM2Yx
     udp: true
-  - name: US 🇺🇸-trojan | 5-36
+  - name: US 🇺🇸-trojan | 5-44
     server: 141.11.203.168
     port: 443
     type: trojan
@@ -33451,7 +33497,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: JP 🇯🇵-trojan | 5-37
+  - name: JP 🇯🇵-trojan | 5-45
     server: 103.116.7.100
     port: 2087
     type: trojan
@@ -33464,7 +33510,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: JP 🇯🇵-trojan | 5-38
+  - name: JP 🇯🇵-trojan | 5-46
     server: 103.116.7.189
     port: 443
     type: trojan
@@ -33477,7 +33523,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: JP 🇯🇵-trojan | 5-39
+  - name: JP 🇯🇵-trojan | 5-47
     server: 103.116.7.235
     port: 443
     type: trojan
@@ -33490,7 +33536,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: JP 🇯🇵-trojan | 5-40
+  - name: JP 🇯🇵-trojan | 5-48
     server: 103.116.7.103
     port: 2083
     type: trojan
@@ -33503,7 +33549,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: KZ 🇰🇿-trojan | 5-41
+  - name: KZ 🇰🇿-trojan | 5-49
     server: 194.76.18.129
     port: 443
     type: trojan
@@ -33516,7 +33562,7 @@ proxies:
       headers:
         Host: torjan.xn--xhq44j.eu.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-42
+  - name: RU 🇷🇺-trojan | 5-50
     server: 5.182.84.9
     port: 2087
     type: trojan
@@ -33529,7 +33575,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-43
+  - name: RU 🇷🇺-trojan | 5-51
     server: 77.232.140.114
     port: 2053
     type: trojan
@@ -33542,7 +33588,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-44
+  - name: RU 🇷🇺-trojan | 5-52
     server: 5.182.84.244
     port: 443
     type: trojan
@@ -33555,7 +33601,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-45
+  - name: RU 🇷🇺-trojan | 5-53
     server: 5.182.85.255
     port: 2096
     type: trojan
@@ -33568,7 +33614,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-46
+  - name: RU 🇷🇺-trojan | 5-54
     server: 45.67.215.95
     port: 443
     type: trojan
@@ -33581,7 +33627,7 @@ proxies:
       headers:
         Host: torjan.xn--xhq44j.eu.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-47
+  - name: RU 🇷🇺-trojan | 5-55
     server: 5.182.84.52
     port: 2083
     type: trojan
@@ -33594,7 +33640,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-48
+  - name: RU 🇷🇺-trojan | 5-56
     server: 5.182.84.229
     port: 2087
     type: trojan
@@ -33607,7 +33653,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-49
+  - name: RU 🇷🇺-trojan | 5-57
     server: 176.124.223.92
     port: 443
     type: trojan
@@ -33620,7 +33666,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-50
+  - name: RU 🇷🇺-trojan | 5-58
     server: 92.243.75.49
     port: 2087
     type: trojan
@@ -33633,7 +33679,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-51
+  - name: RU 🇷🇺-trojan | 5-59
     server: 92.243.74.23
     port: 2096
     type: trojan
@@ -33646,7 +33692,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: RU 🇷🇺-trojan | 5-52
+  - name: RU 🇷🇺-trojan | 5-60
     server: 92.243.74.3
     port: 8443
     type: trojan
@@ -33659,7 +33705,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-53
+  - name: US 🇺🇸-trojan | 5-61
     server: 135.84.74.27
     port: 8443
     type: trojan
@@ -33672,7 +33718,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-54
+  - name: US 🇺🇸-trojan | 5-62
     server: 167.68.4.199
     port: 2053
     type: trojan
@@ -33685,7 +33731,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: SG 🇸🇬-trojan | 5-55
+  - name: SG 🇸🇬-trojan | 5-63
     server: 104.129.167.255
     port: 8443
     type: trojan
@@ -33698,7 +33744,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-56
+  - name: US 🇺🇸-trojan | 5-64
     server: 66.81.247.88
     port: 2083
     type: trojan
@@ -33711,7 +33757,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-57
+  - name: US 🇺🇸-trojan | 5-65
     server: 135.84.74.254
     port: 2083
     type: trojan
@@ -33724,7 +33770,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-58
+  - name: US 🇺🇸-trojan | 5-66
     server: 155.46.213.38
     port: 2083
     type: trojan
@@ -33737,7 +33783,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-59
+  - name: US 🇺🇸-trojan | 5-67
     server: 216.24.57.30
     port: 443
     type: trojan
@@ -33750,7 +33796,7 @@ proxies:
       headers:
         Host: torjan.xn--xhq44j.eu.org
     udp: true
-  - name: 🏳 CloudFlare-trojan | 5-60
+  - name: 🏳 CloudFlare-trojan | 5-68
     server: 104.18.3.108
     port: 8443
     type: trojan
@@ -33763,7 +33809,7 @@ proxies:
       headers:
         Host: ocost-dy.wmlefl.cc
     udp: true
-  - name: US 🇺🇸-trojan | 5-61
+  - name: US 🇺🇸-trojan | 5-69
     server: 199.34.228.164
     port: 2087
     type: trojan
@@ -33776,7 +33822,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-62
+  - name: US 🇺🇸-trojan | 5-70
     server: 192.200.160.35
     port: 2083
     type: trojan
@@ -33789,7 +33835,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-63
+  - name: US 🇺🇸-trojan | 5-71
     server: 63.141.128.66
     port: 2087
     type: trojan
@@ -33802,7 +33848,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-64
+  - name: US 🇺🇸-trojan | 5-72
     server: 167.68.5.248
     port: 2087
     type: trojan
@@ -33815,7 +33861,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-65
+  - name: US 🇺🇸-trojan | 5-73
     server: 198.62.62.67
     port: 443
     type: trojan
@@ -33828,7 +33874,7 @@ proxies:
       headers:
         Host: torjan.xn--xhq44j.eu.org
     udp: true
-  - name: SG 🇸🇬-trojan | 5-66
+  - name: SG 🇸🇬-trojan | 5-74
     server: 104.129.166.131
     port: 8443
     type: trojan
@@ -33841,7 +33887,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-67
+  - name: US 🇺🇸-trojan | 5-75
     server: 198.62.62.61
     port: 2083
     type: trojan
@@ -33854,7 +33900,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-68
+  - name: US 🇺🇸-trojan | 5-76
     server: 130.250.137.63
     port: 2083
     type: trojan
@@ -33867,7 +33913,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-69
+  - name: US 🇺🇸-trojan | 5-77
     server: 66.81.247.230
     port: 2096
     type: trojan
@@ -33880,7 +33926,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-70
+  - name: US 🇺🇸-trojan | 5-78
     server: 192.0.54.221
     port: 2083
     type: trojan
@@ -33893,7 +33939,7 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: US 🇺🇸-trojan | 5-71
+  - name: US 🇺🇸-trojan | 5-79
     server: 209.94.90.87
     port: 2087
     type: trojan
@@ -33906,7 +33952,18 @@ proxies:
       headers:
         Host: epgc.aimercc.dpdns.org
     udp: true
-  - name: HK 🇭🇰-ss | 5-72
+  - name: CloudFlare 🇨🇱-ss | 5-80
+    server: cn01.efan8867801.xyz
+    port: 8774
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202508150964186-iN9Ka3jcO2.download.microsoft.com
+    udp: true
+  - name: HK 🇭🇰-ss | 5-81
     server: 103.103.245.158
     port: 636
     type: ss
@@ -33921,7 +33978,7 @@ proxies:
       mux: true
       skip-cert-verify: false
     udp: true
-  - name: JP 🇯🇵-ss | 5-73
+  - name: JP 🇯🇵-ss | 5-82
     server: 137.220.191.40
     port: 636
     type: ss
@@ -33936,18 +33993,7 @@ proxies:
       mux: true
       skip-cert-verify: false
     udp: true
-  - name: CloudFlare 🇨🇱-ss | 5-74
-    server: cn01.efan8867801.xyz
-    port: 8774
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202508150964186-XFJ7C2EYDL.download.microsoft.com
-    udp: true
-  - name: CloudFlare 🇨🇱-ss | 5-75
+  - name: CloudFlare 🇨🇱-ss | 5-83
     server: cn01.efan8867801.xyz
     port: 8766
     type: ss
@@ -33956,7 +34002,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202508150964186-XFJ7C2EYDL.download.microsoft.com
+      host: 202508150964186-iN9Ka3jcO2.download.microsoft.com
     udp: true
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
@@ -36221,66 +36267,74 @@ proxy-groups:
       - HK 🇭🇰-ss | 5-13
       - HK 🇭🇰-vmess | 5-14
       - CN 🇨🇳-trojan | 5-15
-      - CloudFlare 🇨🇱-vmess | 5-16
-      - CN 🇨🇳-trojan | 5-17
+      - CN 🇨🇳-trojan | 5-16
+      - CloudFlare 🇨🇱-ss | 5-17
       - CN 🇨🇳-vmess | 5-18
       - CloudFlare 🇨🇱-ss | 5-19
-      - JP 🇯🇵-ss | 5-20
-      - CN 🇨🇳-trojan | 5-21
+      - CloudFlare 🇨🇱-ss | 5-20
+      - JP 🇯🇵-ss | 5-21
       - CN 🇨🇳-trojan | 5-22
-      - JP 🇯🇵-trojan | 5-23
-      - CN 🇨🇳-trojan | 5-24
-      - CN 🇨🇳-trojan | 5-25
-      - US 🇺🇸-trojan | 5-26
-      - CloudFlare 🇨🇱-ss | 5-27
-      - CN 🇨🇳-trojan | 5-28
-      - CN 🇨🇳-trojan | 5-29
-      - VN 🇻🇳-ss | 5-30
-      - IE 🇮🇪-ss | 5-31
-      - HK 🇭🇰-vmess | 5-32
-      - CN 🇨🇳-vmess | 5-33
-      - US 🇺🇸-trojan | 5-34
-      - VN 🇻🇳-ss | 5-35
-      - US 🇺🇸-trojan | 5-36
-      - JP 🇯🇵-trojan | 5-37
-      - JP 🇯🇵-trojan | 5-38
-      - JP 🇯🇵-trojan | 5-39
-      - JP 🇯🇵-trojan | 5-40
-      - KZ 🇰🇿-trojan | 5-41
-      - RU 🇷🇺-trojan | 5-42
-      - RU 🇷🇺-trojan | 5-43
-      - RU 🇷🇺-trojan | 5-44
-      - RU 🇷🇺-trojan | 5-45
-      - RU 🇷🇺-trojan | 5-46
-      - RU 🇷🇺-trojan | 5-47
-      - RU 🇷🇺-trojan | 5-48
-      - RU 🇷🇺-trojan | 5-49
+      - CN 🇨🇳-trojan | 5-23
+      - CloudFlare 🇨🇱-ss | 5-24
+      - CloudFlare 🇨🇱-ss | 5-25
+      - CN 🇨🇳-trojan | 5-26
+      - CN 🇨🇳-trojan | 5-27
+      - CloudFlare 🇨🇱-ss | 5-28
+      - US 🇺🇸-trojan | 5-29
+      - CloudFlare 🇨🇱-ss | 5-30
+      - CN 🇨🇳-trojan | 5-31
+      - CN 🇨🇳-trojan | 5-32
+      - CloudFlare 🇨🇱-ss | 5-33
+      - IE 🇮🇪-ss | 5-34
+      - HK 🇭🇰-vmess | 5-35
+      - CloudFlare 🇨🇱-ss | 5-36
+      - CN 🇨🇳-vmess | 5-37
+      - CloudFlare 🇨🇱-ss | 5-38
+      - CloudFlare 🇨🇱-ss | 5-39
+      - CloudFlare 🇨🇱-ss | 5-40
+      - CloudFlare 🇨🇱-ss | 5-41
+      - US 🇺🇸-trojan | 5-42
+      - CloudFlare 🇨🇱-ss | 5-43
+      - US 🇺🇸-trojan | 5-44
+      - JP 🇯🇵-trojan | 5-45
+      - JP 🇯🇵-trojan | 5-46
+      - JP 🇯🇵-trojan | 5-47
+      - JP 🇯🇵-trojan | 5-48
+      - KZ 🇰🇿-trojan | 5-49
       - RU 🇷🇺-trojan | 5-50
       - RU 🇷🇺-trojan | 5-51
       - RU 🇷🇺-trojan | 5-52
-      - US 🇺🇸-trojan | 5-53
-      - US 🇺🇸-trojan | 5-54
-      - SG 🇸🇬-trojan | 5-55
-      - US 🇺🇸-trojan | 5-56
-      - US 🇺🇸-trojan | 5-57
-      - US 🇺🇸-trojan | 5-58
-      - US 🇺🇸-trojan | 5-59
-      - 🏳 CloudFlare-trojan | 5-60
+      - RU 🇷🇺-trojan | 5-53
+      - RU 🇷🇺-trojan | 5-54
+      - RU 🇷🇺-trojan | 5-55
+      - RU 🇷🇺-trojan | 5-56
+      - RU 🇷🇺-trojan | 5-57
+      - RU 🇷🇺-trojan | 5-58
+      - RU 🇷🇺-trojan | 5-59
+      - RU 🇷🇺-trojan | 5-60
       - US 🇺🇸-trojan | 5-61
       - US 🇺🇸-trojan | 5-62
-      - US 🇺🇸-trojan | 5-63
+      - SG 🇸🇬-trojan | 5-63
       - US 🇺🇸-trojan | 5-64
       - US 🇺🇸-trojan | 5-65
-      - SG 🇸🇬-trojan | 5-66
+      - US 🇺🇸-trojan | 5-66
       - US 🇺🇸-trojan | 5-67
-      - US 🇺🇸-trojan | 5-68
+      - 🏳 CloudFlare-trojan | 5-68
       - US 🇺🇸-trojan | 5-69
       - US 🇺🇸-trojan | 5-70
       - US 🇺🇸-trojan | 5-71
-      - HK 🇭🇰-ss | 5-72
-      - JP 🇯🇵-ss | 5-73
-      - CloudFlare 🇨🇱-ss | 5-74
-      - CloudFlare 🇨🇱-ss | 5-75
+      - US 🇺🇸-trojan | 5-72
+      - US 🇺🇸-trojan | 5-73
+      - SG 🇸🇬-trojan | 5-74
+      - US 🇺🇸-trojan | 5-75
+      - US 🇺🇸-trojan | 5-76
+      - US 🇺🇸-trojan | 5-77
+      - US 🇺🇸-trojan | 5-78
+      - US 🇺🇸-trojan | 5-79
+      - CloudFlare 🇨🇱-ss | 5-80
+      - HK 🇭🇰-ss | 5-81
+      - JP 🇯🇵-ss | 5-82
+      - CloudFlare 🇨🇱-ss | 5-83
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
@@ -38511,66 +38565,74 @@ proxy-groups:
       - HK 🇭🇰-ss | 5-13
       - HK 🇭🇰-vmess | 5-14
       - CN 🇨🇳-trojan | 5-15
-      - CloudFlare 🇨🇱-vmess | 5-16
-      - CN 🇨🇳-trojan | 5-17
+      - CN 🇨🇳-trojan | 5-16
+      - CloudFlare 🇨🇱-ss | 5-17
       - CN 🇨🇳-vmess | 5-18
       - CloudFlare 🇨🇱-ss | 5-19
-      - JP 🇯🇵-ss | 5-20
-      - CN 🇨🇳-trojan | 5-21
+      - CloudFlare 🇨🇱-ss | 5-20
+      - JP 🇯🇵-ss | 5-21
       - CN 🇨🇳-trojan | 5-22
-      - JP 🇯🇵-trojan | 5-23
-      - CN 🇨🇳-trojan | 5-24
-      - CN 🇨🇳-trojan | 5-25
-      - US 🇺🇸-trojan | 5-26
-      - CloudFlare 🇨🇱-ss | 5-27
-      - CN 🇨🇳-trojan | 5-28
-      - CN 🇨🇳-trojan | 5-29
-      - VN 🇻🇳-ss | 5-30
-      - IE 🇮🇪-ss | 5-31
-      - HK 🇭🇰-vmess | 5-32
-      - CN 🇨🇳-vmess | 5-33
-      - US 🇺🇸-trojan | 5-34
-      - VN 🇻🇳-ss | 5-35
-      - US 🇺🇸-trojan | 5-36
-      - JP 🇯🇵-trojan | 5-37
-      - JP 🇯🇵-trojan | 5-38
-      - JP 🇯🇵-trojan | 5-39
-      - JP 🇯🇵-trojan | 5-40
-      - KZ 🇰🇿-trojan | 5-41
-      - RU 🇷🇺-trojan | 5-42
-      - RU 🇷🇺-trojan | 5-43
-      - RU 🇷🇺-trojan | 5-44
-      - RU 🇷🇺-trojan | 5-45
-      - RU 🇷🇺-trojan | 5-46
-      - RU 🇷🇺-trojan | 5-47
-      - RU 🇷🇺-trojan | 5-48
-      - RU 🇷🇺-trojan | 5-49
+      - CN 🇨🇳-trojan | 5-23
+      - CloudFlare 🇨🇱-ss | 5-24
+      - CloudFlare 🇨🇱-ss | 5-25
+      - CN 🇨🇳-trojan | 5-26
+      - CN 🇨🇳-trojan | 5-27
+      - CloudFlare 🇨🇱-ss | 5-28
+      - US 🇺🇸-trojan | 5-29
+      - CloudFlare 🇨🇱-ss | 5-30
+      - CN 🇨🇳-trojan | 5-31
+      - CN 🇨🇳-trojan | 5-32
+      - CloudFlare 🇨🇱-ss | 5-33
+      - IE 🇮🇪-ss | 5-34
+      - HK 🇭🇰-vmess | 5-35
+      - CloudFlare 🇨🇱-ss | 5-36
+      - CN 🇨🇳-vmess | 5-37
+      - CloudFlare 🇨🇱-ss | 5-38
+      - CloudFlare 🇨🇱-ss | 5-39
+      - CloudFlare 🇨🇱-ss | 5-40
+      - CloudFlare 🇨🇱-ss | 5-41
+      - US 🇺🇸-trojan | 5-42
+      - CloudFlare 🇨🇱-ss | 5-43
+      - US 🇺🇸-trojan | 5-44
+      - JP 🇯🇵-trojan | 5-45
+      - JP 🇯🇵-trojan | 5-46
+      - JP 🇯🇵-trojan | 5-47
+      - JP 🇯🇵-trojan | 5-48
+      - KZ 🇰🇿-trojan | 5-49
       - RU 🇷🇺-trojan | 5-50
       - RU 🇷🇺-trojan | 5-51
       - RU 🇷🇺-trojan | 5-52
-      - US 🇺🇸-trojan | 5-53
-      - US 🇺🇸-trojan | 5-54
-      - SG 🇸🇬-trojan | 5-55
-      - US 🇺🇸-trojan | 5-56
-      - US 🇺🇸-trojan | 5-57
-      - US 🇺🇸-trojan | 5-58
-      - US 🇺🇸-trojan | 5-59
-      - 🏳 CloudFlare-trojan | 5-60
+      - RU 🇷🇺-trojan | 5-53
+      - RU 🇷🇺-trojan | 5-54
+      - RU 🇷🇺-trojan | 5-55
+      - RU 🇷🇺-trojan | 5-56
+      - RU 🇷🇺-trojan | 5-57
+      - RU 🇷🇺-trojan | 5-58
+      - RU 🇷🇺-trojan | 5-59
+      - RU 🇷🇺-trojan | 5-60
       - US 🇺🇸-trojan | 5-61
       - US 🇺🇸-trojan | 5-62
-      - US 🇺🇸-trojan | 5-63
+      - SG 🇸🇬-trojan | 5-63
       - US 🇺🇸-trojan | 5-64
       - US 🇺🇸-trojan | 5-65
-      - SG 🇸🇬-trojan | 5-66
+      - US 🇺🇸-trojan | 5-66
       - US 🇺🇸-trojan | 5-67
-      - US 🇺🇸-trojan | 5-68
+      - 🏳 CloudFlare-trojan | 5-68
       - US 🇺🇸-trojan | 5-69
       - US 🇺🇸-trojan | 5-70
       - US 🇺🇸-trojan | 5-71
-      - HK 🇭🇰-ss | 5-72
-      - JP 🇯🇵-ss | 5-73
-      - CloudFlare 🇨🇱-ss | 5-74
-      - CloudFlare 🇨🇱-ss | 5-75
+      - US 🇺🇸-trojan | 5-72
+      - US 🇺🇸-trojan | 5-73
+      - SG 🇸🇬-trojan | 5-74
+      - US 🇺🇸-trojan | 5-75
+      - US 🇺🇸-trojan | 5-76
+      - US 🇺🇸-trojan | 5-77
+      - US 🇺🇸-trojan | 5-78
+      - US 🇺🇸-trojan | 5-79
+      - CloudFlare 🇨🇱-ss | 5-80
+      - HK 🇭🇰-ss | 5-81
+      - JP 🇯🇵-ss | 5-82
+      - CloudFlare 🇨🇱-ss | 5-83
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - TW 🇹🇼-vless | 2-0
