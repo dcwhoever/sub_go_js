@@ -501,14 +501,7 @@ proxies:
     auth: peEduuHzbExjK7UQHzazXwqgA
     sni: bing.com
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-55
-    server: makeuagreatagain.nicme.me
-    port: 443
-    type: hysteria2
-    password: sbTgbaipiaoyonhhu.siMasualiylanguv
-    auth: sbTgbaipiaoyonhhu.siMasualiylanguv
-    skip-cert-verify: false
-  - name: SG 🇸🇬-hysteria2 | 5-56
+  - name: SG 🇸🇬-hysteria2 | 5-55
     server: 13.212.75.22
     port: 10264
     type: hysteria2
@@ -516,7 +509,7 @@ proxies:
     auth: vlJbyJEtcNjHvV6dnkZ1Z4VjpI
     sni: bing.com
     skip-cert-verify: false
-  - name: JP 🇯🇵-hysteria2 | 5-57
+  - name: JP 🇯🇵-hysteria2 | 5-56
     server: 47.245.0.72
     port: 27789
     type: hysteria2
@@ -524,7 +517,7 @@ proxies:
     auth: yD0mxkCA18WgPD1uVGd3Eu1dc
     sni: bing.com
     skip-cert-verify: false
-  - name: JP 🇯🇵-hysteria2 | 5-58
+  - name: JP 🇯🇵-hysteria2 | 5-57
     server: 54.199.157.111
     port: 26036
     type: hysteria2
@@ -532,7 +525,7 @@ proxies:
     auth: yn3gMvdZ0hpReiimChE1H1BFvE
     sni: bing.com
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-59
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-58
     server: chervhill.hajalii.com
     port: 29662
     type: hysteria2
@@ -542,7 +535,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: xFGh9dsyreJV9sMs1RUnFbwRdon
-  - name: US 🇺🇸-hysteria2 | 5-60
+  - name: US 🇺🇸-hysteria2 | 5-59
     server: 192.3.85.237
     port: 443
     type: hysteria2
@@ -550,7 +543,7 @@ proxies:
     auth: 123456
     sni: bing.com
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-61
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-60
     server: gb.gomeow.online
     port: 20309
     type: hysteria2
@@ -558,7 +551,7 @@ proxies:
     auth: 15cca331-9e92-449d-93b0-25f82203595f
     sni: gb.gomeow.online
     skip-cert-verify: false
-  - name: DE 🇩🇪-hysteria2 | 5-62
+  - name: DE 🇩🇪-hysteria2 | 5-61
     server: 185.126.255.78
     port: 43429
     type: hysteria2
@@ -566,7 +559,7 @@ proxies:
     auth: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
     sni: real.getafreenode.sbs
     skip-cert-verify: false
-  - name: RU 🇷🇺-hysteria2 | 5-63
+  - name: RU 🇷🇺-hysteria2 | 5-62
     server: 109.120.135.123
     port: 12122
     type: hysteria2
@@ -576,7 +569,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: de8287cd33b05fa3
-  - name: US 🇺🇸-hysteria2 | 5-64
+  - name: US 🇺🇸-hysteria2 | 5-63
     server: 40.233.102.224
     port: 30300
     type: hysteria2
@@ -584,14 +577,14 @@ proxies:
     auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
     sni: www.bing.com
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-65
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-64
     server: b3cc762f4cb7.anondns.net
     port: 27063
     type: hysteria2
     password: 287ca8c3-267f-4ba4-a48a-683c450d07f2
     auth: 287ca8c3-267f-4ba4-a48a-683c450d07f2
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-66
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-65
     server: android.yas-nowin.ir
     port: 443
     type: hysteria2
@@ -599,7 +592,7 @@ proxies:
     auth: 3QlSMKyqLp
     sni: android.yas-nowin.ir
     skip-cert-verify: false
-  - name: US 🇺🇸-hysteria2 | 5-67
+  - name: US 🇺🇸-hysteria2 | 5-66
     server: 172.252.236.213
     port: 58718
     type: hysteria2
@@ -607,7 +600,7 @@ proxies:
     auth: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
     sni: real.getafreenode.sbs
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-68
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-67
     server: hl.dport.top
     port: 33659
     type: hysteria2
@@ -617,7 +610,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-69
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-68
     server: s15.serv00.com
     port: 7777
     type: hysteria2
@@ -625,21 +618,21 @@ proxies:
     auth: 75577117-ABCD-DCBA-AAAA-CC777775577B
     sni: www.bing.com
     skip-cert-verify: false
-  - name: DE 🇩🇪-hysteria2 | 5-70
+  - name: DE 🇩🇪-hysteria2 | 5-69
     server: 77.90.50.59
     port: 20340
     type: hysteria2
     password: 88984417-da74-4a6e-a6fe-9336adf8e644
     auth: 88984417-da74-4a6e-a6fe-9336adf8e644
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-71
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-70
     server: hsxjp.huasuan666.top
     port: 22154
     type: hysteria2
     password: 8b583292-c936-4723-a8c7-8adb8ecf5044
     auth: 8b583292-c936-4723-a8c7-8adb8ecf5044
     skip-cert-verify: false
-  - name: DE 🇩🇪-hysteria2 | 5-72
+  - name: DE 🇩🇪-hysteria2 | 5-71
     server: 185.126.255.78
     port: 43429
     type: hysteria2
@@ -647,7 +640,7 @@ proxies:
     auth: 942b9cb8-92fa-46ac-ae91-f69c8234434b
     sni: real.getafreenode.sbs
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-73
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-72
     server: all-v4.dgi000.store
     port: 443
     type: hysteria2
@@ -657,7 +650,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: '@azadi_az_inja_migzare'
-  - name: DE 🇩🇪-hysteria2 | 5-74
+  - name: DE 🇩🇪-hysteria2 | 5-73
     server: 46.62.129.200
     port: 14825
     type: hysteria2
@@ -666,7 +659,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: r3fe@$WGefweqf
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-75
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-74
     server: p1.punchline.ir
     port: 19037
     type: hysteria2
@@ -675,7 +668,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: bipbip
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-76
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-75
     server: p1.punchline.ir
     port: 2087
     type: hysteria2
@@ -684,7 +677,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: bleepbloop
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-77
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-76
     server: p1.punchline.ir
     port: 44929
     type: hysteria2
@@ -693,7 +686,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: bluhbluh
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-78
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-77
     server: android.yas-nowin.ir
     port: 443
     type: hysteria2
@@ -701,7 +694,7 @@ proxies:
     auth: Bz0jKM83wa
     sni: android.yas-nowin.ir
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-79
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-78
     server: android.yas-nowin.ir
     port: 443
     type: hysteria2
@@ -709,7 +702,7 @@ proxies:
     auth: J7VnJazPBw
     sni: android.yas-nowin.ir
     skip-cert-verify: false
-  - name: RU 🇷🇺-hysteria2 | 5-80
+  - name: RU 🇷🇺-hysteria2 | 5-79
     server: 147.45.154.150
     port: 443
     type: hysteria2
@@ -721,7 +714,7 @@ proxies:
       - h3
     obfs: salamander
     obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q
-  - name: DE 🇩🇪-hysteria2 | 5-81
+  - name: DE 🇩🇪-hysteria2 | 5-80
     server: 179.61.132.96
     port: 8443
     type: hysteria2
@@ -731,7 +724,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: KevinZakarian
-  - name: RU 🇷🇺-hysteria2 | 5-82
+  - name: RU 🇷🇺-hysteria2 | 5-81
     server: 147.45.154.150
     port: 443
     type: hysteria2
@@ -743,7 +736,7 @@ proxies:
       - h3
     obfs: salamander
     obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q
-  - name: RU 🇷🇺-hysteria2 | 5-83
+  - name: RU 🇷🇺-hysteria2 | 5-82
     server: 147.45.154.150
     port: 443
     type: hysteria2
@@ -755,14 +748,14 @@ proxies:
       - h3
     obfs: salamander
     obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q
-  - name: HK 🇭🇰-hysteria2 | 5-84
+  - name: HK 🇭🇰-hysteria2 | 5-83
     server: 47.239.220.214
     port: 2428
     type: hysteria2
     password: NjEkAYYNqFKUbrksyW1COBtdpU
     auth: NjEkAYYNqFKUbrksyW1COBtdpU
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-85
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-84
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -772,7 +765,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: RU 🇷🇺-hysteria2 | 5-86
+  - name: RU 🇷🇺-hysteria2 | 5-85
     server: 147.45.154.150
     port: 443
     type: hysteria2
@@ -784,7 +777,7 @@ proxies:
       - h3
     obfs: salamander
     obfs-password: 6u33lecx372cssb22nzgu5l5fpdhom4ivqwg4fqby133lzsv3q
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-87
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-86
     server: yapc-1.adamhayward.co.uk
     port: 35200
     type: hysteria2
@@ -794,7 +787,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-88
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-87
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -804,7 +797,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-89
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-88
     server: yapc-1.adamhayward.co.uk
     port: 36300
     type: hysteria2
@@ -814,7 +807,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-90
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-89
     server: yapc-1.adamhayward.co.uk
     port: 36600
     type: hysteria2
@@ -824,7 +817,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: RU 🇷🇺-hysteria2 | 5-91
+  - name: RU 🇷🇺-hysteria2 | 5-90
     server: 46.17.41.189
     port: 50717
     type: hysteria2
@@ -832,7 +825,7 @@ proxies:
     auth: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: false
-  - name: SG 🇸🇬-hysteria2 | 5-92
+  - name: SG 🇸🇬-hysteria2 | 5-91
     server: 203.174.82.145
     port: 43057
     type: hysteria2
@@ -840,7 +833,7 @@ proxies:
     auth: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
     sni: www.bing.com
     skip-cert-verify: false
-  - name: HK 🇭🇰-hysteria2 | 5-93
+  - name: HK 🇭🇰-hysteria2 | 5-92
     server: 62.60.231.189
     port: 12123
     type: hysteria2
@@ -850,6 +843,14 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: dbc688df29e582d3
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-93
+    server: donate1.mahsa.homes
+    port: 16396
+    type: hysteria2
+    password: freehomesvpnmahsa3
+    auth: freehomesvpnmahsa3
+    skip-cert-verify: false
+    obfs: salamander
   - name: CloudFlare 🇨🇱-hysteria2 | 5-94
     server: android.yas-nowin.ir
     port: 443
@@ -1080,49 +1081,132 @@ proxies:
     type: ss
     cipher: ss
     password: //YWVzLTEyOC1nY206MDE3MjFlNDMtNTM4OS00Zjk3LWIyMWMtOTAwYWJiMmJkYTll
-  - name: US 🇺🇸-vless | 5-124
-    server: 63.141.128.26
+  - name: CR 🇨🇷-trojan | 5-124
+    server: 190.93.247.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: RU 🇷🇺-trojan | 5-125
+    server: 194.53.53.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: SE 🇸🇪-vless | 5-126
+    server: 185.146.173.39
+    port: 2052
+    type: vless
+    uuid: 2d14c894-aca5-4854-bcdb-75d4505486c2
+    tls: false
+    skip-cert-verify: false
+    servername: michalde.lemoex.ir
+    network: ws
+    ws-opts:
+      path: /wsmmad
+      headers:
+        Host: michalde.lemoex.ir
+  - name: US 🇺🇸-trojan | 5-127
+    server: 209.94.90.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: US 🇺🇸-vless | 5-128
+    server: 63.141.128.14
     port: 80
     type: vless
-    uuid: c032bdcd-bcd6-4d85-99ee-e12a9458ba62
+    uuid: 18494a96-f6a7-425d-ae82-dc00c4f3f819
+    tls: false
+    skip-cert-verify: false
+    servername: a.joIn.zEdMoDeOn.oNl.
+    network: ws
+    ws-opts:
+      path: >-
+        /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      headers:
+        Host: a.joIn.zEdMoDeOn.oNl.
+  - name: US 🇺🇸-vless | 5-129
+    server: 63.141.128.28
+    port: 8080
+    type: vless
+    uuid: 49e77ea9-62bd-44c4-8a52-0d7569c305c5
     tls: false
     skip-cert-verify: false
     servername: f.jOin.zEdMoDeOn.oNl.
     network: ws
     ws-opts:
       path: >-
-        /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+        /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
       headers:
         Host: f.jOin.zEdMoDeOn.oNl.
-  - name: US 🇺🇸-vless | 5-125
-    server: 63.141.128.13
-    port: 8080
+  - name: US 🇺🇸-vless | 5-130
+    server: 63.141.128.23
+    port: 80
     type: vless
-    uuid: c8919b30-1117-405d-9e0f-9577c7e0f0ff
+    uuid: d59d49d3-a392-403a-8480-59934008431d
+    tls: false
+    skip-cert-verify: false
+    servername: b.jOin.zEdMoDeOn.oNl.
+    network: ws
+    ws-opts:
+      path: >-
+        /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      headers:
+        Host: b.jOin.zEdMoDeOn.oNl.
+  - name: US 🇺🇸-vless | 5-131
+    server: 63.141.128.13
+    port: 80
+    type: vless
+    uuid: fdf5ef4d-bf23-4bd1-b04e-39c80ba0c577
     tls: false
     skip-cert-verify: false
     servername: c.jOin.zEdMoDeOn.oNl.
     network: ws
     ws-opts:
       path: >-
-        /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+        /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
       headers:
         Host: c.jOin.zEdMoDeOn.oNl.
-  - name: US 🇺🇸-ss | 5-126
-    server: 156.251.179.135
-    port: 443
+  - name: CloudFlare 🇨🇱-ss | 5-132
+    server: cn01.efan8867801.xyz
+    port: 8766
     type: ss
-    cipher: aes-256-gcm
-    password: 9969db7a2f51
-    plugin: v2ray-plugin
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
     plugin-opts:
-      mode: websocket
-      host: hk6v1.dsjsapp.com
-      path: /fgsauuoqxwx
-      tls: true
-      mux: true
-      skip-cert-verify: false
-  - name: JP 🇯🇵-ss | 5-127
+      mode: http
+      host: 202508150964186-OTqy9HvgIK.download.microsoft.com
+  - name: CloudFlare 🇨🇱-ss | 5-133
+    server: cn01.efan8867801.xyz
+    port: 8774
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202508150964186-OTqy9HvgIK.download.microsoft.com
+  - name: JP 🇯🇵-ss | 5-134
     server: 137.220.142.150
     port: 443
     type: ss
@@ -1136,26 +1220,20 @@ proxies:
       tls: true
       mux: false
       skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-128
-    server: cn01.efan8867801.xyz
-    port: 8774
+  - name: US 🇺🇸-ss | 5-135
+    server: 156.251.179.135
+    port: 443
     type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
+    cipher: aes-256-gcm
+    password: 9969db7a2f51
+    plugin: v2ray-plugin
     plugin-opts:
-      mode: http
-      host: 202508150964186-OTqy9HvgIK.download.microsoft.com
-  - name: CloudFlare 🇨🇱-ss | 5-129
-    server: cn01.efan8867801.xyz
-    port: 8766
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202508150964186-OTqy9HvgIK.download.microsoft.com
+      mode: websocket
+      host: hk6v1.dsjsapp.com
+      path: /fgsauuoqxwx
+      tls: true
+      mux: true
+      skip-cert-verify: false
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
     server: 109.104.153.91
@@ -1296,45 +1374,45 @@ proxy-groups:
       - JP 🇯🇵-hysteria2 | 5-52
       - IN 🇮🇳-hysteria2 | 5-53
       - US 🇺🇸-hysteria2 | 5-54
-      - CloudFlare 🇨🇱-hysteria2 | 5-55
-      - SG 🇸🇬-hysteria2 | 5-56
+      - SG 🇸🇬-hysteria2 | 5-55
+      - JP 🇯🇵-hysteria2 | 5-56
       - JP 🇯🇵-hysteria2 | 5-57
-      - JP 🇯🇵-hysteria2 | 5-58
-      - CloudFlare 🇨🇱-hysteria2 | 5-59
-      - US 🇺🇸-hysteria2 | 5-60
-      - CloudFlare 🇨🇱-hysteria2 | 5-61
-      - DE 🇩🇪-hysteria2 | 5-62
-      - RU 🇷🇺-hysteria2 | 5-63
-      - US 🇺🇸-hysteria2 | 5-64
+      - CloudFlare 🇨🇱-hysteria2 | 5-58
+      - US 🇺🇸-hysteria2 | 5-59
+      - CloudFlare 🇨🇱-hysteria2 | 5-60
+      - DE 🇩🇪-hysteria2 | 5-61
+      - RU 🇷🇺-hysteria2 | 5-62
+      - US 🇺🇸-hysteria2 | 5-63
+      - CloudFlare 🇨🇱-hysteria2 | 5-64
       - CloudFlare 🇨🇱-hysteria2 | 5-65
-      - CloudFlare 🇨🇱-hysteria2 | 5-66
-      - US 🇺🇸-hysteria2 | 5-67
+      - US 🇺🇸-hysteria2 | 5-66
+      - CloudFlare 🇨🇱-hysteria2 | 5-67
       - CloudFlare 🇨🇱-hysteria2 | 5-68
-      - CloudFlare 🇨🇱-hysteria2 | 5-69
-      - DE 🇩🇪-hysteria2 | 5-70
-      - CloudFlare 🇨🇱-hysteria2 | 5-71
-      - DE 🇩🇪-hysteria2 | 5-72
-      - CloudFlare 🇨🇱-hysteria2 | 5-73
-      - DE 🇩🇪-hysteria2 | 5-74
+      - DE 🇩🇪-hysteria2 | 5-69
+      - CloudFlare 🇨🇱-hysteria2 | 5-70
+      - DE 🇩🇪-hysteria2 | 5-71
+      - CloudFlare 🇨🇱-hysteria2 | 5-72
+      - DE 🇩🇪-hysteria2 | 5-73
+      - CloudFlare 🇨🇱-hysteria2 | 5-74
       - CloudFlare 🇨🇱-hysteria2 | 5-75
       - CloudFlare 🇨🇱-hysteria2 | 5-76
       - CloudFlare 🇨🇱-hysteria2 | 5-77
       - CloudFlare 🇨🇱-hysteria2 | 5-78
-      - CloudFlare 🇨🇱-hysteria2 | 5-79
-      - RU 🇷🇺-hysteria2 | 5-80
-      - DE 🇩🇪-hysteria2 | 5-81
+      - RU 🇷🇺-hysteria2 | 5-79
+      - DE 🇩🇪-hysteria2 | 5-80
+      - RU 🇷🇺-hysteria2 | 5-81
       - RU 🇷🇺-hysteria2 | 5-82
-      - RU 🇷🇺-hysteria2 | 5-83
-      - HK 🇭🇰-hysteria2 | 5-84
-      - CloudFlare 🇨🇱-hysteria2 | 5-85
-      - RU 🇷🇺-hysteria2 | 5-86
+      - HK 🇭🇰-hysteria2 | 5-83
+      - CloudFlare 🇨🇱-hysteria2 | 5-84
+      - RU 🇷🇺-hysteria2 | 5-85
+      - CloudFlare 🇨🇱-hysteria2 | 5-86
       - CloudFlare 🇨🇱-hysteria2 | 5-87
       - CloudFlare 🇨🇱-hysteria2 | 5-88
       - CloudFlare 🇨🇱-hysteria2 | 5-89
-      - CloudFlare 🇨🇱-hysteria2 | 5-90
-      - RU 🇷🇺-hysteria2 | 5-91
-      - SG 🇸🇬-hysteria2 | 5-92
-      - HK 🇭🇰-hysteria2 | 5-93
+      - RU 🇷🇺-hysteria2 | 5-90
+      - SG 🇸🇬-hysteria2 | 5-91
+      - HK 🇭🇰-hysteria2 | 5-92
+      - CloudFlare 🇨🇱-hysteria2 | 5-93
       - CloudFlare 🇨🇱-hysteria2 | 5-94
       - RU 🇷🇺-hysteria2 | 5-95
       - CloudFlare 🇨🇱-hysteria2 | 5-96
@@ -1365,12 +1443,18 @@ proxy-groups:
       - TW 🇹🇼-ss | 5-121
       - TW 🇹🇼-ss | 5-122
       - CloudFlare 🇨🇱-ss | 5-123
-      - US 🇺🇸-vless | 5-124
-      - US 🇺🇸-vless | 5-125
-      - US 🇺🇸-ss | 5-126
-      - JP 🇯🇵-ss | 5-127
-      - CloudFlare 🇨🇱-ss | 5-128
-      - CloudFlare 🇨🇱-ss | 5-129
+      - CR 🇨🇷-trojan | 5-124
+      - RU 🇷🇺-trojan | 5-125
+      - SE 🇸🇪-vless | 5-126
+      - US 🇺🇸-trojan | 5-127
+      - US 🇺🇸-vless | 5-128
+      - US 🇺🇸-vless | 5-129
+      - US 🇺🇸-vless | 5-130
+      - US 🇺🇸-vless | 5-131
+      - CloudFlare 🇨🇱-ss | 5-132
+      - CloudFlare 🇨🇱-ss | 5-133
+      - JP 🇯🇵-ss | 5-134
+      - US 🇺🇸-ss | 5-135
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1441,45 +1525,45 @@ proxy-groups:
       - JP 🇯🇵-hysteria2 | 5-52
       - IN 🇮🇳-hysteria2 | 5-53
       - US 🇺🇸-hysteria2 | 5-54
-      - CloudFlare 🇨🇱-hysteria2 | 5-55
-      - SG 🇸🇬-hysteria2 | 5-56
+      - SG 🇸🇬-hysteria2 | 5-55
+      - JP 🇯🇵-hysteria2 | 5-56
       - JP 🇯🇵-hysteria2 | 5-57
-      - JP 🇯🇵-hysteria2 | 5-58
-      - CloudFlare 🇨🇱-hysteria2 | 5-59
-      - US 🇺🇸-hysteria2 | 5-60
-      - CloudFlare 🇨🇱-hysteria2 | 5-61
-      - DE 🇩🇪-hysteria2 | 5-62
-      - RU 🇷🇺-hysteria2 | 5-63
-      - US 🇺🇸-hysteria2 | 5-64
+      - CloudFlare 🇨🇱-hysteria2 | 5-58
+      - US 🇺🇸-hysteria2 | 5-59
+      - CloudFlare 🇨🇱-hysteria2 | 5-60
+      - DE 🇩🇪-hysteria2 | 5-61
+      - RU 🇷🇺-hysteria2 | 5-62
+      - US 🇺🇸-hysteria2 | 5-63
+      - CloudFlare 🇨🇱-hysteria2 | 5-64
       - CloudFlare 🇨🇱-hysteria2 | 5-65
-      - CloudFlare 🇨🇱-hysteria2 | 5-66
-      - US 🇺🇸-hysteria2 | 5-67
+      - US 🇺🇸-hysteria2 | 5-66
+      - CloudFlare 🇨🇱-hysteria2 | 5-67
       - CloudFlare 🇨🇱-hysteria2 | 5-68
-      - CloudFlare 🇨🇱-hysteria2 | 5-69
-      - DE 🇩🇪-hysteria2 | 5-70
-      - CloudFlare 🇨🇱-hysteria2 | 5-71
-      - DE 🇩🇪-hysteria2 | 5-72
-      - CloudFlare 🇨🇱-hysteria2 | 5-73
-      - DE 🇩🇪-hysteria2 | 5-74
+      - DE 🇩🇪-hysteria2 | 5-69
+      - CloudFlare 🇨🇱-hysteria2 | 5-70
+      - DE 🇩🇪-hysteria2 | 5-71
+      - CloudFlare 🇨🇱-hysteria2 | 5-72
+      - DE 🇩🇪-hysteria2 | 5-73
+      - CloudFlare 🇨🇱-hysteria2 | 5-74
       - CloudFlare 🇨🇱-hysteria2 | 5-75
       - CloudFlare 🇨🇱-hysteria2 | 5-76
       - CloudFlare 🇨🇱-hysteria2 | 5-77
       - CloudFlare 🇨🇱-hysteria2 | 5-78
-      - CloudFlare 🇨🇱-hysteria2 | 5-79
-      - RU 🇷🇺-hysteria2 | 5-80
-      - DE 🇩🇪-hysteria2 | 5-81
+      - RU 🇷🇺-hysteria2 | 5-79
+      - DE 🇩🇪-hysteria2 | 5-80
+      - RU 🇷🇺-hysteria2 | 5-81
       - RU 🇷🇺-hysteria2 | 5-82
-      - RU 🇷🇺-hysteria2 | 5-83
-      - HK 🇭🇰-hysteria2 | 5-84
-      - CloudFlare 🇨🇱-hysteria2 | 5-85
-      - RU 🇷🇺-hysteria2 | 5-86
+      - HK 🇭🇰-hysteria2 | 5-83
+      - CloudFlare 🇨🇱-hysteria2 | 5-84
+      - RU 🇷🇺-hysteria2 | 5-85
+      - CloudFlare 🇨🇱-hysteria2 | 5-86
       - CloudFlare 🇨🇱-hysteria2 | 5-87
       - CloudFlare 🇨🇱-hysteria2 | 5-88
       - CloudFlare 🇨🇱-hysteria2 | 5-89
-      - CloudFlare 🇨🇱-hysteria2 | 5-90
-      - RU 🇷🇺-hysteria2 | 5-91
-      - SG 🇸🇬-hysteria2 | 5-92
-      - HK 🇭🇰-hysteria2 | 5-93
+      - RU 🇷🇺-hysteria2 | 5-90
+      - SG 🇸🇬-hysteria2 | 5-91
+      - HK 🇭🇰-hysteria2 | 5-92
+      - CloudFlare 🇨🇱-hysteria2 | 5-93
       - CloudFlare 🇨🇱-hysteria2 | 5-94
       - RU 🇷🇺-hysteria2 | 5-95
       - CloudFlare 🇨🇱-hysteria2 | 5-96
@@ -1510,12 +1594,18 @@ proxy-groups:
       - TW 🇹🇼-ss | 5-121
       - TW 🇹🇼-ss | 5-122
       - CloudFlare 🇨🇱-ss | 5-123
-      - US 🇺🇸-vless | 5-124
-      - US 🇺🇸-vless | 5-125
-      - US 🇺🇸-ss | 5-126
-      - JP 🇯🇵-ss | 5-127
-      - CloudFlare 🇨🇱-ss | 5-128
-      - CloudFlare 🇨🇱-ss | 5-129
+      - CR 🇨🇷-trojan | 5-124
+      - RU 🇷🇺-trojan | 5-125
+      - SE 🇸🇪-vless | 5-126
+      - US 🇺🇸-trojan | 5-127
+      - US 🇺🇸-vless | 5-128
+      - US 🇺🇸-vless | 5-129
+      - US 🇺🇸-vless | 5-130
+      - US 🇺🇸-vless | 5-131
+      - CloudFlare 🇨🇱-ss | 5-132
+      - CloudFlare 🇨🇱-ss | 5-133
+      - JP 🇯🇵-ss | 5-134
+      - US 🇺🇸-ss | 5-135
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
