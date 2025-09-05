@@ -459,102 +459,87 @@ proxies:
     cipher: aes-256-gcm
     password: 2b5fad3874e5
   - name: US 🇺🇸-vmess | 5-42
-    server: 38.147.188.160
-    port: 51697
+    server: 38.147.188.234
+    port: 15778
     type: vmess
-    uuid: 22babdc6-5437-4de0-b3a9-67c005a19e11
+    uuid: e4c54f8f-78bd-439d-8365-28f261078962
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
   - name: HK 🇭🇰-trojan | 5-43
-    server: 42.2.17.49
-    port: 443
+    server: 18.162.156.99
+    port: 441
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: 23.45.86.28
     skip-cert-verify: false
   - name: HK 🇭🇰-trojan | 5-44
-    server: 42.2.197.54
+    server: 18.162.147.157
     port: 443
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: 23.45.86.28
     skip-cert-verify: false
   - name: TW 🇹🇼-ss | 5-45
-    server: 36.232.83.103
-    port: 10146
+    server: 114.46.70.116
+    port: 10055
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 61405455-91a2-49d5-b72e-814d304f877d
-  - name: CN 🇨🇳-vmess | 5-46
-    server: 47.116.166.178
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
+    password: ed212b13-12b8-4ea2-9643-6658b18d5583
+  - name: TW 🇹🇼-ss | 5-46
+    server: 118.170.200.223
+    port: 10031
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: b9d3c170-e6a5-45a3-bc37-f56892b9e819
   - name: TW 🇹🇼-ss | 5-47
-    server: 36.232.127.240
-    port: 10132
+    server: 125.229.88.58
+    port: 10121
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: fb941bcb-a777-47c9-958d-f01178bef303
-  - name: TW 🇹🇼-ss | 5-48
-    server: 118.170.203.159
-    port: 10009
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ec9f74bf-0d19-4a1a-99d3-a6fd1fe68b4e
-  - name: TW 🇹🇼-ss | 5-49
-    server: 36.234.94.41
-    port: 10042
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 308344fb-a0fe-42fc-bcf7-de7863647248
-  - name: CloudFlare 🇨🇱-ss | 5-50
+    password: 5695443d-9206-49b5-99be-e1276218c54e
+  - name: CloudFlare 🇨🇱-ss | 5-48
     server: cn01.efan8867801.xyz
     port: 8766
     type: ss
     cipher: rc4-md5
     password: efanccyun
-  - name: JP 🇯🇵-ss | 5-51
+  - name: JP 🇯🇵-ss | 5-49
     server: 137.220.142.150
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: 8a6ca14c0936
-  - name: CloudFlare 🇨🇱-trojan | 5-52
+  - name: CloudFlare 🇨🇱-trojan | 5-50
     server: xingxing.jiasu123.org
-    port: 4613
+    port: 13345
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: 23.45.86.28
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-53
+  - name: CloudFlare 🇨🇱-trojan | 5-51
     server: xingxing.jiasu123.org
     port: 1924
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: 23.45.86.28
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-54
+  - name: CloudFlare 🇨🇱-trojan | 5-52
     server: xingxing.jiasu123.org
     port: 1523
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: 23.45.86.28
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-55
+  - name: CloudFlare 🇨🇱-trojan | 5-53
     server: xingxing.jiasu123.org
     port: 3043
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: 23.45.86.28
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-56
+  - name: CloudFlare 🇨🇱-vmess | 5-54
     server: v39.heduian.link
     port: 30839
     type: vmess
@@ -568,80 +553,64 @@ proxies:
       path: /oooo
       headers:
         Host: baidu.com
-  - name: CloudFlare 🇨🇱-ss | 5-57
+  - name: CloudFlare 🇨🇱-ss | 5-55
     server: cn01.efan8867801.xyz
     port: 8774
     type: ss
     cipher: rc4-md5
     password: efanccyun
-  - name: CloudFlare 🇨🇱-trojan | 5-58
+  - name: CloudFlare 🇨🇱-trojan | 5-56
     server: xingxing.jiasu123.org
     port: 4801
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: 23.45.86.28
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-59
+  - name: CloudFlare 🇨🇱-trojan | 5-57
     server: xingxing.jiasu123.org
     port: 4317
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: 23.45.86.28
     skip-cert-verify: false
-  - name: DE 🇩🇪-ss | 5-60
+  - name: DE 🇩🇪-ss | 5-58
     server: 18.195.55.29
     port: 443
     type: ss
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  - name: US 🇺🇸-vmess | 5-61
-    server: 38.147.188.160
-    port: 51697
+  - name: US 🇺🇸-vmess | 5-59
+    server: 38.147.188.234
+    port: 15778
     type: vmess
-    uuid: 22babdc6-5437-4de0-b3a9-67c005a19e11
+    uuid: e4c54f8f-78bd-439d-8365-28f261078962
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
+  - name: TW 🇹🇼-ss | 5-60
+    server: 114.46.70.116
+    port: 10055
+    type: ss
+    cipher: ss
+    password: >-
+      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplZDIxMmIxMy0xMmI4LTRlYTItOTY0My02NjU4YjE4ZDU1ODM
+  - name: TW 🇹🇼-ss | 5-61
+    server: 118.170.200.223
+    port: 10031
+    type: ss
+    cipher: ss
+    password: >-
+      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiOWQzYzE3MC1lNmE1LTQ1YTMtYmMzNy1mNTY4OTJiOWU4MTk
   - name: TW 🇹🇼-ss | 5-62
-    server: 36.232.83.103
-    port: 10146
+    server: 125.229.88.58
+    port: 10121
     type: ss
     cipher: ss
     password: >-
-      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MTQwNTQ1NS05MWEyLTQ5ZDUtYjcyZS04MTRkMzA0Zjg3N2Q
-  - name: CN 🇨🇳-vmess | 5-63
-    server: 47.116.166.178
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: TW 🇹🇼-ss | 5-64
-    server: 36.232.127.240
-    port: 10132
-    type: ss
-    cipher: ss
-    password: >-
-      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYjk0MWJjYi1hNzc3LTQ3YzktOTU4ZC1mMDExNzhiZWYzMDM
-  - name: TW 🇹🇼-ss | 5-65
-    server: 118.170.203.159
-    port: 10009
-    type: ss
-    cipher: ss
-    password: >-
-      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYzlmNzRiZi0wZDE5LTRhMWEtOTlkMy1hNmZkMWZlNjhiNGU
-  - name: TW 🇹🇼-ss | 5-66
-    server: 36.234.94.41
-    port: 10042
-    type: ss
-    cipher: ss
-    password: >-
-      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDgzNDRmYi1hMGZlLTQyZmMtYmNmNy1kZTc4NjM2NDcyNDg
-  - name: CH 🇨🇭-trojan | 5-67
-    server: 185.18.250.195
+      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Njk1NDQzZC05MjA2LTQ5YjUtOTliZS1lMTI3NjIxOGM1NGU
+  - name: AT 🇦🇹-trojan | 5-63
+    server: 212.183.88.195
     port: 2096
     type: trojan
     password: slch2024
@@ -650,10 +619,58 @@ proxies:
     network: ws
     ws-opts:
       path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: GB 🇬🇧-trojan | 5-64
+    server: 195.26.229.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: US 🇺🇸-trojan | 5-65
+    server: 193.124.224.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: DE 🇩🇪-trojan | 5-66
+    server: 188.244.122.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: ES 🇪🇸-trojan | 5-67
+    server: 185.251.83.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /TelegramU0001F1E8U0001F1F3
       headers:
         Host: ocost-dy.wmlefl.cc
   - name: ES 🇪🇸-trojan | 5-68
-    server: 185.238.228.195
+    server: 185.251.80.195
     port: 2096
     type: trojan
     password: slch2024
@@ -664,7 +681,91 @@ proxies:
       path: /Telegram🇨🇳
       headers:
         Host: ocost-dy.wmlefl.cc
-  - name: KZ 🇰🇿-trojan | 5-69
+  - name: ES 🇪🇸-trojan | 5-69
+    server: 185.251.83.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: ES 🇪🇸-trojan | 5-70
+    server: 185.251.82.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: ES 🇪🇸-trojan | 5-71
+    server: 185.251.81.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: FR 🇫🇷-trojan | 5-72
+    server: 185.16.110.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: FR 🇫🇷-trojan | 5-73
+    server: 185.7.240.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: GB 🇬🇧-trojan | 5-74
+    server: 185.156.19.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: KZ 🇰🇿-trojan | 5-75
+    server: 194.76.18.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: KZ 🇰🇿-trojan | 5-76
     server: 185.176.26.195
     port: 2096
     type: trojan
@@ -676,20 +777,55 @@ proxies:
       path: /Telegram🇨🇳
       headers:
         Host: ocost-dy.wmlefl.cc
-  - name: CY 🇨🇾-vless | 5-70
-    server: 185.18.184.66
-    port: 80
-    type: vless
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    tls: false
+  - name: LU 🇱🇺-trojan | 5-77
+    server: 188.42.88.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
     skip-cert-verify: false
-    servername: hello.96xckkzx.workers.dev
     network: ws
     ws-opts:
-      path: /🔒
+      path: /Telegram🇨🇳
       headers:
-        Host: hello.96xckkzx.workers.dev
-  - name: US 🇺🇸-trojan | 5-71
+        Host: ocost-dy.wmlefl.cc
+  - name: LU 🇱🇺-trojan | 5-78
+    server: 188.42.89.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: NL 🇳🇱-trojan | 5-79
+    server: 188.164.248.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: RU 🇷🇺-trojan | 5-80
+    server: 185.176.24.195
+    port: 2096
+    type: trojan
+    password: slch2024
+    sni: ocost-dy.wmlefl.cc
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Telegram🇨🇳
+      headers:
+        Host: ocost-dy.wmlefl.cc
+  - name: US 🇺🇸-trojan | 5-81
     server: 185.148.107.195
     port: 2096
     type: trojan
@@ -701,8 +837,8 @@ proxies:
       path: /TelegramU0001F1E8U0001F1F3
       headers:
         Host: ocost-dy.wmlefl.cc
-  - name: RU 🇷🇺-trojan | 5-72
-    server: 185.174.138.195
+  - name: RU 🇷🇺-trojan | 5-82
+    server: 193.9.49.195
     port: 2096
     type: trojan
     password: slch2024
@@ -713,8 +849,8 @@ proxies:
       path: /Telegram🇨🇳
       headers:
         Host: ocost-dy.wmlefl.cc
-  - name: RU 🇷🇺-trojan | 5-73
-    server: 185.221.160.195
+  - name: RU 🇷🇺-trojan | 5-83
+    server: 185.59.218.195
     port: 2096
     type: trojan
     password: slch2024
@@ -725,59 +861,8 @@ proxies:
       path: /Telegram🇨🇳
       headers:
         Host: ocost-dy.wmlefl.cc
-  - name: US 🇺🇸-vless | 5-74
-    server: 159.112.235.174
-    port: 2082
-    type: vless
-    uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
-    tls: false
-    skip-cert-verify: false
-    servername: workerr.schodog1.workers.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        Host: workerr.schodog1.workers.dev
-  - name: 🏳 CloudFlare-vless | 5-75
-    server: 104.21.81.174
-    port: 80
-    type: vless
-    uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
-    tls: false
-    skip-cert-verify: false
-    servername: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
-    network: ws
-    ws-opts:
-      path: /wP3dwCyRAVyMJFfW?ed=2560
-      headers:
-        Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
-  - name: 🏳 CloudFlare-vless | 5-76
-    server: 104.21.7.50
-    port: 2052
-    type: vless
-    uuid: 0d710c53-876d-401f-97f0-6bd1a8db941a
-    tls: false
-    skip-cert-verify: false
-    servername: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sWEeT-DIsK-b69d.TUdTudtrUHtRU.wOrkERS.dev
-  - name: 🏳 CloudFlare-trojan | 5-77
-    server: 104.24.57.5
-    port: 443
-    type: trojan
-    password: trojan
-    sni: azadnet2-dl4.pages.dev
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: azadnet2-dl4.pages.dev
-  - name: US 🇺🇸-trojan | 5-78
-    server: 209.94.90.195
+  - name: US 🇺🇸-trojan | 5-84
+    server: 185.148.107.195
     port: 2096
     type: trojan
     password: slch2024
@@ -788,35 +873,8 @@ proxies:
       path: /Telegram🇨🇳
       headers:
         Host: ocost-dy.wmlefl.cc
-  - name: US 🇺🇸-vless | 5-79
-    server: 63.141.128.34
-    port: 80
-    type: vless
-    uuid: 2f2327bd-ff1b-4ce5-bf86-fe0565334138
-    tls: false
-    skip-cert-verify: false
-    servername: b.jOin.zEdMoDeOn.oNl.
-    network: ws
-    ws-opts:
-      path: >-
-        /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      headers:
-        Host: b.jOin.zEdMoDeOn.oNl.
-  - name: US 🇺🇸-vless | 5-80
-    server: 198.62.62.2
-    port: 443
-    type: vless
-    uuid: 598b4251-fd03-48fe-b12d-630ac3adf2e5
-    tls: false
-    skip-cert-verify: false
-    servername: smn2.gerlemondns.info
-    network: ws
-    ws-opts:
-      path: /hjgfdwssecurity=tls
-      headers:
-        Host: smn2.gerlemondns.info
-  - name: US 🇺🇸-trojan | 5-81
-    server: 185.148.105.195
+  - name: RU 🇷🇺-trojan | 5-85
+    server: 188.42.145.195
     port: 2096
     type: trojan
     password: slch2024
@@ -827,78 +885,6 @@ proxies:
       path: /Telegram🇨🇳
       headers:
         Host: ocost-dy.wmlefl.cc
-  - name: US 🇺🇸-trojan | 5-82
-    server: 199.68.156.195
-    port: 2096
-    type: trojan
-    password: slch2024
-    sni: ocost-dy.wmlefl.cc
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /Telegram🇨🇳
-      headers:
-        Host: ocost-dy.wmlefl.cc
-  - name: US 🇺🇸-trojan | 5-83
-    server: 216.24.57.195
-    port: 2096
-    type: trojan
-    password: slch2024
-    sni: ocost-dy.wmlefl.cc
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /Telegram🇨🇳
-      headers:
-        Host: ocost-dy.wmlefl.cc
-  - name: CloudFlare 🇨🇱-ss | 5-84
-    server: cn01.efan8867801.xyz
-    port: 8774
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202509031722041-UfAvWCjqQ0.download.microsoft.com
-  - name: CloudFlare 🇨🇱-ss | 5-85
-    server: cn01.efan8867801.xyz
-    port: 8766
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202509031722041-UfAvWCjqQ0.download.microsoft.com
-  - name: JP 🇯🇵-ss | 5-86
-    server: 137.220.142.150
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: 8a6ca14c0936
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: jpxw9v1.dashengjs.net
-      path: /wrdfiatyd
-      tls: true
-      mux: false
-      skip-cert-verify: false
-  - name: US 🇺🇸-ss | 5-87
-    server: 156.251.179.135
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: 2b5fad3874e5
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: hk6v1.dsjsapp.com
-      path: /aqwshiog
-      tls: true
-      mux: true
-      skip-cert-verify: false
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
     server: 109.104.153.91
@@ -1031,48 +1017,46 @@ proxy-groups:
       - HK 🇭🇰-trojan | 5-43
       - HK 🇭🇰-trojan | 5-44
       - TW 🇹🇼-ss | 5-45
-      - CN 🇨🇳-vmess | 5-46
+      - TW 🇹🇼-ss | 5-46
       - TW 🇹🇼-ss | 5-47
-      - TW 🇹🇼-ss | 5-48
-      - TW 🇹🇼-ss | 5-49
-      - CloudFlare 🇨🇱-ss | 5-50
-      - JP 🇯🇵-ss | 5-51
+      - CloudFlare 🇨🇱-ss | 5-48
+      - JP 🇯🇵-ss | 5-49
+      - CloudFlare 🇨🇱-trojan | 5-50
+      - CloudFlare 🇨🇱-trojan | 5-51
       - CloudFlare 🇨🇱-trojan | 5-52
       - CloudFlare 🇨🇱-trojan | 5-53
-      - CloudFlare 🇨🇱-trojan | 5-54
-      - CloudFlare 🇨🇱-trojan | 5-55
-      - CloudFlare 🇨🇱-vmess | 5-56
-      - CloudFlare 🇨🇱-ss | 5-57
-      - CloudFlare 🇨🇱-trojan | 5-58
-      - CloudFlare 🇨🇱-trojan | 5-59
-      - DE 🇩🇪-ss | 5-60
-      - US 🇺🇸-vmess | 5-61
+      - CloudFlare 🇨🇱-vmess | 5-54
+      - CloudFlare 🇨🇱-ss | 5-55
+      - CloudFlare 🇨🇱-trojan | 5-56
+      - CloudFlare 🇨🇱-trojan | 5-57
+      - DE 🇩🇪-ss | 5-58
+      - US 🇺🇸-vmess | 5-59
+      - TW 🇹🇼-ss | 5-60
+      - TW 🇹🇼-ss | 5-61
       - TW 🇹🇼-ss | 5-62
-      - CN 🇨🇳-vmess | 5-63
-      - TW 🇹🇼-ss | 5-64
-      - TW 🇹🇼-ss | 5-65
-      - TW 🇹🇼-ss | 5-66
-      - CH 🇨🇭-trojan | 5-67
+      - AT 🇦🇹-trojan | 5-63
+      - GB 🇬🇧-trojan | 5-64
+      - US 🇺🇸-trojan | 5-65
+      - DE 🇩🇪-trojan | 5-66
+      - ES 🇪🇸-trojan | 5-67
       - ES 🇪🇸-trojan | 5-68
-      - KZ 🇰🇿-trojan | 5-69
-      - CY 🇨🇾-vless | 5-70
-      - US 🇺🇸-trojan | 5-71
-      - RU 🇷🇺-trojan | 5-72
-      - RU 🇷🇺-trojan | 5-73
-      - US 🇺🇸-vless | 5-74
-      - 🏳 CloudFlare-vless | 5-75
-      - 🏳 CloudFlare-vless | 5-76
-      - 🏳 CloudFlare-trojan | 5-77
-      - US 🇺🇸-trojan | 5-78
-      - US 🇺🇸-vless | 5-79
-      - US 🇺🇸-vless | 5-80
+      - ES 🇪🇸-trojan | 5-69
+      - ES 🇪🇸-trojan | 5-70
+      - ES 🇪🇸-trojan | 5-71
+      - FR 🇫🇷-trojan | 5-72
+      - FR 🇫🇷-trojan | 5-73
+      - GB 🇬🇧-trojan | 5-74
+      - KZ 🇰🇿-trojan | 5-75
+      - KZ 🇰🇿-trojan | 5-76
+      - LU 🇱🇺-trojan | 5-77
+      - LU 🇱🇺-trojan | 5-78
+      - NL 🇳🇱-trojan | 5-79
+      - RU 🇷🇺-trojan | 5-80
       - US 🇺🇸-trojan | 5-81
-      - US 🇺🇸-trojan | 5-82
-      - US 🇺🇸-trojan | 5-83
-      - CloudFlare 🇨🇱-ss | 5-84
-      - CloudFlare 🇨🇱-ss | 5-85
-      - JP 🇯🇵-ss | 5-86
-      - US 🇺🇸-ss | 5-87
+      - RU 🇷🇺-trojan | 5-82
+      - RU 🇷🇺-trojan | 5-83
+      - US 🇺🇸-trojan | 5-84
+      - RU 🇷🇺-trojan | 5-85
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1134,48 +1118,46 @@ proxy-groups:
       - HK 🇭🇰-trojan | 5-43
       - HK 🇭🇰-trojan | 5-44
       - TW 🇹🇼-ss | 5-45
-      - CN 🇨🇳-vmess | 5-46
+      - TW 🇹🇼-ss | 5-46
       - TW 🇹🇼-ss | 5-47
-      - TW 🇹🇼-ss | 5-48
-      - TW 🇹🇼-ss | 5-49
-      - CloudFlare 🇨🇱-ss | 5-50
-      - JP 🇯🇵-ss | 5-51
+      - CloudFlare 🇨🇱-ss | 5-48
+      - JP 🇯🇵-ss | 5-49
+      - CloudFlare 🇨🇱-trojan | 5-50
+      - CloudFlare 🇨🇱-trojan | 5-51
       - CloudFlare 🇨🇱-trojan | 5-52
       - CloudFlare 🇨🇱-trojan | 5-53
-      - CloudFlare 🇨🇱-trojan | 5-54
-      - CloudFlare 🇨🇱-trojan | 5-55
-      - CloudFlare 🇨🇱-vmess | 5-56
-      - CloudFlare 🇨🇱-ss | 5-57
-      - CloudFlare 🇨🇱-trojan | 5-58
-      - CloudFlare 🇨🇱-trojan | 5-59
-      - DE 🇩🇪-ss | 5-60
-      - US 🇺🇸-vmess | 5-61
+      - CloudFlare 🇨🇱-vmess | 5-54
+      - CloudFlare 🇨🇱-ss | 5-55
+      - CloudFlare 🇨🇱-trojan | 5-56
+      - CloudFlare 🇨🇱-trojan | 5-57
+      - DE 🇩🇪-ss | 5-58
+      - US 🇺🇸-vmess | 5-59
+      - TW 🇹🇼-ss | 5-60
+      - TW 🇹🇼-ss | 5-61
       - TW 🇹🇼-ss | 5-62
-      - CN 🇨🇳-vmess | 5-63
-      - TW 🇹🇼-ss | 5-64
-      - TW 🇹🇼-ss | 5-65
-      - TW 🇹🇼-ss | 5-66
-      - CH 🇨🇭-trojan | 5-67
+      - AT 🇦🇹-trojan | 5-63
+      - GB 🇬🇧-trojan | 5-64
+      - US 🇺🇸-trojan | 5-65
+      - DE 🇩🇪-trojan | 5-66
+      - ES 🇪🇸-trojan | 5-67
       - ES 🇪🇸-trojan | 5-68
-      - KZ 🇰🇿-trojan | 5-69
-      - CY 🇨🇾-vless | 5-70
-      - US 🇺🇸-trojan | 5-71
-      - RU 🇷🇺-trojan | 5-72
-      - RU 🇷🇺-trojan | 5-73
-      - US 🇺🇸-vless | 5-74
-      - 🏳 CloudFlare-vless | 5-75
-      - 🏳 CloudFlare-vless | 5-76
-      - 🏳 CloudFlare-trojan | 5-77
-      - US 🇺🇸-trojan | 5-78
-      - US 🇺🇸-vless | 5-79
-      - US 🇺🇸-vless | 5-80
+      - ES 🇪🇸-trojan | 5-69
+      - ES 🇪🇸-trojan | 5-70
+      - ES 🇪🇸-trojan | 5-71
+      - FR 🇫🇷-trojan | 5-72
+      - FR 🇫🇷-trojan | 5-73
+      - GB 🇬🇧-trojan | 5-74
+      - KZ 🇰🇿-trojan | 5-75
+      - KZ 🇰🇿-trojan | 5-76
+      - LU 🇱🇺-trojan | 5-77
+      - LU 🇱🇺-trojan | 5-78
+      - NL 🇳🇱-trojan | 5-79
+      - RU 🇷🇺-trojan | 5-80
       - US 🇺🇸-trojan | 5-81
-      - US 🇺🇸-trojan | 5-82
-      - US 🇺🇸-trojan | 5-83
-      - CloudFlare 🇨🇱-ss | 5-84
-      - CloudFlare 🇨🇱-ss | 5-85
-      - JP 🇯🇵-ss | 5-86
-      - US 🇺🇸-ss | 5-87
+      - RU 🇷🇺-trojan | 5-82
+      - RU 🇷🇺-trojan | 5-83
+      - US 🇺🇸-trojan | 5-84
+      - RU 🇷🇺-trojan | 5-85
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1237,48 +1219,46 @@ proxy-groups:
       - HK 🇭🇰-trojan | 5-43
       - HK 🇭🇰-trojan | 5-44
       - TW 🇹🇼-ss | 5-45
-      - CN 🇨🇳-vmess | 5-46
+      - TW 🇹🇼-ss | 5-46
       - TW 🇹🇼-ss | 5-47
-      - TW 🇹🇼-ss | 5-48
-      - TW 🇹🇼-ss | 5-49
-      - CloudFlare 🇨🇱-ss | 5-50
-      - JP 🇯🇵-ss | 5-51
+      - CloudFlare 🇨🇱-ss | 5-48
+      - JP 🇯🇵-ss | 5-49
+      - CloudFlare 🇨🇱-trojan | 5-50
+      - CloudFlare 🇨🇱-trojan | 5-51
       - CloudFlare 🇨🇱-trojan | 5-52
       - CloudFlare 🇨🇱-trojan | 5-53
-      - CloudFlare 🇨🇱-trojan | 5-54
-      - CloudFlare 🇨🇱-trojan | 5-55
-      - CloudFlare 🇨🇱-vmess | 5-56
-      - CloudFlare 🇨🇱-ss | 5-57
-      - CloudFlare 🇨🇱-trojan | 5-58
-      - CloudFlare 🇨🇱-trojan | 5-59
-      - DE 🇩🇪-ss | 5-60
-      - US 🇺🇸-vmess | 5-61
+      - CloudFlare 🇨🇱-vmess | 5-54
+      - CloudFlare 🇨🇱-ss | 5-55
+      - CloudFlare 🇨🇱-trojan | 5-56
+      - CloudFlare 🇨🇱-trojan | 5-57
+      - DE 🇩🇪-ss | 5-58
+      - US 🇺🇸-vmess | 5-59
+      - TW 🇹🇼-ss | 5-60
+      - TW 🇹🇼-ss | 5-61
       - TW 🇹🇼-ss | 5-62
-      - CN 🇨🇳-vmess | 5-63
-      - TW 🇹🇼-ss | 5-64
-      - TW 🇹🇼-ss | 5-65
-      - TW 🇹🇼-ss | 5-66
-      - CH 🇨🇭-trojan | 5-67
+      - AT 🇦🇹-trojan | 5-63
+      - GB 🇬🇧-trojan | 5-64
+      - US 🇺🇸-trojan | 5-65
+      - DE 🇩🇪-trojan | 5-66
+      - ES 🇪🇸-trojan | 5-67
       - ES 🇪🇸-trojan | 5-68
-      - KZ 🇰🇿-trojan | 5-69
-      - CY 🇨🇾-vless | 5-70
-      - US 🇺🇸-trojan | 5-71
-      - RU 🇷🇺-trojan | 5-72
-      - RU 🇷🇺-trojan | 5-73
-      - US 🇺🇸-vless | 5-74
-      - 🏳 CloudFlare-vless | 5-75
-      - 🏳 CloudFlare-vless | 5-76
-      - 🏳 CloudFlare-trojan | 5-77
-      - US 🇺🇸-trojan | 5-78
-      - US 🇺🇸-vless | 5-79
-      - US 🇺🇸-vless | 5-80
+      - ES 🇪🇸-trojan | 5-69
+      - ES 🇪🇸-trojan | 5-70
+      - ES 🇪🇸-trojan | 5-71
+      - FR 🇫🇷-trojan | 5-72
+      - FR 🇫🇷-trojan | 5-73
+      - GB 🇬🇧-trojan | 5-74
+      - KZ 🇰🇿-trojan | 5-75
+      - KZ 🇰🇿-trojan | 5-76
+      - LU 🇱🇺-trojan | 5-77
+      - LU 🇱🇺-trojan | 5-78
+      - NL 🇳🇱-trojan | 5-79
+      - RU 🇷🇺-trojan | 5-80
       - US 🇺🇸-trojan | 5-81
-      - US 🇺🇸-trojan | 5-82
-      - US 🇺🇸-trojan | 5-83
-      - CloudFlare 🇨🇱-ss | 5-84
-      - CloudFlare 🇨🇱-ss | 5-85
-      - JP 🇯🇵-ss | 5-86
-      - US 🇺🇸-ss | 5-87
+      - RU 🇷🇺-trojan | 5-82
+      - RU 🇷🇺-trojan | 5-83
+      - US 🇺🇸-trojan | 5-84
+      - RU 🇷🇺-trojan | 5-85
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
