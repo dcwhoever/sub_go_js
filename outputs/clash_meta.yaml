@@ -432,27 +432,7 @@ proxies:
       path: /wslinws
       headers:
         Host: wWw.speEDtEST.NeT
-  - name: FR 🇫🇷-vless | 5-45
-    server: 51.38.168.151
-    port: 8080
-    type: vless
-    uuid: dde87267-da95-4a6b-9891-0c864a3e9be8
-    tls: false
-    skip-cert-verify: false
-    servername: wWw.SpeEDTeSt.nEt
-    network: ws
-    ws-opts:
-      path: /wslinka
-      headers:
-        Host: wWw.SpeEDTeSt.nEt
-  - name: NL 🇳🇱-trojan | 5-46
-    server: 38.180.249.177
-    port: 8443
-    type: trojan
-    password: installshield
-    sni: 38.180.249.177
-    skip-cert-verify: false
-  - name: US 🇺🇸-vless | 5-47
+  - name: US 🇺🇸-vless | 5-45
     server: 172.66.40.99
     port: 8880
     type: vless
@@ -468,22 +448,7 @@ proxies:
       headers:
         Host: >-
           websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
-  - name: CloudFlare 🇨🇱-vless | 5-48
-    server: www.speedtest.net
-    port: 2082
-    type: vless
-    uuid: 64060858-31b4-4fcd-f2c3-0dba9f93c959
-    tls: false
-    skip-cert-verify: false
-    servername: >-
-      novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    network: ws
-    ws-opts:
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-  - name: CloudFlare 🇨🇱-vless | 5-49
+  - name: CloudFlare 🇨🇱-vless | 5-46
     server: light-presence.oneeat.co
     port: 80
     type: vless
@@ -496,35 +461,7 @@ proxies:
       path: /
       headers:
         Host: light-presence.oneeat.co
-  - name: 🏳 CloudFlare-vless | 5-50
-    server: 104.16.53.11
-    port: 2053
-    type: vless
-    uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
-    tls: true
-    alpn:
-      - h2%2Chttp/1.1
-    skip-cert-verify: false
-    servername: frAgeU2.cpI2HIdd.eu.ORG
-    network: ws
-    ws-opts:
-      path: /?ed=2048fp=chrome
-      headers:
-        Host: frAgeU2.cpI2HIdd.eu.ORG
-  - name: 🏳 CloudFlare-vless | 5-51
-    server: 104.21.36.57
-    port: 443
-    type: vless
-    uuid: 4c835bff-4f4d-4608-bb21-120099089688
-    tls: false
-    skip-cert-verify: false
-    servername: orange.fullmargintraders.com
-    network: ws
-    ws-opts:
-      path: /wsv/4c835bff-4f4d-4608-bb21-120099089688?ed=2048security=tls
-      headers:
-        Host: orange.fullmargintraders.com
-  - name: CloudFlare 🇨🇱-ss | 5-52
+  - name: CloudFlare 🇨🇱-ss | 5-47
     server: cn01.efan8867801.xyz
     port: 8774
     type: ss
@@ -534,7 +471,7 @@ proxies:
     plugin-opts:
       mode: http
       host: 202509121565513-hDcp24etDx.download.microsoft.com
-  - name: JP 🇯🇵-ss | 5-53
+  - name: JP 🇯🇵-ss | 5-48
     server: 137.220.142.139
     port: 443
     type: ss
@@ -548,7 +485,7 @@ proxies:
       tls: true
       mux: false
       skip-cert-verify: false
-  - name: US 🇺🇸-ss | 5-54
+  - name: US 🇺🇸-ss | 5-49
     server: 156.251.179.135
     port: 443
     type: ss
@@ -562,7 +499,7 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-55
+  - name: CloudFlare 🇨🇱-ss | 5-50
     server: cn01.efan8867801.xyz
     port: 8766
     type: ss
@@ -702,17 +639,12 @@ proxy-groups:
       - JP 🇯🇵-ss | 5-42
       - VN 🇻🇳-ss | 5-43
       - FR 🇫🇷-vless | 5-44
-      - FR 🇫🇷-vless | 5-45
-      - NL 🇳🇱-trojan | 5-46
-      - US 🇺🇸-vless | 5-47
-      - CloudFlare 🇨🇱-vless | 5-48
-      - CloudFlare 🇨🇱-vless | 5-49
-      - 🏳 CloudFlare-vless | 5-50
-      - 🏳 CloudFlare-vless | 5-51
-      - CloudFlare 🇨🇱-ss | 5-52
-      - JP 🇯🇵-ss | 5-53
-      - US 🇺🇸-ss | 5-54
-      - CloudFlare 🇨🇱-ss | 5-55
+      - US 🇺🇸-vless | 5-45
+      - CloudFlare 🇨🇱-vless | 5-46
+      - CloudFlare 🇨🇱-ss | 5-47
+      - JP 🇯🇵-ss | 5-48
+      - US 🇺🇸-ss | 5-49
+      - CloudFlare 🇨🇱-ss | 5-50
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -773,17 +705,12 @@ proxy-groups:
       - JP 🇯🇵-ss | 5-42
       - VN 🇻🇳-ss | 5-43
       - FR 🇫🇷-vless | 5-44
-      - FR 🇫🇷-vless | 5-45
-      - NL 🇳🇱-trojan | 5-46
-      - US 🇺🇸-vless | 5-47
-      - CloudFlare 🇨🇱-vless | 5-48
-      - CloudFlare 🇨🇱-vless | 5-49
-      - 🏳 CloudFlare-vless | 5-50
-      - 🏳 CloudFlare-vless | 5-51
-      - CloudFlare 🇨🇱-ss | 5-52
-      - JP 🇯🇵-ss | 5-53
-      - US 🇺🇸-ss | 5-54
-      - CloudFlare 🇨🇱-ss | 5-55
+      - US 🇺🇸-vless | 5-45
+      - CloudFlare 🇨🇱-vless | 5-46
+      - CloudFlare 🇨🇱-ss | 5-47
+      - JP 🇯🇵-ss | 5-48
+      - US 🇺🇸-ss | 5-49
+      - CloudFlare 🇨🇱-ss | 5-50
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
