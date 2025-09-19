@@ -262,21 +262,21 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: HK 🇭🇰-trojan | 5-22
-    server: 203.218.158.199
+    server: 112.118.248.22
     port: 443
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
-    sni: fe2.update.microsoft.com
+    sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: HK 🇭🇰-ss | 5-23
-    server: 18.163.190.75
+  - name: US 🇺🇸-ss | 5-23
+    server: 54.46.38.22
     port: 16888
     type: ss
     cipher: aes-256-gcm
     password: amazongreatvpn
-  - name: CN 🇨🇳-trojan | 5-24
-    server: 36.151.251.6
-    port: 4451
+  - name: JP 🇯🇵-trojan | 5-24
+    server: 160.16.63.16
+    port: 447
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.baidu.com
@@ -303,11 +303,11 @@ proxies:
     cipher: aes-256-gcm
     password: 8808e9f11454
   - name: JP 🇯🇵-trojan | 5-28
-    server: 153.121.76.9
-    port: 3160
+    server: 153.121.45.139
+    port: 327
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
-    sni: 23.45.86.28
+    sni: www.nintendogames.net
     skip-cert-verify: false
   - name: CN 🇨🇳-trojan | 5-29
     server: 36.151.251.6
@@ -317,7 +317,7 @@ proxies:
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: JP 🇯🇵-ss | 5-30
-    server: 13.230.37.83
+    server: 3.115.88.171
     port: 16888
     type: ss
     cipher: aes-256-gcm
@@ -364,8 +364,8 @@ proxies:
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: JP 🇯🇵-trojan | 5-36
-    server: 153.121.76.9
-    port: 4317
+    server: 153.121.73.102
+    port: 3296
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
@@ -391,8 +391,8 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: HK 🇭🇰-ss | 5-40
-    server: 18.163.190.75
+  - name: US 🇺🇸-ss | 5-40
+    server: 54.46.38.22
     port: 16888
     type: ss
     cipher: ss
@@ -407,7 +407,7 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: JP 🇯🇵-ss | 5-42
-    server: 13.230.37.83
+    server: 3.115.88.171
     port: 16888
     type: ss
     cipher: ss
@@ -419,96 +419,6 @@ proxies:
     cipher: ss
     password: >-
       //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  - name: FR 🇫🇷-vless | 5-44
-    server: 51.195.31.95
-    port: 80
-    type: vless
-    uuid: 962bfec5-ef89-4180-8f5b-9209a7207668
-    tls: false
-    skip-cert-verify: false
-    servername: wWw.speEDtEST.NeT
-    network: ws
-    ws-opts:
-      path: /wslinws
-      headers:
-        Host: wWw.speEDtEST.NeT
-  - name: US 🇺🇸-vless | 5-45
-    server: 172.66.40.99
-    port: 8880
-    type: vless
-    uuid: 934ad667-dce8-402a-aa45-3c3b52252c0a
-    tls: false
-    skip-cert-verify: false
-    servername: >-
-      websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
-    network: ws
-    ws-opts:
-      path: >-
-        /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN?ed=2048
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
-  - name: CloudFlare 🇨🇱-vless | 5-46
-    server: light-presence.oneeat.co
-    port: 80
-    type: vless
-    uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
-    tls: false
-    skip-cert-verify: false
-    servername: light-presence.oneeat.co
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: light-presence.oneeat.co
-  - name: CloudFlare 🇨🇱-ss | 5-47
-    server: cn01.efan8867801.xyz
-    port: 8774
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202509121565513-hDcp24etDx.download.microsoft.com
-  - name: JP 🇯🇵-ss | 5-48
-    server: 137.220.142.139
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: 8808e9f11454
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: jp5v1.lingjfjkm002.com
-      path: /nvcnjrmkggoy
-      tls: true
-      mux: false
-      skip-cert-verify: false
-  - name: US 🇺🇸-ss | 5-49
-    server: 156.251.179.135
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: 2b5fad3874e5
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: hk6v1.dsjsapp.com
-      path: /aqwshiog
-      tls: true
-      mux: true
-      skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-50
-    server: cn01.efan8867801.xyz
-    port: 8766
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202509121565513-hDcp24etDx.download.microsoft.com
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
     server: 109.104.153.91
@@ -617,8 +527,8 @@ proxy-groups:
       - US 🇺🇸-ss | 5-20
       - HK 🇭🇰-vmess | 5-21
       - HK 🇭🇰-trojan | 5-22
-      - HK 🇭🇰-ss | 5-23
-      - CN 🇨🇳-trojan | 5-24
+      - US 🇺🇸-ss | 5-23
+      - JP 🇯🇵-trojan | 5-24
       - CN 🇨🇳-vmess | 5-25
       - CloudFlare 🇨🇱-ss | 5-26
       - JP 🇯🇵-ss | 5-27
@@ -634,17 +544,10 @@ proxy-groups:
       - VN 🇻🇳-ss | 5-37
       - SE 🇸🇪-ss | 5-38
       - HK 🇭🇰-vmess | 5-39
-      - HK 🇭🇰-ss | 5-40
+      - US 🇺🇸-ss | 5-40
       - CN 🇨🇳-vmess | 5-41
       - JP 🇯🇵-ss | 5-42
       - VN 🇻🇳-ss | 5-43
-      - FR 🇫🇷-vless | 5-44
-      - US 🇺🇸-vless | 5-45
-      - CloudFlare 🇨🇱-vless | 5-46
-      - CloudFlare 🇨🇱-ss | 5-47
-      - JP 🇯🇵-ss | 5-48
-      - US 🇺🇸-ss | 5-49
-      - CloudFlare 🇨🇱-ss | 5-50
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -683,8 +586,8 @@ proxy-groups:
       - US 🇺🇸-ss | 5-20
       - HK 🇭🇰-vmess | 5-21
       - HK 🇭🇰-trojan | 5-22
-      - HK 🇭🇰-ss | 5-23
-      - CN 🇨🇳-trojan | 5-24
+      - US 🇺🇸-ss | 5-23
+      - JP 🇯🇵-trojan | 5-24
       - CN 🇨🇳-vmess | 5-25
       - CloudFlare 🇨🇱-ss | 5-26
       - JP 🇯🇵-ss | 5-27
@@ -700,17 +603,10 @@ proxy-groups:
       - VN 🇻🇳-ss | 5-37
       - SE 🇸🇪-ss | 5-38
       - HK 🇭🇰-vmess | 5-39
-      - HK 🇭🇰-ss | 5-40
+      - US 🇺🇸-ss | 5-40
       - CN 🇨🇳-vmess | 5-41
       - JP 🇯🇵-ss | 5-42
       - VN 🇻🇳-ss | 5-43
-      - FR 🇫🇷-vless | 5-44
-      - US 🇺🇸-vless | 5-45
-      - CloudFlare 🇨🇱-vless | 5-46
-      - CloudFlare 🇨🇱-ss | 5-47
-      - JP 🇯🇵-ss | 5-48
-      - US 🇺🇸-ss | 5-49
-      - CloudFlare 🇨🇱-ss | 5-50
       - NL 🇳🇱-Hysteria | 0-0
       - US 🇺🇸-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
