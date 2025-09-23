@@ -265,10 +265,10 @@ proxies:
     cipher: aes-256-gcm
     password: 2b5fad3874e5
   - name: HK 🇭🇰-vmess | 5-23
-    server: 43.247.135.86
-    port: 44601
+    server: 103.224.80.73
+    port: 57405
     type: vmess
-    uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
+    uuid: 282bc2b9-8aaf-400a-86eb-1cf981a8a1da
     alterId: 0
     cipher: auto
     tls: false
@@ -280,75 +280,68 @@ proxies:
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-25
-    server: hk.fastsoonlink.com
-    port: 40000
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-  - name: JP 🇯🇵-trojan | 5-26
+  - name: JP 🇯🇵-trojan | 5-25
     server: 160.16.236.32
     port: 443
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-27
-    server: gw.liangyuandianwan.com
-    port: 35602
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: e4469310-00fc-4527-8afa-71788b3bcef7
-  - name: TW 🇹🇼-vmess | 5-28
-    server: 103.236.227.7
-    port: 49795
-    type: vmess
-    uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-29
+  - name: CloudFlare 🇨🇱-ss | 5-26
     server: cn01.efan8867801.xyz
     port: 8766
     type: ss
     cipher: rc4-md5
     password: efanccyun
-  - name: JP 🇯🇵-ss | 5-30
+  - name: JP 🇯🇵-ss | 5-27
     server: 137.220.142.139
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: 8808e9f11454
+  - name: JP 🇯🇵-trojan | 5-28
+    server: 160.16.231.103
+    port: 1331
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: JP 🇯🇵-trojan | 5-29
+    server: 160.16.68.250
+    port: 3160
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: CloudFlare 🇨🇱-vmess | 5-30
+    server: a.lyazzz.online
+    port: 41315
+    type: vmess
+    uuid: c76b20d5-7f82-4990-9687-4bde24397493
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /obj
+      headers:
+        Host: img14.360buyimg.com
   - name: JP 🇯🇵-trojan | 5-31
-    server: 160.16.196.59
-    port: 1802
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-32
-    server: 160.16.72.33
-    port: 1924
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-33
     server: 160.16.130.66
     port: 2045
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-34
+  - name: JP 🇯🇵-trojan | 5-32
     server: 160.16.117.182
     port: 4397
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-35
+  - name: CloudFlare 🇨🇱-vmess | 5-33
     server: v39.heduian.link
     port: 30839
     type: vmess
@@ -362,78 +355,147 @@ proxies:
       path: /oooo
       headers:
         Host: baidu.com
-  - name: CloudFlare 🇨🇱-ss | 5-36
+  - name: CloudFlare 🇨🇱-vmess | 5-34
+    server: a.lyazzz.online
+    port: 41317
+    type: vmess
+    uuid: c76b20d5-7f82-4990-9687-4bde24397493
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /obj
+      headers:
+        Host: img14.360buyimg.com
+  - name: CloudFlare 🇨🇱-ss | 5-35
     server: cn01.efan8867801.xyz
     port: 8774
     type: ss
     cipher: rc4-md5
     password: efanccyun
-  - name: JP 🇯🇵-trojan | 5-37
+  - name: JP 🇯🇵-trojan | 5-36
     server: 153.121.45.139
     port: 1700
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-38
-    server: 160.16.72.33
-    port: 3294
+  - name: JP 🇯🇵-trojan | 5-37
+    server: 160.16.117.182
+    port: 3296
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: VN 🇻🇳-ss | 5-39
+  - name: VN 🇻🇳-ss | 5-38
     server: 103.186.155.28
     port: 38388
     type: ss
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: DE 🇩🇪-ss | 5-40
+  - name: DE 🇩🇪-ss | 5-39
     server: 18.159.61.225
     port: 443
     type: ss
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  - name: HK 🇭🇰-vmess | 5-41
-    server: 43.247.135.86
-    port: 44601
+  - name: HK 🇭🇰-vmess | 5-40
+    server: 103.224.80.73
+    port: 57405
     type: vmess
-    uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
+    uuid: 282bc2b9-8aaf-400a-86eb-1cf981a8a1da
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-42
-    server: hk.fastsoonlink.com
-    port: 40000
-    type: ss
-    cipher: ss
-    password: >-
-      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5MTc3ZGUxYS1hZWZmLTQzZjEtOTNhNi03ZGQwOGEyZmRjNDE
-  - name: CloudFlare 🇨🇱-ss | 5-43
-    server: gw.liangyuandianwan.com
-    port: 35602
-    type: ss
-    cipher: ss
-    password: >-
-      //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplNDQ2OTMxMC0wMGZjLTQ1MjctOGFmYS03MTc4OGIzYmNlZjc
-  - name: TW 🇹🇼-vmess | 5-44
-    server: 103.236.227.7
-    port: 49795
-    type: vmess
-    uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: VN 🇻🇳-ss | 5-45
+  - name: VN 🇻🇳-ss | 5-41
     server: 103.186.155.28
     port: 38388
     type: ss
     cipher: ss
     password: >-
       //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  - name: AU 🇦🇺-vless | 5-46
+  - name: AU 🇦🇺-vless | 5-42
+    server: 185.207.197.253
+    port: 2096
+    type: vless
+    uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
+    tls: false
+    skip-cert-verify: false
+    servername: vlesspro.llengcugit.sbs
+    network: ws
+    ws-opts:
+      path: /Telegram@freecodes/?ed=2560security=tls
+      headers:
+        Host: vlesspro.llengcugit.sbs
+  - name: CloudFlare 🇨🇱-vless | 5-43
+    server: dl5-au4-cdn.fastfilecdn.org
+    port: 2052
+    type: vless
+    uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
+    tls: false
+    skip-cert-verify: false
+    servername: dl5-au4-cdn.fastfilecdn.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: dl5-au4-cdn.fastfilecdn.org
+  - name: AU 🇦🇺-vless | 5-44
+    server: 185.207.197.253
+    port: 2096
+    type: vless
+    uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
+    tls: false
+    skip-cert-verify: false
+    servername: vlesspro.llengcugit.sbs
+    network: ws
+    ws-opts:
+      path: /Telegram@freecodessecurity=tls
+      headers:
+        Host: vlesspro.llengcugit.sbs
+  - name: CloudFlare 🇨🇱-vless | 5-45
+    server: dl5-uae4-cdn.fastfilecdn.org
+    port: 2052
+    type: vless
+    uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
+    tls: false
+    skip-cert-verify: false
+    servername: dl5-uae4-cdn.fastfilecdn.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: dl5-uae4-cdn.fastfilecdn.org
+  - name: RU 🇷🇺-vless | 5-46
+    server: 89.169.53.131
+    port: 2053
+    type: vless
+    uuid: 01996549-6892-dbf0-0453-f700236936bd
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: DE 🇩🇪-vless | 5-47
+    server: 91.149.223.242
+    port: 443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: AU 🇦🇺-vless | 5-48
     server: 91.108.241.188
     port: 443
     type: vless
@@ -446,7 +508,7 @@ proxies:
       path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
       headers:
         Host: kejiland.freewarp.eu.org
-  - name: GB 🇬🇧-vless | 5-47
+  - name: GB 🇬🇧-vless | 5-49
     server: 132.145.65.20
     port: 9931
     type: vless
@@ -459,7 +521,337 @@ proxies:
       path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tlssecurity=tls
       headers:
         Host: kejiland.freewarp.eu.org
-  - name: US 🇺🇸-vless | 5-48
+  - name: GB 🇬🇧-vless | 5-50
+    server: 132.145.65.20
+    port: 9931
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: HK 🇭🇰-vless | 5-51
+    server: 154.211.8.220
+    port: 2096
+    type: vless
+    uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+    tls: false
+    skip-cert-verify: false
+    servername: >-
+      0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+    network: ws
+    ws-opts:
+      path: /snippetssecurity=tls
+      headers:
+        Host: >-
+          0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  - name: HK 🇭🇰-vless | 5-52
+    server: 154.211.8.18
+    port: 2083
+    type: vless
+    uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+    tls: false
+    skip-cert-verify: false
+    servername: >-
+      0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+    network: ws
+    ws-opts:
+      path: /snippetssecurity=tls
+      headers:
+        Host: >-
+          0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  - name: IN 🇮🇳-vless | 5-53
+    server: 65.20.74.136
+    port: 2053
+    type: vless
+    uuid: 01996549-6892-dbf0-0453-f700236936bd
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: JP 🇯🇵-vless | 5-54
+    server: 152.70.82.101
+    port: 18650
+    type: vless
+    uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+    tls: false
+    skip-cert-verify: false
+    servername: >-
+      0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+    network: ws
+    ws-opts:
+      path: /snippetssecurity=tls
+      headers:
+        Host: >-
+          0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  - name: JP 🇯🇵-vless | 5-55
+    server: 138.2.32.76
+    port: 15821
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: JP 🇯🇵-vless | 5-56
+    server: 140.83.57.183
+    port: 22735
+    type: vless
+    uuid: 01996549-6892-dbf0-0453-f700236936bd
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: JP 🇯🇵-vless | 5-57
+    server: 140.238.62.82
+    port: 1443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: JP 🇯🇵-vless | 5-58
+    server: 138.2.32.76
+    port: 15821
+    type: vless
+    uuid: 01996549-6892-dbf0-0453-f700236936bd
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: JP 🇯🇵-vless | 5-59
+    server: 138.2.10.149
+    port: 45638
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: KR 🇰🇷-vless | 5-60
+    server: 43.203.199.76
+    port: 443
+    type: vless
+    uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+    tls: false
+    skip-cert-verify: false
+    servername: >-
+      0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+    network: ws
+    ws-opts:
+      path: /snippetssecurity=tls
+      headers:
+        Host: >-
+          0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  - name: KR 🇰🇷-vless | 5-61
+    server: 158.180.82.203
+    port: 8443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: KR 🇰🇷-vless | 5-62
+    server: 118.131.232.132
+    port: 30063
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: RU 🇷🇺-vless | 5-63
+    server: 138.124.182.204
+    port: 443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: NL 🇳🇱-vless | 5-64
+    server: 176.222.53.140
+    port: 8000
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: RU 🇷🇺-vless | 5-65
+    server: 147.45.69.222
+    port: 8443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: NL 🇳🇱-vless | 5-66
+    server: 176.222.53.140
+    port: 8000
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: RU 🇷🇺-vless | 5-67
+    server: 147.45.69.222
+    port: 8443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: RU 🇷🇺-vless | 5-68
+    server: 89.169.160.84
+    port: 2053
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: RU 🇷🇺-vless | 5-69
+    server: 147.45.143.22
+    port: 443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: SG 🇸🇬-vless | 5-70
+    server: 27.50.48.186
+    port: 2083
+    type: vless
+    uuid: 019931aa-8cba-3a74-6c77-cb288ae52f2a
+    tls: false
+    skip-cert-verify: false
+    servername: >-
+      0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+    network: ws
+    ws-opts:
+      path: /snippetssecurity=tls
+      headers:
+        Host: >-
+          0000yhuxn8zf1sqvj1qx.x0uck1bfji4.8f25.dbhnjola4.bmj6yq1giy.ujwpeuoqhayd.pci8t1.paxljcy7c.u9v3a.a1s36uciu.2r11kwhbqtj9k5ix.neib.cn
+  - name: US 🇺🇸-trojan | 5-71
+    server: 206.206.126.109
+    port: 8441
+    type: trojan
+    password: tunnel-astrovpn_official928
+    sni: >-
+      zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir
+    skip-cert-verify: false
+  - name: US 🇺🇸-vless | 5-72
+    server: 152.70.113.150
+    port: 52125
+    type: vless
+    uuid: 01996549-6892-dbf0-0453-f700236936bd
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: US 🇺🇸-vless | 5-73
+    server: 107.173.147.41
+    port: 35398
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: US 🇺🇸-vless | 5-74
+    server: 107.173.147.41
+    port: 35398
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: US 🇺🇸-vless | 5-75
     server: 142.171.85.230
     port: 28034
     type: vless
@@ -472,7 +864,123 @@ proxies:
       path: /snippets/ip=proxyip.fxxk.dedyn.io:443fp=chrome
       headers:
         Host: kejiland.freewarp.eu.org
-  - name: JP 🇯🇵-ss | 5-49
+  - name: US 🇺🇸-vless | 5-76
+    server: 142.171.166.116
+    port: 8443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: CloudFlare 🇨🇱-vless | 5-77
+    server: dl5-us4-cdn.fastfilecdn.org
+    port: 2052
+    type: vless
+    uuid: 8ef1b0db-5954-447c-85e5-4f62b107ed61
+    tls: false
+    skip-cert-verify: false
+    servername: dl5-us4-cdn.fastfilecdn.org
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: dl5-us4-cdn.fastfilecdn.org
+  - name: CloudFlare 🇨🇱-vless | 5-78
+    server: pvt.moonop.tech
+    port: 443
+    type: vless
+    uuid: 45be1c2b-4bb1-44f4-89e4-c026ad211d04
+    tls: false
+    skip-cert-verify: false
+    servername: pvt.moonop.tech
+    network: ws
+    ws-opts:
+      path: /aws5security=tls
+      headers:
+        Host: pvt.moonop.tech
+  - name: CloudFlare 🇨🇱-vless | 5-79
+    server: snipaste4.speedip.eu.org
+    port: 2087
+    type: vless
+    uuid: 01996e2d-b638-4e9f-2b24-38a6379f68a2
+    tls: true
+    skip-cert-verify: false
+    servername: >-
+      00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn
+    network: ws
+    ws-opts:
+      path: /snippetsfp=chrome
+      headers:
+        Host: >-
+          00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn
+  - name: US 🇺🇸-vless | 5-80
+    server: 142.171.156.182
+    port: 15801
+    type: vless
+    uuid: 01996549-6892-dbf0-0453-f700236936bd
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: US 🇺🇸-vless | 5-81
+    server: 152.70.113.150
+    port: 52125
+    type: vless
+    uuid: 01996549-6892-dbf0-0453-f700236936bd
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: US 🇺🇸-vless | 5-82
+    server: 198.46.143.134
+    port: 443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: US 🇺🇸-vless | 5-83
+    server: 138.2.235.230
+    port: 22731
+    type: vless
+    uuid: 01996549-6892-dbf0-0453-f700236936bd
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: CloudFlare 🇨🇱-ss | 5-84
+    server: cn01.efan8867801.xyz
+    port: 8766
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202509121565513-d3qOpZwqIw.download.microsoft.com
+  - name: JP 🇯🇵-ss | 5-85
     server: 137.220.142.139
     port: 443
     type: ss
@@ -486,7 +994,17 @@ proxies:
       tls: true
       mux: false
       skip-cert-verify: false
-  - name: US 🇺🇸-ss | 5-50
+  - name: CloudFlare 🇨🇱-ss | 5-86
+    server: cn01.efan8867801.xyz
+    port: 8774
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202509121565513-d3qOpZwqIw.download.microsoft.com
+  - name: US 🇺🇸-ss | 5-87
     server: 156.251.179.135
     port: 443
     type: ss
@@ -500,26 +1018,6 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-51
-    server: cn01.efan8867801.xyz
-    port: 8774
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202509121565513-Aja8hFXVWh.download.microsoft.com
-  - name: CloudFlare 🇨🇱-ss | 5-52
-    server: cn01.efan8867801.xyz
-    port: 8766
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202509121565513-Aja8hFXVWh.download.microsoft.com
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
     server: 109.104.153.91
@@ -623,34 +1121,69 @@ proxy-groups:
       - US 🇺🇸-ss | 5-22
       - HK 🇭🇰-vmess | 5-23
       - JP 🇯🇵-trojan | 5-24
-      - CloudFlare 🇨🇱-ss | 5-25
-      - JP 🇯🇵-trojan | 5-26
-      - CloudFlare 🇨🇱-ss | 5-27
-      - TW 🇹🇼-vmess | 5-28
-      - CloudFlare 🇨🇱-ss | 5-29
-      - JP 🇯🇵-ss | 5-30
+      - JP 🇯🇵-trojan | 5-25
+      - CloudFlare 🇨🇱-ss | 5-26
+      - JP 🇯🇵-ss | 5-27
+      - JP 🇯🇵-trojan | 5-28
+      - JP 🇯🇵-trojan | 5-29
+      - CloudFlare 🇨🇱-vmess | 5-30
       - JP 🇯🇵-trojan | 5-31
       - JP 🇯🇵-trojan | 5-32
-      - JP 🇯🇵-trojan | 5-33
-      - JP 🇯🇵-trojan | 5-34
-      - CloudFlare 🇨🇱-vmess | 5-35
-      - CloudFlare 🇨🇱-ss | 5-36
+      - CloudFlare 🇨🇱-vmess | 5-33
+      - CloudFlare 🇨🇱-vmess | 5-34
+      - CloudFlare 🇨🇱-ss | 5-35
+      - JP 🇯🇵-trojan | 5-36
       - JP 🇯🇵-trojan | 5-37
-      - JP 🇯🇵-trojan | 5-38
-      - VN 🇻🇳-ss | 5-39
-      - DE 🇩🇪-ss | 5-40
-      - HK 🇭🇰-vmess | 5-41
-      - CloudFlare 🇨🇱-ss | 5-42
-      - CloudFlare 🇨🇱-ss | 5-43
-      - TW 🇹🇼-vmess | 5-44
-      - VN 🇻🇳-ss | 5-45
-      - AU 🇦🇺-vless | 5-46
-      - GB 🇬🇧-vless | 5-47
-      - US 🇺🇸-vless | 5-48
-      - JP 🇯🇵-ss | 5-49
-      - US 🇺🇸-ss | 5-50
-      - CloudFlare 🇨🇱-ss | 5-51
-      - CloudFlare 🇨🇱-ss | 5-52
+      - VN 🇻🇳-ss | 5-38
+      - DE 🇩🇪-ss | 5-39
+      - HK 🇭🇰-vmess | 5-40
+      - VN 🇻🇳-ss | 5-41
+      - AU 🇦🇺-vless | 5-42
+      - CloudFlare 🇨🇱-vless | 5-43
+      - AU 🇦🇺-vless | 5-44
+      - CloudFlare 🇨🇱-vless | 5-45
+      - RU 🇷🇺-vless | 5-46
+      - DE 🇩🇪-vless | 5-47
+      - AU 🇦🇺-vless | 5-48
+      - GB 🇬🇧-vless | 5-49
+      - GB 🇬🇧-vless | 5-50
+      - HK 🇭🇰-vless | 5-51
+      - HK 🇭🇰-vless | 5-52
+      - IN 🇮🇳-vless | 5-53
+      - JP 🇯🇵-vless | 5-54
+      - JP 🇯🇵-vless | 5-55
+      - JP 🇯🇵-vless | 5-56
+      - JP 🇯🇵-vless | 5-57
+      - JP 🇯🇵-vless | 5-58
+      - JP 🇯🇵-vless | 5-59
+      - KR 🇰🇷-vless | 5-60
+      - KR 🇰🇷-vless | 5-61
+      - KR 🇰🇷-vless | 5-62
+      - RU 🇷🇺-vless | 5-63
+      - NL 🇳🇱-vless | 5-64
+      - RU 🇷🇺-vless | 5-65
+      - NL 🇳🇱-vless | 5-66
+      - RU 🇷🇺-vless | 5-67
+      - RU 🇷🇺-vless | 5-68
+      - RU 🇷🇺-vless | 5-69
+      - SG 🇸🇬-vless | 5-70
+      - US 🇺🇸-trojan | 5-71
+      - US 🇺🇸-vless | 5-72
+      - US 🇺🇸-vless | 5-73
+      - US 🇺🇸-vless | 5-74
+      - US 🇺🇸-vless | 5-75
+      - US 🇺🇸-vless | 5-76
+      - CloudFlare 🇨🇱-vless | 5-77
+      - CloudFlare 🇨🇱-vless | 5-78
+      - CloudFlare 🇨🇱-vless | 5-79
+      - US 🇺🇸-vless | 5-80
+      - US 🇺🇸-vless | 5-81
+      - US 🇺🇸-vless | 5-82
+      - US 🇺🇸-vless | 5-83
+      - CloudFlare 🇨🇱-ss | 5-84
+      - JP 🇯🇵-ss | 5-85
+      - CloudFlare 🇨🇱-ss | 5-86
+      - US 🇺🇸-ss | 5-87
       - NL 🇳🇱-Hysteria | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
@@ -690,34 +1223,69 @@ proxy-groups:
       - US 🇺🇸-ss | 5-22
       - HK 🇭🇰-vmess | 5-23
       - JP 🇯🇵-trojan | 5-24
-      - CloudFlare 🇨🇱-ss | 5-25
-      - JP 🇯🇵-trojan | 5-26
-      - CloudFlare 🇨🇱-ss | 5-27
-      - TW 🇹🇼-vmess | 5-28
-      - CloudFlare 🇨🇱-ss | 5-29
-      - JP 🇯🇵-ss | 5-30
+      - JP 🇯🇵-trojan | 5-25
+      - CloudFlare 🇨🇱-ss | 5-26
+      - JP 🇯🇵-ss | 5-27
+      - JP 🇯🇵-trojan | 5-28
+      - JP 🇯🇵-trojan | 5-29
+      - CloudFlare 🇨🇱-vmess | 5-30
       - JP 🇯🇵-trojan | 5-31
       - JP 🇯🇵-trojan | 5-32
-      - JP 🇯🇵-trojan | 5-33
-      - JP 🇯🇵-trojan | 5-34
-      - CloudFlare 🇨🇱-vmess | 5-35
-      - CloudFlare 🇨🇱-ss | 5-36
+      - CloudFlare 🇨🇱-vmess | 5-33
+      - CloudFlare 🇨🇱-vmess | 5-34
+      - CloudFlare 🇨🇱-ss | 5-35
+      - JP 🇯🇵-trojan | 5-36
       - JP 🇯🇵-trojan | 5-37
-      - JP 🇯🇵-trojan | 5-38
-      - VN 🇻🇳-ss | 5-39
-      - DE 🇩🇪-ss | 5-40
-      - HK 🇭🇰-vmess | 5-41
-      - CloudFlare 🇨🇱-ss | 5-42
-      - CloudFlare 🇨🇱-ss | 5-43
-      - TW 🇹🇼-vmess | 5-44
-      - VN 🇻🇳-ss | 5-45
-      - AU 🇦🇺-vless | 5-46
-      - GB 🇬🇧-vless | 5-47
-      - US 🇺🇸-vless | 5-48
-      - JP 🇯🇵-ss | 5-49
-      - US 🇺🇸-ss | 5-50
-      - CloudFlare 🇨🇱-ss | 5-51
-      - CloudFlare 🇨🇱-ss | 5-52
+      - VN 🇻🇳-ss | 5-38
+      - DE 🇩🇪-ss | 5-39
+      - HK 🇭🇰-vmess | 5-40
+      - VN 🇻🇳-ss | 5-41
+      - AU 🇦🇺-vless | 5-42
+      - CloudFlare 🇨🇱-vless | 5-43
+      - AU 🇦🇺-vless | 5-44
+      - CloudFlare 🇨🇱-vless | 5-45
+      - RU 🇷🇺-vless | 5-46
+      - DE 🇩🇪-vless | 5-47
+      - AU 🇦🇺-vless | 5-48
+      - GB 🇬🇧-vless | 5-49
+      - GB 🇬🇧-vless | 5-50
+      - HK 🇭🇰-vless | 5-51
+      - HK 🇭🇰-vless | 5-52
+      - IN 🇮🇳-vless | 5-53
+      - JP 🇯🇵-vless | 5-54
+      - JP 🇯🇵-vless | 5-55
+      - JP 🇯🇵-vless | 5-56
+      - JP 🇯🇵-vless | 5-57
+      - JP 🇯🇵-vless | 5-58
+      - JP 🇯🇵-vless | 5-59
+      - KR 🇰🇷-vless | 5-60
+      - KR 🇰🇷-vless | 5-61
+      - KR 🇰🇷-vless | 5-62
+      - RU 🇷🇺-vless | 5-63
+      - NL 🇳🇱-vless | 5-64
+      - RU 🇷🇺-vless | 5-65
+      - NL 🇳🇱-vless | 5-66
+      - RU 🇷🇺-vless | 5-67
+      - RU 🇷🇺-vless | 5-68
+      - RU 🇷🇺-vless | 5-69
+      - SG 🇸🇬-vless | 5-70
+      - US 🇺🇸-trojan | 5-71
+      - US 🇺🇸-vless | 5-72
+      - US 🇺🇸-vless | 5-73
+      - US 🇺🇸-vless | 5-74
+      - US 🇺🇸-vless | 5-75
+      - US 🇺🇸-vless | 5-76
+      - CloudFlare 🇨🇱-vless | 5-77
+      - CloudFlare 🇨🇱-vless | 5-78
+      - CloudFlare 🇨🇱-vless | 5-79
+      - US 🇺🇸-vless | 5-80
+      - US 🇺🇸-vless | 5-81
+      - US 🇺🇸-vless | 5-82
+      - US 🇺🇸-vless | 5-83
+      - CloudFlare 🇨🇱-ss | 5-84
+      - JP 🇯🇵-ss | 5-85
+      - CloudFlare 🇨🇱-ss | 5-86
+      - US 🇺🇸-ss | 5-87
       - NL 🇳🇱-Hysteria | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
