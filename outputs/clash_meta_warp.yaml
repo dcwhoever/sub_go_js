@@ -452,7 +452,20 @@ proxies:
     cipher: ss
     password: >-
       //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  - name: GB 🇬🇧-vless | 5-46
+  - name: AU 🇦🇺-vless | 5-46
+    server: 91.108.241.188
+    port: 443
+    type: vless
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: false
+    skip-cert-verify: false
+    servername: kejiland.freewarp.eu.org
+    network: ws
+    ws-opts:
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+      headers:
+        Host: kejiland.freewarp.eu.org
+  - name: GB 🇬🇧-vless | 5-47
     server: 132.145.65.20
     port: 9931
     type: vless
@@ -462,69 +475,23 @@ proxies:
     servername: kejiland.freewarp.eu.org
     network: ws
     ws-opts:
-      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tlssecurity=tls
       headers:
         Host: kejiland.freewarp.eu.org
-  - name: US 🇺🇸-vless | 5-47
-    server: 159.112.235.174
-    port: 2082
+  - name: US 🇺🇸-vless | 5-48
+    server: 142.171.85.230
+    port: 28034
     type: vless
-    uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
-    tls: false
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    tls: true
     skip-cert-verify: false
-    servername: workerr.schodog1.workers.dev
+    servername: kejiland.freewarp.eu.org
     network: ws
     ws-opts:
-      path: /?ed=2048
+      path: /snippets/ip=proxyip.fxxk.dedyn.io:443fp=chrome
       headers:
-        Host: workerr.schodog1.workers.dev
-  - name: CloudFlare 🇨🇱-trojan | 5-48
-    server: blength.appagent.net
-    port: 18332
-    type: trojan
-    password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-49
-    server: connect.appagent.net
-    port: 28333
-    type: trojan
-    password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
-    sni: connect.appagent.net
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-50
-    server: blender.appagent.net
-    port: 28332
-    type: trojan
-    password: CZC2eFReAwaON4nzF3zY7XC9nB3IqIaT3Eaa8S7D3B5Y3XuSEp8Z0ygl08S3SSxy6wDRC
-    sni: blender.appagent.net
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-51
-    server: connect.appagent.net
-    port: 28333
-    type: trojan
-    password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-52
-    server: bolster.appagent.net
-    port: 28332
-    type: trojan
-    password: >-
-      OaFFcTDe9pSlez6x3SY8AARXwClzCRRDwSN8F3OqZAEYC0SE6F8gp3wCTCSTDYllcNceagCDD2C59S3
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-53
-    server: metallic.isquirrel.net
-    port: 443
-    type: trojan
-    password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-trojan | 5-54
-    server: pricey.appagent.net
-    port: 28334
-    type: trojan
-    password: >-
-      F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0
-    skip-cert-verify: false
-  - name: JP 🇯🇵-ss | 5-55
+        Host: kejiland.freewarp.eu.org
+  - name: JP 🇯🇵-ss | 5-49
     server: 137.220.142.139
     port: 443
     type: ss
@@ -538,7 +505,7 @@ proxies:
       tls: true
       mux: false
       skip-cert-verify: false
-  - name: US 🇺🇸-ss | 5-56
+  - name: US 🇺🇸-ss | 5-50
     server: 156.251.179.135
     port: 443
     type: ss
@@ -552,9 +519,9 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-57
+  - name: CloudFlare 🇨🇱-ss | 5-51
     server: cn01.efan8867801.xyz
-    port: 8766
+    port: 8774
     type: ss
     cipher: rc4-md5
     password: efanccyun
@@ -562,9 +529,9 @@ proxies:
     plugin-opts:
       mode: http
       host: 202509121565513-Aja8hFXVWh.download.microsoft.com
-  - name: CloudFlare 🇨🇱-ss | 5-58
+  - name: CloudFlare 🇨🇱-ss | 5-52
     server: cn01.efan8867801.xyz
-    port: 8774
+    port: 8766
     type: ss
     cipher: rc4-md5
     password: efanccyun
@@ -697,19 +664,13 @@ proxy-groups:
       - CloudFlare 🇨🇱-ss | 5-43
       - TW 🇹🇼-vmess | 5-44
       - VN 🇻🇳-ss | 5-45
-      - GB 🇬🇧-vless | 5-46
-      - US 🇺🇸-vless | 5-47
-      - CloudFlare 🇨🇱-trojan | 5-48
-      - CloudFlare 🇨🇱-trojan | 5-49
-      - CloudFlare 🇨🇱-trojan | 5-50
-      - CloudFlare 🇨🇱-trojan | 5-51
-      - CloudFlare 🇨🇱-trojan | 5-52
-      - CloudFlare 🇨🇱-trojan | 5-53
-      - CloudFlare 🇨🇱-trojan | 5-54
-      - JP 🇯🇵-ss | 5-55
-      - US 🇺🇸-ss | 5-56
-      - CloudFlare 🇨🇱-ss | 5-57
-      - CloudFlare 🇨🇱-ss | 5-58
+      - AU 🇦🇺-vless | 5-46
+      - GB 🇬🇧-vless | 5-47
+      - US 🇺🇸-vless | 5-48
+      - JP 🇯🇵-ss | 5-49
+      - US 🇺🇸-ss | 5-50
+      - CloudFlare 🇨🇱-ss | 5-51
+      - CloudFlare 🇨🇱-ss | 5-52
       - NL 🇳🇱-Hysteria | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
@@ -770,19 +731,13 @@ proxy-groups:
       - CloudFlare 🇨🇱-ss | 5-43
       - TW 🇹🇼-vmess | 5-44
       - VN 🇻🇳-ss | 5-45
-      - GB 🇬🇧-vless | 5-46
-      - US 🇺🇸-vless | 5-47
-      - CloudFlare 🇨🇱-trojan | 5-48
-      - CloudFlare 🇨🇱-trojan | 5-49
-      - CloudFlare 🇨🇱-trojan | 5-50
-      - CloudFlare 🇨🇱-trojan | 5-51
-      - CloudFlare 🇨🇱-trojan | 5-52
-      - CloudFlare 🇨🇱-trojan | 5-53
-      - CloudFlare 🇨🇱-trojan | 5-54
-      - JP 🇯🇵-ss | 5-55
-      - US 🇺🇸-ss | 5-56
-      - CloudFlare 🇨🇱-ss | 5-57
-      - CloudFlare 🇨🇱-ss | 5-58
+      - AU 🇦🇺-vless | 5-46
+      - GB 🇬🇧-vless | 5-47
+      - US 🇺🇸-vless | 5-48
+      - JP 🇯🇵-ss | 5-49
+      - US 🇺🇸-ss | 5-50
+      - CloudFlare 🇨🇱-ss | 5-51
+      - CloudFlare 🇨🇱-ss | 5-52
       - NL 🇳🇱-Hysteria | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
@@ -843,19 +798,13 @@ proxy-groups:
       - CloudFlare 🇨🇱-ss | 5-43
       - TW 🇹🇼-vmess | 5-44
       - VN 🇻🇳-ss | 5-45
-      - GB 🇬🇧-vless | 5-46
-      - US 🇺🇸-vless | 5-47
-      - CloudFlare 🇨🇱-trojan | 5-48
-      - CloudFlare 🇨🇱-trojan | 5-49
-      - CloudFlare 🇨🇱-trojan | 5-50
-      - CloudFlare 🇨🇱-trojan | 5-51
-      - CloudFlare 🇨🇱-trojan | 5-52
-      - CloudFlare 🇨🇱-trojan | 5-53
-      - CloudFlare 🇨🇱-trojan | 5-54
-      - JP 🇯🇵-ss | 5-55
-      - US 🇺🇸-ss | 5-56
-      - CloudFlare 🇨🇱-ss | 5-57
-      - CloudFlare 🇨🇱-ss | 5-58
+      - AU 🇦🇺-vless | 5-46
+      - GB 🇬🇧-vless | 5-47
+      - US 🇺🇸-vless | 5-48
+      - JP 🇯🇵-ss | 5-49
+      - US 🇺🇸-ss | 5-50
+      - CloudFlare 🇨🇱-ss | 5-51
+      - CloudFlare 🇨🇱-ss | 5-52
       - NL 🇳🇱-Hysteria | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
