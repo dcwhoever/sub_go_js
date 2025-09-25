@@ -84,9 +84,9 @@ vless://a76003a4-e5a5-45ca-a7b7-5a665a5e2a9b@www.speedtest.net:2082?encryption=n
 vless://539bccb6-2a84-4464-b99e-ea781f2fdaa6@tgju.org:80?encryption=none&flow=&security=none&type=ws&serviceName=&host=de.channel.digicyber.click&path=/olem/ws?ed=1024#CloudFlare 🇨🇱-vless | 5-92
 vless://01996e2d-b638-4e9f-2b24-38a6379f68a2@snipaste4.speedip.eu.org:2087?encryption=none&flow=&security=tls&sni=00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn&fp=&insecure=0&type=ws&serviceName=&host=00009xvyaetskbv0nfmo.3b0.3sedk8a0p.dxreh7ot7qv.iellib6.bkquusew.iwd1r.2zf0qdgs3rwb.clnj9s.74ck.yh1f9r4u636c5muf997u21lnvw.neib.cn&path=/snippetsfp=chrome#CloudFlare 🇨🇱-vless | 5-93
 vless://f4f8e632-334c-41a6-b4e9-e3fb21b82114@172.66.40.99:80?encryption=none&flow=&security=none&type=ws&serviceName=&host=websocket.network.www.speedtest.net.flutter.dev.russia.python.js.elmahstyle.xyz.&path=/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy#US 🇺🇸-vless | 5-94
-ss://YWVzLTI1Ni1nY206ODgwOGU5ZjExNDU0@137.220.142.139:443#JP 🇯🇵-ss | 5-95
-ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8774#CloudFlare 🇨🇱-ss | 5-96
-ss://YWVzLTI1Ni1nY206MmI1ZmFkMzg3NGU1@156.251.179.135:443#US 🇺🇸-ss | 5-97
+ss://YWVzLTI1Ni1nY206MmI1ZmFkMzg3NGU1@156.251.179.135:443#US 🇺🇸-ss | 5-95
+ss://YWVzLTI1Ni1nY206ODgwOGU5ZjExNDU0@137.220.142.139:443#JP 🇯🇵-ss | 5-96
+ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8774#CloudFlare 🇨🇱-ss | 5-97
 ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8766#CloudFlare 🇨🇱-ss | 5-98
 hysteria://109.104.153.91:37519/?protocol=udp&insecure=NaN&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#NL 🇳🇱-Hysteria | 0-0
 vmess://eyJ2IjoiMiIsInBzIjoi8J+PsyBDbG91ZEZsYXJlLXZtZXNzIHwgMC0wIiwiYWRkIjoiMTA0LjIxLjIzOC4zNSIsInBvcnQiOjIwODYsImlkIjoiZWU0MjBmZGEtZWZiNy00OGE4LTkyNDktODk4N2UzNmViZDllIiwiYWlkIjowLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImlwMjkuOTQ0NzYwOS54eXoiLCJwYXRoIjoiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCJ0bHMiOiIiLCJzbmkiOiIiLCJhbHBuIjoiIn0=

@@ -1103,31 +1103,7 @@ proxies:
       headers:
         Host: >-
           websocket.network.www.speedtest.net.flutter.dev.russia.python.js.elmahstyle.xyz.
-  - name: JP 🇯🇵-ss | 5-95
-    server: 137.220.142.139
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: 8808e9f11454
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: jp5v1.lingjfjkm002.com
-      path: /nvcnjrmkggoy
-      tls: true
-      mux: false
-      skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-ss | 5-96
-    server: cn01.efan8867801.xyz
-    port: 8774
-    type: ss
-    cipher: rc4-md5
-    password: efanccyun
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 202509121565513-HpWeCj5Hza.download.microsoft.com
-  - name: US 🇺🇸-ss | 5-97
+  - name: US 🇺🇸-ss | 5-95
     server: 156.251.179.135
     port: 443
     type: ss
@@ -1141,6 +1117,30 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
+  - name: JP 🇯🇵-ss | 5-96
+    server: 137.220.142.139
+    port: 443
+    type: ss
+    cipher: aes-256-gcm
+    password: 8808e9f11454
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: jp5v1.lingjfjkm002.com
+      path: /nvcnjrmkggoy
+      tls: true
+      mux: false
+      skip-cert-verify: false
+  - name: CloudFlare 🇨🇱-ss | 5-97
+    server: cn01.efan8867801.xyz
+    port: 8774
+    type: ss
+    cipher: rc4-md5
+    password: efanccyun
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 202509121565513-HpWeCj5Hza.download.microsoft.com
   - name: CloudFlare 🇨🇱-ss | 5-98
     server: cn01.efan8867801.xyz
     port: 8766
@@ -1324,9 +1324,9 @@ proxy-groups:
       - CloudFlare 🇨🇱-vless | 5-92
       - CloudFlare 🇨🇱-vless | 5-93
       - US 🇺🇸-vless | 5-94
-      - JP 🇯🇵-ss | 5-95
-      - CloudFlare 🇨🇱-ss | 5-96
-      - US 🇺🇸-ss | 5-97
+      - US 🇺🇸-ss | 5-95
+      - JP 🇯🇵-ss | 5-96
+      - CloudFlare 🇨🇱-ss | 5-97
       - CloudFlare 🇨🇱-ss | 5-98
       - NL 🇳🇱-Hysteria | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1437,9 +1437,9 @@ proxy-groups:
       - CloudFlare 🇨🇱-vless | 5-92
       - CloudFlare 🇨🇱-vless | 5-93
       - US 🇺🇸-vless | 5-94
-      - JP 🇯🇵-ss | 5-95
-      - CloudFlare 🇨🇱-ss | 5-96
-      - US 🇺🇸-ss | 5-97
+      - US 🇺🇸-ss | 5-95
+      - JP 🇯🇵-ss | 5-96
+      - CloudFlare 🇨🇱-ss | 5-97
       - CloudFlare 🇨🇱-ss | 5-98
       - NL 🇳🇱-Hysteria | 0-0
       - 🏳 CloudFlare-vmess | 0-0
