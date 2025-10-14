@@ -331,17 +331,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: MiraCLeOPV2RayyNGvpntheBestt
-  - name: DE 🇩🇪-hysteria2 | 5-31
-    server: 91.107.150.208
-    port: 443
-    type: hysteria2
-    password: Jjwvt9WrTp
-    auth: Jjwvt9WrTp
-    sni: hacks.mozilla.org
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: V2RayyNGvpnjdbdbMiracle
-  - name: US 🇺🇸-hysteria2 | 5-32
+  - name: US 🇺🇸-hysteria2 | 5-31
     server: 206.71.158.23
     port: 45000
     type: hysteria2
@@ -351,7 +341,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: CloudFlare 🇨🇱-hysteria2 | 5-33
+  - name: CloudFlare 🇨🇱-hysteria2 | 5-32
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -361,6 +351,16 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
+  - name: LV 🇱🇻-hysteria2 | 5-33
+    server: 138.124.60.198
+    port: 8443
+    type: hysteria2
+    password: TungFNUPI3
+    auth: TungFNUPI3
+    sni: cdnjs.cloudflare.com
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: MiraCLeOPV2RayyNGvpntheBestt
   - name: LV 🇱🇻-hysteria2 | 5-34
     server: 138.124.60.198
     port: 443
@@ -1105,9 +1105,9 @@ proxy-groups:
       - CloudFlare 🇨🇱-hysteria2 | 5-28
       - CloudFlare 🇨🇱-hysteria2 | 5-29
       - LV 🇱🇻-hysteria2 | 5-30
-      - DE 🇩🇪-hysteria2 | 5-31
-      - US 🇺🇸-hysteria2 | 5-32
-      - CloudFlare 🇨🇱-hysteria2 | 5-33
+      - US 🇺🇸-hysteria2 | 5-31
+      - CloudFlare 🇨🇱-hysteria2 | 5-32
+      - LV 🇱🇻-hysteria2 | 5-33
       - LV 🇱🇻-hysteria2 | 5-34
       - US 🇺🇸-hysteria2 | 5-35
       - US 🇺🇸-hysteria2 | 5-36
@@ -1221,9 +1221,9 @@ proxy-groups:
       - CloudFlare 🇨🇱-hysteria2 | 5-28
       - CloudFlare 🇨🇱-hysteria2 | 5-29
       - LV 🇱🇻-hysteria2 | 5-30
-      - DE 🇩🇪-hysteria2 | 5-31
-      - US 🇺🇸-hysteria2 | 5-32
-      - CloudFlare 🇨🇱-hysteria2 | 5-33
+      - US 🇺🇸-hysteria2 | 5-31
+      - CloudFlare 🇨🇱-hysteria2 | 5-32
+      - LV 🇱🇻-hysteria2 | 5-33
       - LV 🇱🇻-hysteria2 | 5-34
       - US 🇺🇸-hysteria2 | 5-35
       - US 🇺🇸-hysteria2 | 5-36
