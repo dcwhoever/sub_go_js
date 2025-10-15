@@ -555,28 +555,21 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-56
-    server: 221.128.195.222
-    port: 4400
+  - name: JP 🇯🇵-trojan | 5-56
+    server: 60.82.70.104
+    port: 443
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: HK 🇭🇰-trojan | 5-57
     server: 58.152.53.162
     port: 443
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: fe2.update.microsoft.com
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-58
-    server: 36.156.102.84
-    port: 1920
-    type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vmess | 5-59
+  - name: CloudFlare 🇨🇱-vmess | 5-58
     server: v6.heduian.link
     port: 30806
     type: vmess
@@ -590,72 +583,76 @@ proxies:
       path: /oooo
       headers:
         Host: ocbc.com
+  - name: CN 🇨🇳-trojan | 5-59
+    server: 36.156.102.84
+    port: 3272
+    type: trojan
+    password: c53647f3153f784b3c695ffbe5fb43c0
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: CN 🇨🇳-trojan | 5-60
     server: 36.156.102.84
-    port: 3271
+    port: 1806
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: JP 🇯🇵-ss | 5-61
-    server: 194.68.27.76
-    port: 989
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: SG 🇸🇬-ss | 5-62
-    server: 154.90.63.177
-    port: 989
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: CN 🇨🇳-trojan | 5-63
+  - name: CN 🇨🇳-trojan | 5-61
     server: 36.156.102.84
-    port: 2173
+    port: 2283
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-64
+  - name: CN 🇨🇳-trojan | 5-62
     server: 36.156.102.84
-    port: 5321
+    port: 1085
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: SG 🇸🇬-ss | 5-65
+  - name: SG 🇸🇬-ss | 5-63
     server: 5.44.249.43
     port: 2377
     type: ss
     cipher: chacha20-ietf-poly1305
     password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  - name: CN 🇨🇳-trojan | 5-66
+  - name: SG 🇸🇬-vmess | 5-64
+    server: 47.245.106.193
+    port: 22433
+    type: vmess
+    uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: CN 🇨🇳-trojan | 5-65
     server: 36.156.102.84
-    port: 24673
+    port: 6752
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: fe2.update.microsoft.com
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-67
+  - name: CN 🇨🇳-trojan | 5-66
     server: 36.156.102.84
     port: 2381
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: fe2.update.microsoft.com
     skip-cert-verify: false
-  - name: VN 🇻🇳-ss | 5-68
-    server: 103.186.154.27
+  - name: VN 🇻🇳-ss | 5-67
+    server: 103.186.154.237
     port: 38388
     type: ss
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: FR 🇫🇷-ss | 5-69
+  - name: FR 🇫🇷-ss | 5-68
     server: 13.39.112.103
     port: 443
     type: ss
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  - name: HK 🇭🇰-vmess | 5-70
+  - name: HK 🇭🇰-vmess | 5-69
     server: 43.247.135.17
     port: 41522
     type: vmess
@@ -664,26 +661,23 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: JP 🇯🇵-ss | 5-71
-    server: 194.68.27.76
-    port: 989
-    type: ss
-    cipher: ss
-    password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw
-  - name: SG 🇸🇬-ss | 5-72
-    server: 154.90.63.177
-    port: 989
-    type: ss
-    cipher: ss
-    password: //YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw
-  - name: VN 🇻🇳-ss | 5-73
-    server: 103.186.154.27
+  - name: SG 🇸🇬-vmess | 5-70
+    server: 47.245.106.193
+    port: 22433
+    type: vmess
+    uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: VN 🇻🇳-ss | 5-71
+    server: 103.186.154.237
     port: 38388
     type: ss
     cipher: ss
     password: >-
       //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  - name: CloudFlare 🇨🇱-vless | 5-74
+  - name: CloudFlare 🇨🇱-vless | 5-72
     server: net2026.zanddynastyofpersia.org
     port: 443
     type: vless
@@ -696,7 +690,7 @@ proxies:
       path: /eJsVXFVZ6iavNx1EFxOyH861WHfp=chrome
       headers:
         Host: net2026.zanddynastyofpersia.org
-  - name: RU 🇷🇺-vless | 5-75
+  - name: RU 🇷🇺-vless | 5-73
     server: 188.42.145.253
     port: 2096
     type: vless
@@ -709,7 +703,7 @@ proxies:
       path: /Telegram🇨🇳 @WangCai2 /?ed=2560security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: RU 🇷🇺-vless | 5-76
+  - name: RU 🇷🇺-vless | 5-74
     server: 188.42.145.253
     port: 2096
     type: vless
@@ -722,7 +716,7 @@ proxies:
       path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: RU 🇷🇺-trojan | 5-77
+  - name: RU 🇷🇺-trojan | 5-75
     server: 92.243.75.49
     port: 2087
     type: trojan
@@ -734,13 +728,13 @@ proxies:
       path: /
       headers:
         Host: hsdgbuys.pages.dev
-  - name: SG 🇸🇬-trojan | 5-78
+  - name: SG 🇸🇬-trojan | 5-76
     server: 38.180.106.124
     port: 8443
     type: trojan
     password: installshield
     skip-cert-verify: false
-  - name: 🏳 CloudFlare-vless | 5-79
+  - name: 🏳 CloudFlare-vless | 5-77
     server: 162.159.142.252
     port: 2083
     type: vless
@@ -755,7 +749,7 @@ proxies:
       path: /?ed=2560fp=random
       headers:
         Host: fei.634676.xyz
-  - name: US 🇺🇸-vless | 5-80
+  - name: US 🇺🇸-vless | 5-78
     server: 72.167.25.253
     port: 2096
     type: vless
@@ -768,7 +762,7 @@ proxies:
       path: /Telegramsecurity=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: CloudFlare 🇨🇱-vless | 5-81
+  - name: CloudFlare 🇨🇱-vless | 5-79
     server: www.speedtest.net
     port: 2082
     type: vless
@@ -783,7 +777,7 @@ proxies:
       headers:
         Host: >-
           novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-  - name: CloudFlare 🇨🇱-vless | 5-82
+  - name: CloudFlare 🇨🇱-vless | 5-80
     server: www.speedtest.net
     port: 80
     type: vless
@@ -798,7 +792,17 @@ proxies:
       headers:
         Host: >-
           websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.
-  - name: HK 🇭🇰-ss | 5-83
+  - name: SG 🇸🇬-ss | 5-81
+    server: 5.44.249.43
+    port: 2377
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: (TG @ripaojiedian)32cf132:178330
+  - name: HK 🇭🇰-ss | 5-82
     server: 103.103.245.158
     port: 443
     type: ss
@@ -812,16 +816,6 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: SG 🇸🇬-ss | 5-84
-    server: 5.44.249.43
-    port: 2377
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      mode: tls
-      host: (TG @ripaojiedian)32cf132:178330
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
     server: 109.104.153.91
@@ -963,35 +957,33 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 5-53
       - HK 🇭🇰-ss | 5-54
       - HK 🇭🇰-vmess | 5-55
-      - CN 🇨🇳-trojan | 5-56
+      - JP 🇯🇵-trojan | 5-56
       - HK 🇭🇰-trojan | 5-57
-      - CN 🇨🇳-trojan | 5-58
-      - CloudFlare 🇨🇱-vmess | 5-59
+      - CloudFlare 🇨🇱-vmess | 5-58
+      - CN 🇨🇳-trojan | 5-59
       - CN 🇨🇳-trojan | 5-60
-      - JP 🇯🇵-ss | 5-61
-      - SG 🇸🇬-ss | 5-62
-      - CN 🇨🇳-trojan | 5-63
-      - CN 🇨🇳-trojan | 5-64
-      - SG 🇸🇬-ss | 5-65
+      - CN 🇨🇳-trojan | 5-61
+      - CN 🇨🇳-trojan | 5-62
+      - SG 🇸🇬-ss | 5-63
+      - SG 🇸🇬-vmess | 5-64
+      - CN 🇨🇳-trojan | 5-65
       - CN 🇨🇳-trojan | 5-66
-      - CN 🇨🇳-trojan | 5-67
-      - VN 🇻🇳-ss | 5-68
-      - FR 🇫🇷-ss | 5-69
-      - HK 🇭🇰-vmess | 5-70
-      - JP 🇯🇵-ss | 5-71
-      - SG 🇸🇬-ss | 5-72
-      - VN 🇻🇳-ss | 5-73
-      - CloudFlare 🇨🇱-vless | 5-74
-      - RU 🇷🇺-vless | 5-75
-      - RU 🇷🇺-vless | 5-76
-      - RU 🇷🇺-trojan | 5-77
-      - SG 🇸🇬-trojan | 5-78
-      - 🏳 CloudFlare-vless | 5-79
-      - US 🇺🇸-vless | 5-80
-      - CloudFlare 🇨🇱-vless | 5-81
-      - CloudFlare 🇨🇱-vless | 5-82
-      - HK 🇭🇰-ss | 5-83
-      - SG 🇸🇬-ss | 5-84
+      - VN 🇻🇳-ss | 5-67
+      - FR 🇫🇷-ss | 5-68
+      - HK 🇭🇰-vmess | 5-69
+      - SG 🇸🇬-vmess | 5-70
+      - VN 🇻🇳-ss | 5-71
+      - CloudFlare 🇨🇱-vless | 5-72
+      - RU 🇷🇺-vless | 5-73
+      - RU 🇷🇺-vless | 5-74
+      - RU 🇷🇺-trojan | 5-75
+      - SG 🇸🇬-trojan | 5-76
+      - 🏳 CloudFlare-vless | 5-77
+      - US 🇺🇸-vless | 5-78
+      - CloudFlare 🇨🇱-vless | 5-79
+      - CloudFlare 🇨🇱-vless | 5-80
+      - SG 🇸🇬-ss | 5-81
+      - HK 🇭🇰-ss | 5-82
       - NL 🇳🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1063,35 +1055,33 @@ proxy-groups:
       - CloudFlare 🇨🇱-vmess | 5-53
       - HK 🇭🇰-ss | 5-54
       - HK 🇭🇰-vmess | 5-55
-      - CN 🇨🇳-trojan | 5-56
+      - JP 🇯🇵-trojan | 5-56
       - HK 🇭🇰-trojan | 5-57
-      - CN 🇨🇳-trojan | 5-58
-      - CloudFlare 🇨🇱-vmess | 5-59
+      - CloudFlare 🇨🇱-vmess | 5-58
+      - CN 🇨🇳-trojan | 5-59
       - CN 🇨🇳-trojan | 5-60
-      - JP 🇯🇵-ss | 5-61
-      - SG 🇸🇬-ss | 5-62
-      - CN 🇨🇳-trojan | 5-63
-      - CN 🇨🇳-trojan | 5-64
-      - SG 🇸🇬-ss | 5-65
+      - CN 🇨🇳-trojan | 5-61
+      - CN 🇨🇳-trojan | 5-62
+      - SG 🇸🇬-ss | 5-63
+      - SG 🇸🇬-vmess | 5-64
+      - CN 🇨🇳-trojan | 5-65
       - CN 🇨🇳-trojan | 5-66
-      - CN 🇨🇳-trojan | 5-67
-      - VN 🇻🇳-ss | 5-68
-      - FR 🇫🇷-ss | 5-69
-      - HK 🇭🇰-vmess | 5-70
-      - JP 🇯🇵-ss | 5-71
-      - SG 🇸🇬-ss | 5-72
-      - VN 🇻🇳-ss | 5-73
-      - CloudFlare 🇨🇱-vless | 5-74
-      - RU 🇷🇺-vless | 5-75
-      - RU 🇷🇺-vless | 5-76
-      - RU 🇷🇺-trojan | 5-77
-      - SG 🇸🇬-trojan | 5-78
-      - 🏳 CloudFlare-vless | 5-79
-      - US 🇺🇸-vless | 5-80
-      - CloudFlare 🇨🇱-vless | 5-81
-      - CloudFlare 🇨🇱-vless | 5-82
-      - HK 🇭🇰-ss | 5-83
-      - SG 🇸🇬-ss | 5-84
+      - VN 🇻🇳-ss | 5-67
+      - FR 🇫🇷-ss | 5-68
+      - HK 🇭🇰-vmess | 5-69
+      - SG 🇸🇬-vmess | 5-70
+      - VN 🇻🇳-ss | 5-71
+      - CloudFlare 🇨🇱-vless | 5-72
+      - RU 🇷🇺-vless | 5-73
+      - RU 🇷🇺-vless | 5-74
+      - RU 🇷🇺-trojan | 5-75
+      - SG 🇸🇬-trojan | 5-76
+      - 🏳 CloudFlare-vless | 5-77
+      - US 🇺🇸-vless | 5-78
+      - CloudFlare 🇨🇱-vless | 5-79
+      - CloudFlare 🇨🇱-vless | 5-80
+      - SG 🇸🇬-ss | 5-81
+      - HK 🇭🇰-ss | 5-82
       - NL 🇳🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
