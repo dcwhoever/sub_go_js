@@ -52,41 +52,34 @@ hysteria2://theredarmy@80.85.241.237:443/?sni=stackoverflow.com&insecure=0&obfs=
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@16.176.178.192:443#US 🇺🇸-ss | 5-47
 vmess://eyJ2IjoiMiIsInBzIjoiQ2xvdWRGbGFyZSDwn4eo8J+HsS12bWVzcyB8IDUtNDgiLCJhZGQiOiJ2OS5oZWR1aWFuLmxpbmsiLCJwb3J0IjozMDgwOSwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOjIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiYmFpZHUuY29tIiwicGF0aCI6Ii9vb29vIiwidGxzIjoiIiwic25pIjoiIiwiYWxwbiI6IiJ9
 ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443#HK 🇭🇰-ss | 5-49
-vmess://eyJ2IjoiMiIsInBzIjoiQVUg8J+HpvCfh7otdm1lc3MgfCA1LTUwIiwiYWRkIjoiMzguNTUuMTA2LjYyIiwicG9ydCI6NDExOTksImlkIjoiZTE4NjUwZTktMjY0Yi00YmY3LWJiY2UtZDg0NjY0MmRjZjI2IiwiYWlkIjowLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImhrLXZtaXNzLW40Lm5lYnVsYWNsb3VkLndpbiIsInBhdGgiOiIvaGstdm1pc3MtbjQvZ2V0RGF0YSIsInRscyI6IiIsInNuaSI6ImhrLXZtaXNzLW40Lm5lYnVsYWNsb3VkLndpbiIsImFscG4iOiIifQ==
-ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY=@103.149.183.154:8388#HK 🇭🇰-ss | 5-54
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-59
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-60
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-61
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYMlVRWHVUR3h3eEUxWk1hVFF3dHhT@174.138.29.1:60523#SG 🇸🇬-ss | 5-62
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.234:38388#VN 🇻🇳-ss | 5-65
-ss://c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2WVcxaGVtOXVjMnR5TURV@16.176.178.192:443#US 🇺🇸-ss | 5-66
-ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmpwaGMyUXhNak0wTlRZ@103.149.183.154:8388#HK 🇭🇰-ss | 5-68
-ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwWU1sVlJXSFZVUjNoM2VFVXhXazFoVkZGM2RIaFQ=@174.138.29.1:60523#SG 🇸🇬-ss | 5-69
-ss://c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X@103.186.154.234:38388#VN 🇻🇳-ss | 5-70
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@218.148.106.45:20880?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/telegram @freecodessecurity=tls#KR 🇰🇷-vless | 5-71
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@61.74.149.202:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-72
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@220.72.76.25:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-73
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@118.36.106.205:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-74
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@14.39.148.118:10019?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-75
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@106.245.216.35:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-76
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@220.72.76.25:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔fp=chrome#KR 🇰🇷-vless | 5-77
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@118.36.106.205:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔fp=chrome#KR 🇰🇷-vless | 5-78
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@222.113.18.207:16030?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔security=tls#KR 🇰🇷-vless | 5-79
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@61.74.149.202:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔fp=chrome#KR 🇰🇷-vless | 5-80
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@49.174.170.115:22577?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-81
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@27.100.189.152:50000?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/telegram @freecodessecurity=tls#KR 🇰🇷-vless | 5-82
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@112.156.154.95:30067?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/x @节点狂魔security=tls#KR 🇰🇷-vless | 5-83
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@211.184.175.180:50001?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/telegram @freecodessecurity=tls#KR 🇰🇷-vless | 5-84
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/Telegram@freecodes/?ed=2560security=tls#RU 🇷🇺-vless | 5-85
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560security=tls#RU 🇷🇺-vless | 5-86
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/freecodes@节点狂魔/?ed=2560security=tls#RU 🇷🇺-vless | 5-87
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/Telegram🇨🇳 @WangCai2 /?ed=2560security=tls#RU 🇷🇺-vless | 5-88
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/Telegram🇨🇳@WangCai2/?ed=2560security=tls#RU 🇷🇺-vless | 5-89
-vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/security=tls#RU 🇷🇺-vless | 5-90
-ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443#HK 🇭🇰-ss | 5-92
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-93
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-94
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-95
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-56
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-57
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-58
+ss://c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2WVcxaGVtOXVjMnR5TURV@16.176.178.192:443#US 🇺🇸-ss | 5-61
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@218.148.106.45:20880?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/telegram @freecodessecurity=tls#KR 🇰🇷-vless | 5-62
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@61.74.149.202:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-63
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@220.72.76.25:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-64
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@118.36.106.205:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-65
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@14.39.148.118:10019?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-66
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@106.245.216.35:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-67
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@220.72.76.25:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔fp=chrome#KR 🇰🇷-vless | 5-68
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@118.36.106.205:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔fp=chrome#KR 🇰🇷-vless | 5-69
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@222.113.18.207:16030?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔security=tls#KR 🇰🇷-vless | 5-70
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@61.74.149.202:50001?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔fp=chrome#KR 🇰🇷-vless | 5-71
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@49.174.170.115:22577?encryption=none&flow=&security=tls&sni=gaosir.unfeeling.sbs&fp=&insecure=0&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/X@节点狂魔/?ed=2560fp=chrome#KR 🇰🇷-vless | 5-72
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@27.100.189.152:50000?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/telegram @freecodessecurity=tls#KR 🇰🇷-vless | 5-73
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@112.156.154.95:30067?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/x @节点狂魔security=tls#KR 🇰🇷-vless | 5-74
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@211.184.175.180:50001?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/telegram @freecodessecurity=tls#KR 🇰🇷-vless | 5-75
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/Telegram@freecodes/?ed=2560security=tls#RU 🇷🇺-vless | 5-76
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560security=tls#RU 🇷🇺-vless | 5-77
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/freecodes@节点狂魔/?ed=2560security=tls#RU 🇷🇺-vless | 5-78
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/Telegram🇨🇳 @WangCai2 /?ed=2560security=tls#RU 🇷🇺-vless | 5-79
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/Telegram🇨🇳@WangCai2/?ed=2560security=tls#RU 🇷🇺-vless | 5-80
+vless://f61a4285-7264-4d07-9408-7b9ba1922c26@188.42.145.253:2096?encryption=none&flow=&security=none&type=ws&serviceName=&host=gaosir.unfeeling.sbs&path=/security=tls#RU 🇷🇺-vless | 5-81
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-83
+ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443#HK 🇭🇰-ss | 5-84
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-85
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg==@5.44.249.42:2377#SG 🇸🇬-ss | 5-86
 hysteria://109.104.153.91:37519/?protocol=udp&insecure=NaN&peer=apple.com&auth=dongtaiwang.com&upmbps=80&downmbps=100&alpn=h3&obfs=#NL 🇳🇱-Hysteria | 0-0
 hysteria2://dongtaiwang.com@[2001:NaN/?sni=apple.com&insecure=NaN#CloudFlare 🇨🇱-Hysteria2 | 0-0
 vmess://eyJ2IjoiMiIsInBzIjoi8J+PsyBDbG91ZEZsYXJlLXZtZXNzIHwgMC0wIiwiYWRkIjoiMTA0LjIxLjIzOC4zNSIsInBvcnQiOjIwODYsImlkIjoiZWU0MjBmZGEtZWZiNy00OGE4LTkyNDktODk4N2UzNmViZDllIiwiYWlkIjowLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6ImlwMjkuOTQ0NzYwOS54eXoiLCJwYXRoIjoiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCJ0bHMiOiIiLCJzbmkiOiIiLCJhbHBuIjoiIn0=

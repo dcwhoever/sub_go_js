@@ -503,157 +503,86 @@ proxies:
     type: ss
     cipher: aes-256-gcm
     password: ccf426f1fe78
-  - name: AU 🇦🇺-vmess | 5-50
-    server: 38.55.106.62
-    port: 41199
-    type: vmess
-    uuid: e18650e9-264b-4bf7-bbce-d846642dcf26
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: false
-    servername: hk-vmiss-n4.nebulacloud.win
-    network: ws
-    ws-opts:
-      path: /hk-vmiss-n4/getData
-      headers:
-        Host: hk-vmiss-n4.nebulacloud.win
-  - name: HK 🇭🇰-trojan | 5-51
-    server: 58.152.30.87
+  - name: HK 🇭🇰-trojan | 5-50
+    server: 58.152.30.92
     port: 443
     type: trojan
     password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: HK 🇭🇰-vmess | 5-52
-    server: 103.224.80.42
-    port: 38901
-    type: vmess
-    uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: HK 🇭🇰-trojan | 5-53
-    server: 203.198.123.249
-    port: 443
+  - name: CN 🇨🇳-trojan | 5-51
+    server: 36.151.195.112
+    port: 4556
     type: trojan
-    password: c53647f3153f784b3c695ffbe5fb43c0
-    sni: www.baidu.com
+    password: BxceQaOe
     skip-cert-verify: false
-  - name: HK 🇭🇰-ss | 5-54
-    server: 103.149.183.154
-    port: 8388
-    type: ss
-    cipher: chacha20-ietf
-    password: asd123456
-  - name: JP 🇯🇵-trojan | 5-55
-    server: 160.16.106.144
-    port: 316
-    type: trojan
-    password: c53647f3153f784b3c695ffbe5fb43c0
-    sni: www.baidu.com
-    skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-56
-    server: 160.16.106.144
+  - name: JP 🇯🇵-trojan | 5-52
+    server: 160.16.131.243
     port: 1331
     type: trojan
     password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.baidu.com
     skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-57
-    server: 153.121.56.122
+  - name: JP 🇯🇵-trojan | 5-53
+    server: 160.16.131.243
+    port: 316
+    type: trojan
+    password: c53647f3153f784b3c695ffbe5fb43c0
+    sni: www.baidu.com
+    skip-cert-verify: false
+  - name: JP 🇯🇵-trojan | 5-54
+    server: 153.121.41.97
     port: 5041
     type: trojan
     password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.baidu.com
     skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-58
-    server: 153.121.56.122
+  - name: JP 🇯🇵-trojan | 5-55
+    server: 160.16.131.243
     port: 5321
     type: trojan
     password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.baidu.com
     skip-cert-verify: false
-  - name: SG 🇸🇬-ss | 5-59
+  - name: SG 🇸🇬-ss | 5-56
     server: 5.44.249.42
     port: 2377
     type: ss
     cipher: chacha20-ietf-poly1305
     password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  - name: SG 🇸🇬-ss | 5-60
+  - name: SG 🇸🇬-ss | 5-57
     server: 5.44.249.42
     port: 2377
     type: ss
     cipher: chacha20-ietf-poly1305
     password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  - name: SG 🇸🇬-ss | 5-61
+  - name: SG 🇸🇬-ss | 5-58
     server: 5.44.249.42
     port: 2377
     type: ss
     cipher: chacha20-ietf-poly1305
     password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  - name: SG 🇸🇬-ss | 5-62
-    server: 174.138.29.1
-    port: 60523
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: X2UQXuTGxwxE1ZMaTQwtxS
-  - name: JP 🇯🇵-trojan | 5-63
-    server: 160.16.106.144
+  - name: JP 🇯🇵-trojan | 5-59
+    server: 153.121.41.97
     port: 2381
     type: trojan
     password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.baidu.com
     skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-64
-    server: 160.16.106.144
+  - name: JP 🇯🇵-trojan | 5-60
+    server: 153.121.41.97
     port: 2467
     type: trojan
     password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.baidu.com
     skip-cert-verify: false
-  - name: VN 🇻🇳-ss | 5-65
-    server: 103.186.154.234
-    port: 38388
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: US 🇺🇸-ss | 5-66
+  - name: US 🇺🇸-ss | 5-61
     server: 16.176.178.192
     port: 443
     type: ss
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  - name: HK 🇭🇰-vmess | 5-67
-    server: 103.224.80.42
-    port: 38901
-    type: vmess
-    uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: HK 🇭🇰-ss | 5-68
-    server: 103.149.183.154
-    port: 8388
-    type: ss
-    cipher: ss
-    password: //Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY
-  - name: SG 🇸🇬-ss | 5-69
-    server: 174.138.29.1
-    port: 60523
-    type: ss
-    cipher: ss
-    password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYMlVRWHVUR3h3eEUxWk1hVFF3dHhT
-  - name: VN 🇻🇳-ss | 5-70
-    server: 103.186.154.234
-    port: 38388
-    type: ss
-    cipher: ss
-    password: >-
-      //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  - name: KR 🇰🇷-vless | 5-71
+  - name: KR 🇰🇷-vless | 5-62
     server: 218.148.106.45
     port: 20880
     type: vless
@@ -666,7 +595,7 @@ proxies:
       path: /telegram @freecodessecurity=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-72
+  - name: KR 🇰🇷-vless | 5-63
     server: 61.74.149.202
     port: 50001
     type: vless
@@ -679,7 +608,7 @@ proxies:
       path: /X@节点狂魔/?ed=2560fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-73
+  - name: KR 🇰🇷-vless | 5-64
     server: 220.72.76.25
     port: 50001
     type: vless
@@ -692,7 +621,7 @@ proxies:
       path: /X@节点狂魔/?ed=2560fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-74
+  - name: KR 🇰🇷-vless | 5-65
     server: 118.36.106.205
     port: 50001
     type: vless
@@ -705,7 +634,7 @@ proxies:
       path: /X@节点狂魔/?ed=2560fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-75
+  - name: KR 🇰🇷-vless | 5-66
     server: 14.39.148.118
     port: 10019
     type: vless
@@ -718,7 +647,7 @@ proxies:
       path: /X@节点狂魔/?ed=2560fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-76
+  - name: KR 🇰🇷-vless | 5-67
     server: 106.245.216.35
     port: 50001
     type: vless
@@ -731,7 +660,7 @@ proxies:
       path: /X@节点狂魔/?ed=2560fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-77
+  - name: KR 🇰🇷-vless | 5-68
     server: 220.72.76.25
     port: 50001
     type: vless
@@ -744,7 +673,7 @@ proxies:
       path: /X@节点狂魔fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-78
+  - name: KR 🇰🇷-vless | 5-69
     server: 118.36.106.205
     port: 50001
     type: vless
@@ -757,7 +686,7 @@ proxies:
       path: /X@节点狂魔fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-79
+  - name: KR 🇰🇷-vless | 5-70
     server: 222.113.18.207
     port: 16030
     type: vless
@@ -770,7 +699,7 @@ proxies:
       path: /X@节点狂魔security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-80
+  - name: KR 🇰🇷-vless | 5-71
     server: 61.74.149.202
     port: 50001
     type: vless
@@ -783,7 +712,7 @@ proxies:
       path: /X@节点狂魔fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-81
+  - name: KR 🇰🇷-vless | 5-72
     server: 49.174.170.115
     port: 22577
     type: vless
@@ -796,7 +725,7 @@ proxies:
       path: /X@节点狂魔/?ed=2560fp=chrome
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-82
+  - name: KR 🇰🇷-vless | 5-73
     server: 27.100.189.152
     port: 50000
     type: vless
@@ -809,7 +738,7 @@ proxies:
       path: /telegram @freecodessecurity=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-83
+  - name: KR 🇰🇷-vless | 5-74
     server: 112.156.154.95
     port: 30067
     type: vless
@@ -822,7 +751,7 @@ proxies:
       path: /x @节点狂魔security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: KR 🇰🇷-vless | 5-84
+  - name: KR 🇰🇷-vless | 5-75
     server: 211.184.175.180
     port: 50001
     type: vless
@@ -835,7 +764,7 @@ proxies:
       path: /telegram @freecodessecurity=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: RU 🇷🇺-vless | 5-85
+  - name: RU 🇷🇺-vless | 5-76
     server: 188.42.145.253
     port: 2096
     type: vless
@@ -848,7 +777,7 @@ proxies:
       path: /Telegram@freecodes/?ed=2560security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: RU 🇷🇺-vless | 5-86
+  - name: RU 🇷🇺-vless | 5-77
     server: 188.42.145.253
     port: 2096
     type: vless
@@ -861,7 +790,7 @@ proxies:
       path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: RU 🇷🇺-vless | 5-87
+  - name: RU 🇷🇺-vless | 5-78
     server: 188.42.145.253
     port: 2096
     type: vless
@@ -874,7 +803,7 @@ proxies:
       path: /freecodes@节点狂魔/?ed=2560security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: RU 🇷🇺-vless | 5-88
+  - name: RU 🇷🇺-vless | 5-79
     server: 188.42.145.253
     port: 2096
     type: vless
@@ -887,7 +816,7 @@ proxies:
       path: /Telegram🇨🇳 @WangCai2 /?ed=2560security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: RU 🇷🇺-vless | 5-89
+  - name: RU 🇷🇺-vless | 5-80
     server: 188.42.145.253
     port: 2096
     type: vless
@@ -900,7 +829,7 @@ proxies:
       path: /Telegram🇨🇳@WangCai2/?ed=2560security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: RU 🇷🇺-vless | 5-90
+  - name: RU 🇷🇺-vless | 5-81
     server: 188.42.145.253
     port: 2096
     type: vless
@@ -913,7 +842,7 @@ proxies:
       path: /security=tls
       headers:
         Host: gaosir.unfeeling.sbs
-  - name: US 🇺🇸-trojan | 5-91
+  - name: US 🇺🇸-trojan | 5-82
     server: 172.67.192.215
     port: 443
     type: trojan
@@ -925,7 +854,17 @@ proxies:
       path: /Free-VPN-CF-Geo-Project/AE5
       headers:
         Host: joss.krikkrik.xyz
-  - name: HK 🇭🇰-ss | 5-92
+  - name: SG 🇸🇬-ss | 5-83
+    server: 5.44.249.42
+    port: 2377
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: 874b20d:48331
+  - name: HK 🇭🇰-ss | 5-84
     server: 103.103.245.158
     port: 443
     type: ss
@@ -939,17 +878,7 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: SG 🇸🇬-ss | 5-93
-    server: 5.44.249.42
-    port: 2377
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      mode: tls
-      host: 4a81070:6193
-  - name: SG 🇸🇬-ss | 5-94
+  - name: SG 🇸🇬-ss | 5-85
     server: 5.44.249.42
     port: 2377
     type: ss
@@ -959,7 +888,7 @@ proxies:
     plugin-opts:
       mode: tls
       host: d4cbbb2:42774
-  - name: SG 🇸🇬-ss | 5-95
+  - name: SG 🇸🇬-ss | 5-86
     server: 5.44.249.42
     port: 2377
     type: ss
@@ -968,7 +897,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: tls
-      host: 874b20d:48331
+      host: 4a81070:6193
   - name: NL 🇳🇱-Hysteria | 0-0
     type: hysteria
     server: 109.104.153.91
@@ -1104,52 +1033,43 @@ proxy-groups:
       - US 🇺🇸-ss | 5-47
       - CloudFlare 🇨🇱-vmess | 5-48
       - HK 🇭🇰-ss | 5-49
-      - AU 🇦🇺-vmess | 5-50
-      - HK 🇭🇰-trojan | 5-51
-      - HK 🇭🇰-vmess | 5-52
-      - HK 🇭🇰-trojan | 5-53
-      - HK 🇭🇰-ss | 5-54
+      - HK 🇭🇰-trojan | 5-50
+      - CN 🇨🇳-trojan | 5-51
+      - JP 🇯🇵-trojan | 5-52
+      - JP 🇯🇵-trojan | 5-53
+      - JP 🇯🇵-trojan | 5-54
       - JP 🇯🇵-trojan | 5-55
-      - JP 🇯🇵-trojan | 5-56
-      - JP 🇯🇵-trojan | 5-57
-      - JP 🇯🇵-trojan | 5-58
-      - SG 🇸🇬-ss | 5-59
-      - SG 🇸🇬-ss | 5-60
-      - SG 🇸🇬-ss | 5-61
-      - SG 🇸🇬-ss | 5-62
-      - JP 🇯🇵-trojan | 5-63
-      - JP 🇯🇵-trojan | 5-64
-      - VN 🇻🇳-ss | 5-65
-      - US 🇺🇸-ss | 5-66
-      - HK 🇭🇰-vmess | 5-67
-      - HK 🇭🇰-ss | 5-68
-      - SG 🇸🇬-ss | 5-69
-      - VN 🇻🇳-ss | 5-70
+      - SG 🇸🇬-ss | 5-56
+      - SG 🇸🇬-ss | 5-57
+      - SG 🇸🇬-ss | 5-58
+      - JP 🇯🇵-trojan | 5-59
+      - JP 🇯🇵-trojan | 5-60
+      - US 🇺🇸-ss | 5-61
+      - KR 🇰🇷-vless | 5-62
+      - KR 🇰🇷-vless | 5-63
+      - KR 🇰🇷-vless | 5-64
+      - KR 🇰🇷-vless | 5-65
+      - KR 🇰🇷-vless | 5-66
+      - KR 🇰🇷-vless | 5-67
+      - KR 🇰🇷-vless | 5-68
+      - KR 🇰🇷-vless | 5-69
+      - KR 🇰🇷-vless | 5-70
       - KR 🇰🇷-vless | 5-71
       - KR 🇰🇷-vless | 5-72
       - KR 🇰🇷-vless | 5-73
       - KR 🇰🇷-vless | 5-74
       - KR 🇰🇷-vless | 5-75
-      - KR 🇰🇷-vless | 5-76
-      - KR 🇰🇷-vless | 5-77
-      - KR 🇰🇷-vless | 5-78
-      - KR 🇰🇷-vless | 5-79
-      - KR 🇰🇷-vless | 5-80
-      - KR 🇰🇷-vless | 5-81
-      - KR 🇰🇷-vless | 5-82
-      - KR 🇰🇷-vless | 5-83
-      - KR 🇰🇷-vless | 5-84
-      - RU 🇷🇺-vless | 5-85
-      - RU 🇷🇺-vless | 5-86
-      - RU 🇷🇺-vless | 5-87
-      - RU 🇷🇺-vless | 5-88
-      - RU 🇷🇺-vless | 5-89
-      - RU 🇷🇺-vless | 5-90
-      - US 🇺🇸-trojan | 5-91
-      - HK 🇭🇰-ss | 5-92
-      - SG 🇸🇬-ss | 5-93
-      - SG 🇸🇬-ss | 5-94
-      - SG 🇸🇬-ss | 5-95
+      - RU 🇷🇺-vless | 5-76
+      - RU 🇷🇺-vless | 5-77
+      - RU 🇷🇺-vless | 5-78
+      - RU 🇷🇺-vless | 5-79
+      - RU 🇷🇺-vless | 5-80
+      - RU 🇷🇺-vless | 5-81
+      - US 🇺🇸-trojan | 5-82
+      - SG 🇸🇬-ss | 5-83
+      - HK 🇭🇰-ss | 5-84
+      - SG 🇸🇬-ss | 5-85
+      - SG 🇸🇬-ss | 5-86
       - NL 🇳🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1215,52 +1135,43 @@ proxy-groups:
       - US 🇺🇸-ss | 5-47
       - CloudFlare 🇨🇱-vmess | 5-48
       - HK 🇭🇰-ss | 5-49
-      - AU 🇦🇺-vmess | 5-50
-      - HK 🇭🇰-trojan | 5-51
-      - HK 🇭🇰-vmess | 5-52
-      - HK 🇭🇰-trojan | 5-53
-      - HK 🇭🇰-ss | 5-54
+      - HK 🇭🇰-trojan | 5-50
+      - CN 🇨🇳-trojan | 5-51
+      - JP 🇯🇵-trojan | 5-52
+      - JP 🇯🇵-trojan | 5-53
+      - JP 🇯🇵-trojan | 5-54
       - JP 🇯🇵-trojan | 5-55
-      - JP 🇯🇵-trojan | 5-56
-      - JP 🇯🇵-trojan | 5-57
-      - JP 🇯🇵-trojan | 5-58
-      - SG 🇸🇬-ss | 5-59
-      - SG 🇸🇬-ss | 5-60
-      - SG 🇸🇬-ss | 5-61
-      - SG 🇸🇬-ss | 5-62
-      - JP 🇯🇵-trojan | 5-63
-      - JP 🇯🇵-trojan | 5-64
-      - VN 🇻🇳-ss | 5-65
-      - US 🇺🇸-ss | 5-66
-      - HK 🇭🇰-vmess | 5-67
-      - HK 🇭🇰-ss | 5-68
-      - SG 🇸🇬-ss | 5-69
-      - VN 🇻🇳-ss | 5-70
+      - SG 🇸🇬-ss | 5-56
+      - SG 🇸🇬-ss | 5-57
+      - SG 🇸🇬-ss | 5-58
+      - JP 🇯🇵-trojan | 5-59
+      - JP 🇯🇵-trojan | 5-60
+      - US 🇺🇸-ss | 5-61
+      - KR 🇰🇷-vless | 5-62
+      - KR 🇰🇷-vless | 5-63
+      - KR 🇰🇷-vless | 5-64
+      - KR 🇰🇷-vless | 5-65
+      - KR 🇰🇷-vless | 5-66
+      - KR 🇰🇷-vless | 5-67
+      - KR 🇰🇷-vless | 5-68
+      - KR 🇰🇷-vless | 5-69
+      - KR 🇰🇷-vless | 5-70
       - KR 🇰🇷-vless | 5-71
       - KR 🇰🇷-vless | 5-72
       - KR 🇰🇷-vless | 5-73
       - KR 🇰🇷-vless | 5-74
       - KR 🇰🇷-vless | 5-75
-      - KR 🇰🇷-vless | 5-76
-      - KR 🇰🇷-vless | 5-77
-      - KR 🇰🇷-vless | 5-78
-      - KR 🇰🇷-vless | 5-79
-      - KR 🇰🇷-vless | 5-80
-      - KR 🇰🇷-vless | 5-81
-      - KR 🇰🇷-vless | 5-82
-      - KR 🇰🇷-vless | 5-83
-      - KR 🇰🇷-vless | 5-84
-      - RU 🇷🇺-vless | 5-85
-      - RU 🇷🇺-vless | 5-86
-      - RU 🇷🇺-vless | 5-87
-      - RU 🇷🇺-vless | 5-88
-      - RU 🇷🇺-vless | 5-89
-      - RU 🇷🇺-vless | 5-90
-      - US 🇺🇸-trojan | 5-91
-      - HK 🇭🇰-ss | 5-92
-      - SG 🇸🇬-ss | 5-93
-      - SG 🇸🇬-ss | 5-94
-      - SG 🇸🇬-ss | 5-95
+      - RU 🇷🇺-vless | 5-76
+      - RU 🇷🇺-vless | 5-77
+      - RU 🇷🇺-vless | 5-78
+      - RU 🇷🇺-vless | 5-79
+      - RU 🇷🇺-vless | 5-80
+      - RU 🇷🇺-vless | 5-81
+      - US 🇺🇸-trojan | 5-82
+      - SG 🇸🇬-ss | 5-83
+      - HK 🇭🇰-ss | 5-84
+      - SG 🇸🇬-ss | 5-85
+      - SG 🇸🇬-ss | 5-86
       - NL 🇳🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
