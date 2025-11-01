@@ -785,7 +785,20 @@ proxies:
     cipher: ss
     password: >-
       //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  - name: HK 🇭🇰-ss | 5-86
+  - name: CloudFlare 🇨🇱-vless | 5-86
+    server: freeyx.cloudflare88.eu.org
+    port: 443
+    type: vless
+    uuid: a7a89fed-0fa5-48ea-9cc9-ccf67d0b6cb2
+    tls: true
+    skip-cert-verify: false
+    servername: do-syd1.008883.xyz
+    network: ws
+    ws-opts:
+      path: /announcement?ed=2048fp=random
+      headers:
+        Host: do-syd1.008883.xyz
+  - name: HK 🇭🇰-ss | 5-87
     server: 103.103.245.158
     port: 443
     type: ss
@@ -855,25 +868,6 @@ proxies:
     reality-opts:
       public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
       short-id: ''
-  - name: FR 🇫🇷-vmess | 3-0
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    servername: ''
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: ''
-      headers: {}
-    grpc-opts:
-      serviceName: /
-    h2-opts:
-      path: /
-      host: []
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -971,12 +965,12 @@ proxy-groups:
       - VN 🇻🇳-ss | 5-83
       - GB 🇬🇧-ss | 5-84
       - VN 🇻🇳-ss | 5-85
-      - HK 🇭🇰-ss | 5-86
+      - CloudFlare 🇨🇱-vless | 5-86
+      - HK 🇭🇰-ss | 5-87
       - NL 🇳🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
-      - FR 🇫🇷-vmess | 3-0
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1073,12 +1067,12 @@ proxy-groups:
       - VN 🇻🇳-ss | 5-83
       - GB 🇬🇧-ss | 5-84
       - VN 🇻🇳-ss | 5-85
-      - HK 🇭🇰-ss | 5-86
+      - CloudFlare 🇨🇱-vless | 5-86
+      - HK 🇭🇰-ss | 5-87
       - NL 🇳🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
-      - FR 🇫🇷-vmess | 3-0
   - name: ⚖ 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -1175,12 +1169,12 @@ proxy-groups:
       - VN 🇻🇳-ss | 5-83
       - GB 🇬🇧-ss | 5-84
       - VN 🇻🇳-ss | 5-85
-      - HK 🇭🇰-ss | 5-86
+      - CloudFlare 🇨🇱-vless | 5-86
+      - HK 🇭🇰-ss | 5-87
       - NL 🇳🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
-      - FR 🇫🇷-vmess | 3-0
   - name: ☁ WARP前置节点
     type: select
     proxies:
