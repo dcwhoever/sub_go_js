@@ -884,7 +884,36 @@ proxies:
     cipher: ss
     password: >-
       //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  - name: HK 🇭🇰-ss | 5-96
+  - name: CloudFlare 🇨🇱-trojan | 5-96
+    server: naiu-hk.05vr9nyqg5.download
+    port: 13007
+    type: trojan
+    password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    skip-cert-verify: false
+  - name: HK 🇭🇰-trojan | 5-97
+    server: 58.152.46.98
+    port: 443
+    type: trojan
+    password: BxceQaOe
+    sni: 58.152.46.98
+    skip-cert-verify: false
+  - name: CloudFlare 🇨🇱-vless | 5-98
+    server: ef87bb2b.meti-e9q.pages.dev
+    port: 443
+    type: vless
+    uuid: 923509aa-bfb0-4758-a5a1-a6c2d0468169
+    tls: true
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    servername: ef87bb2b.meti-e9q.pages.dev
+    network: ws
+    ws-opts:
+      path: /ck2vlelfdajoybac?ed=2560fp=chrome
+      headers:
+        Host: ef87bb2b.meti-e9q.pages.dev
+  - name: HK 🇭🇰-ss | 5-99
     server: 103.103.245.158
     port: 443
     type: ss
@@ -1080,7 +1109,10 @@ proxy-groups:
       - GB 🇬🇧-ss | 5-93
       - CN 🇨🇳-vmess | 5-94
       - VN 🇻🇳-ss | 5-95
-      - HK 🇭🇰-ss | 5-96
+      - CloudFlare 🇨🇱-trojan | 5-96
+      - HK 🇭🇰-trojan | 5-97
+      - CloudFlare 🇨🇱-vless | 5-98
+      - HK 🇭🇰-ss | 5-99
       - LU 🇱🇺-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1192,7 +1224,10 @@ proxy-groups:
       - GB 🇬🇧-ss | 5-93
       - CN 🇨🇳-vmess | 5-94
       - VN 🇻🇳-ss | 5-95
-      - HK 🇭🇰-ss | 5-96
+      - CloudFlare 🇨🇱-trojan | 5-96
+      - HK 🇭🇰-trojan | 5-97
+      - CloudFlare 🇨🇱-vless | 5-98
+      - HK 🇭🇰-ss | 5-99
       - LU 🇱🇺-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1304,7 +1339,10 @@ proxy-groups:
       - GB 🇬🇧-ss | 5-93
       - CN 🇨🇳-vmess | 5-94
       - VN 🇻🇳-ss | 5-95
-      - HK 🇭🇰-ss | 5-96
+      - CloudFlare 🇨🇱-trojan | 5-96
+      - HK 🇭🇰-trojan | 5-97
+      - CloudFlare 🇨🇱-vless | 5-98
+      - HK 🇭🇰-ss | 5-99
       - LU 🇱🇺-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
