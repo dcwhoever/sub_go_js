@@ -794,16 +794,16 @@ proxies:
     type: ss
     cipher: aes-256-gcm
     password: ccf426f1fe78
-  - name: HK 🇭🇰-trojan | 5-83
-    server: 58.152.110.25
-    port: 443
+  - name: CN 🇨🇳-trojan | 5-83
+    server: 221.128.195.13
+    port: 3841
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-84
-    server: 36.150.215.247
-    port: 1251
+  - name: HK 🇭🇰-trojan | 5-84
+    server: 203.198.122.97
+    port: 443
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
@@ -815,108 +815,128 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: BD 🇧🇩-vmess | 5-86
-    server: 175.29.22.101
-    port: 28034
-    type: vmess
-    uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-87
-    server: 36.150.215.248
-    port: 881
+  - name: CN 🇨🇳-trojan | 5-86
+    server: 36.150.215.246
+    port: 5156
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-88
-    server: 117.172.176.22
+  - name: JP 🇯🇵-trojan | 5-87
+    server: 160.16.136.130
     port: 1334
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-89
-    server: 117.172.176.22
-    port: 4095
+  - name: JP 🇯🇵-trojan | 5-88
+    server: 160.16.136.130
+    port: 3169
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-90
-    server: 117.172.176.22
+  - name: SG 🇸🇬-vmess | 5-89
+    server: 1.32.216.163
+    port: 27578
+    type: vmess
+    uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: JP 🇯🇵-trojan | 5-90
+    server: 160.16.138.24
     port: 2283
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-91
-    server: 117.172.176.22
+  - name: JP 🇯🇵-trojan | 5-91
+    server: 160.16.138.24
     port: 2173
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: CN 🇨🇳-trojan | 5-92
-    server: 36.150.215.248
-    port: 8041
+    server: 36.150.215.147
+    port: 4666
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: JP 🇯🇵-trojan | 5-93
-    server: 153.121.44.99
-    port: 5097
+    server: 160.16.138.24
+    port: 674
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-94
-    server: 117.172.176.22
-    port: 4173
+  - name: JP 🇯🇵-trojan | 5-94
+    server: 160.16.138.24
+    port: 674
     type: trojan
     password: e4e262d453466988575c397a30562337
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-95
-    server: 36.151.251.38
-    port: 38799
+  - name: HK 🇭🇰-trojan | 5-95
+    server: 116.49.237.130
+    port: 4569
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: GB 🇬🇧-ss | 5-96
+  - name: VN 🇻🇳-ss | 5-96
+    server: 103.186.154.59
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: GB 🇬🇧-ss | 5-97
     server: 3.9.17.198
     port: 443
     type: ss
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  - name: BD 🇧🇩-vmess | 5-97
-    server: 175.29.22.101
-    port: 28034
+  - name: SG 🇸🇬-vmess | 5-98
+    server: 1.32.216.163
+    port: 27578
     type: vmess
-    uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
+    uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: CN 🇨🇳-trojan | 5-98
+  - name: VN 🇻🇳-ss | 5-99
+    server: 103.186.154.59
+    port: 38388
+    type: ss
+    cipher: ss
+    password: >-
+      //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
+  - name: CN 🇨🇳-trojan | 5-100
     server: 36.151.251.38
     port: 38799
     type: trojan
     password: BxceQaOe
     sni: t.me/ripaojiedian
     skip-cert-verify: false
-  - name: HK 🇭🇰-trojan | 5-99
+  - name: CN 🇨🇳-trojan | 5-101
+    server: 36.151.251.38
+    port: 38799
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
+  - name: HK 🇭🇰-trojan | 5-102
     server: 203.198.122.129
     port: 443
     type: trojan
     password: BxceQaOe
     sni: 203.198.122.129
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vless | 5-100
+  - name: CloudFlare 🇨🇱-vless | 5-103
     server: fl-3-direct.djarbnet.ru
     port: 443
     type: vless
@@ -929,14 +949,14 @@ proxies:
       path: /getupdatessecurity=tls
       headers:
         Host: fl-3-direct.djarbnet.ru
-  - name: US 🇺🇸-trojan | 5-101
+  - name: US 🇺🇸-trojan | 5-104
     server: 51.45.27.162
     port: 22223
     type: trojan
     password: telegram-id-directvpn
     sni: trojan.burgerip.co.uk
     skip-cert-verify: false
-  - name: HK 🇭🇰-ss | 5-102
+  - name: HK 🇭🇰-ss | 5-105
     server: 103.103.245.158
     port: 443
     type: ss
@@ -1006,6 +1026,25 @@ proxies:
     reality-opts:
       public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
       short-id: ''
+  - name: FR 🇫🇷-vmess | 3-0
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: ''
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: ''
+      headers: {}
+    grpc-opts:
+      serviceName: /
+    h2-opts:
+      path: /
+      host: []
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -1100,30 +1139,34 @@ proxy-groups:
       - GB 🇬🇧-ss | 5-80
       - CloudFlare 🇨🇱-vmess | 5-81
       - HK 🇭🇰-ss | 5-82
-      - HK 🇭🇰-trojan | 5-83
-      - CN 🇨🇳-trojan | 5-84
+      - CN 🇨🇳-trojan | 5-83
+      - HK 🇭🇰-trojan | 5-84
       - HK 🇭🇰-trojan | 5-85
-      - BD 🇧🇩-vmess | 5-86
-      - CN 🇨🇳-trojan | 5-87
-      - CN 🇨🇳-trojan | 5-88
-      - CN 🇨🇳-trojan | 5-89
-      - CN 🇨🇳-trojan | 5-90
-      - CN 🇨🇳-trojan | 5-91
+      - CN 🇨🇳-trojan | 5-86
+      - JP 🇯🇵-trojan | 5-87
+      - JP 🇯🇵-trojan | 5-88
+      - SG 🇸🇬-vmess | 5-89
+      - JP 🇯🇵-trojan | 5-90
+      - JP 🇯🇵-trojan | 5-91
       - CN 🇨🇳-trojan | 5-92
       - JP 🇯🇵-trojan | 5-93
-      - CN 🇨🇳-trojan | 5-94
-      - CN 🇨🇳-trojan | 5-95
-      - GB 🇬🇧-ss | 5-96
-      - BD 🇧🇩-vmess | 5-97
-      - CN 🇨🇳-trojan | 5-98
-      - HK 🇭🇰-trojan | 5-99
-      - CloudFlare 🇨🇱-vless | 5-100
-      - US 🇺🇸-trojan | 5-101
-      - HK 🇭🇰-ss | 5-102
+      - JP 🇯🇵-trojan | 5-94
+      - HK 🇭🇰-trojan | 5-95
+      - VN 🇻🇳-ss | 5-96
+      - GB 🇬🇧-ss | 5-97
+      - SG 🇸🇬-vmess | 5-98
+      - VN 🇻🇳-ss | 5-99
+      - CN 🇨🇳-trojan | 5-100
+      - CN 🇨🇳-trojan | 5-101
+      - HK 🇭🇰-trojan | 5-102
+      - CloudFlare 🇨🇱-vless | 5-103
+      - US 🇺🇸-trojan | 5-104
+      - HK 🇭🇰-ss | 5-105
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
+      - FR 🇫🇷-vmess | 3-0
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1217,30 +1260,34 @@ proxy-groups:
       - GB 🇬🇧-ss | 5-80
       - CloudFlare 🇨🇱-vmess | 5-81
       - HK 🇭🇰-ss | 5-82
-      - HK 🇭🇰-trojan | 5-83
-      - CN 🇨🇳-trojan | 5-84
+      - CN 🇨🇳-trojan | 5-83
+      - HK 🇭🇰-trojan | 5-84
       - HK 🇭🇰-trojan | 5-85
-      - BD 🇧🇩-vmess | 5-86
-      - CN 🇨🇳-trojan | 5-87
-      - CN 🇨🇳-trojan | 5-88
-      - CN 🇨🇳-trojan | 5-89
-      - CN 🇨🇳-trojan | 5-90
-      - CN 🇨🇳-trojan | 5-91
+      - CN 🇨🇳-trojan | 5-86
+      - JP 🇯🇵-trojan | 5-87
+      - JP 🇯🇵-trojan | 5-88
+      - SG 🇸🇬-vmess | 5-89
+      - JP 🇯🇵-trojan | 5-90
+      - JP 🇯🇵-trojan | 5-91
       - CN 🇨🇳-trojan | 5-92
       - JP 🇯🇵-trojan | 5-93
-      - CN 🇨🇳-trojan | 5-94
-      - CN 🇨🇳-trojan | 5-95
-      - GB 🇬🇧-ss | 5-96
-      - BD 🇧🇩-vmess | 5-97
-      - CN 🇨🇳-trojan | 5-98
-      - HK 🇭🇰-trojan | 5-99
-      - CloudFlare 🇨🇱-vless | 5-100
-      - US 🇺🇸-trojan | 5-101
-      - HK 🇭🇰-ss | 5-102
+      - JP 🇯🇵-trojan | 5-94
+      - HK 🇭🇰-trojan | 5-95
+      - VN 🇻🇳-ss | 5-96
+      - GB 🇬🇧-ss | 5-97
+      - SG 🇸🇬-vmess | 5-98
+      - VN 🇻🇳-ss | 5-99
+      - CN 🇨🇳-trojan | 5-100
+      - CN 🇨🇳-trojan | 5-101
+      - HK 🇭🇰-trojan | 5-102
+      - CloudFlare 🇨🇱-vless | 5-103
+      - US 🇺🇸-trojan | 5-104
+      - HK 🇭🇰-ss | 5-105
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
+      - FR 🇫🇷-vmess | 3-0
   - name: ⚖ 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -1334,30 +1381,34 @@ proxy-groups:
       - GB 🇬🇧-ss | 5-80
       - CloudFlare 🇨🇱-vmess | 5-81
       - HK 🇭🇰-ss | 5-82
-      - HK 🇭🇰-trojan | 5-83
-      - CN 🇨🇳-trojan | 5-84
+      - CN 🇨🇳-trojan | 5-83
+      - HK 🇭🇰-trojan | 5-84
       - HK 🇭🇰-trojan | 5-85
-      - BD 🇧🇩-vmess | 5-86
-      - CN 🇨🇳-trojan | 5-87
-      - CN 🇨🇳-trojan | 5-88
-      - CN 🇨🇳-trojan | 5-89
-      - CN 🇨🇳-trojan | 5-90
-      - CN 🇨🇳-trojan | 5-91
+      - CN 🇨🇳-trojan | 5-86
+      - JP 🇯🇵-trojan | 5-87
+      - JP 🇯🇵-trojan | 5-88
+      - SG 🇸🇬-vmess | 5-89
+      - JP 🇯🇵-trojan | 5-90
+      - JP 🇯🇵-trojan | 5-91
       - CN 🇨🇳-trojan | 5-92
       - JP 🇯🇵-trojan | 5-93
-      - CN 🇨🇳-trojan | 5-94
-      - CN 🇨🇳-trojan | 5-95
-      - GB 🇬🇧-ss | 5-96
-      - BD 🇧🇩-vmess | 5-97
-      - CN 🇨🇳-trojan | 5-98
-      - HK 🇭🇰-trojan | 5-99
-      - CloudFlare 🇨🇱-vless | 5-100
-      - US 🇺🇸-trojan | 5-101
-      - HK 🇭🇰-ss | 5-102
+      - JP 🇯🇵-trojan | 5-94
+      - HK 🇭🇰-trojan | 5-95
+      - VN 🇻🇳-ss | 5-96
+      - GB 🇬🇧-ss | 5-97
+      - SG 🇸🇬-vmess | 5-98
+      - VN 🇻🇳-ss | 5-99
+      - CN 🇨🇳-trojan | 5-100
+      - CN 🇨🇳-trojan | 5-101
+      - HK 🇭🇰-trojan | 5-102
+      - CloudFlare 🇨🇱-vless | 5-103
+      - US 🇺🇸-trojan | 5-104
+      - HK 🇭🇰-ss | 5-105
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
+      - FR 🇫🇷-vmess | 3-0
   - name: ☁ WARP前置节点
     type: select
     proxies:
