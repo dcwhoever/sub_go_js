@@ -1175,45 +1175,45 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: CN 🇨🇳-vmess | 5-131
-    server: 8.138.208.3
-    port: 11209
-    type: vmess
-    uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-132
-    server: 153.121.53.187
-    port: 2145
+  - name: JP 🇯🇵-trojan | 5-131
+    server: 160.16.85.138
+    port: 4492
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-133
-    server: 160.16.131.243
+  - name: JP 🇯🇵-trojan | 5-132
+    server: 160.16.240.91
     port: 1334
     type: trojan
     password: dd2f25b4c70689de8bc0f7fa9d6591cb
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-134
-    server: 202.181.103.246
-    port: 1334
+  - name: JP 🇯🇵-trojan | 5-133
+    server: 160.16.150.76
+    port: 3093
     type: trojan
     password: dd2f25b4c70689de8bc0f7fa9d6591cb
     sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: JP 🇯🇵-vmess | 5-134
+    server: 178.157.57.166
+    port: 15003
+    type: vmess
+    uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: false
   - name: JP 🇯🇵-trojan | 5-135
-    server: 202.181.103.246
+    server: 160.16.240.91
     port: 5553
     type: trojan
     password: dd2f25b4c70689de8bc0f7fa9d6591cb
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: US 🇺🇸-trojan | 5-136
-    server: 162.16.131.243
+  - name: JP 🇯🇵-trojan | 5-136
+    server: 160.16.116.227
     port: 127
     type: trojan
     password: dd2f25b4c70689de8bc0f7fa9d6591cb
@@ -1221,34 +1221,34 @@ proxies:
     skip-cert-verify: false
   - name: HK 🇭🇰-trojan | 5-137
     server: 116.49.237.130
-    port: 3579
+    port: 2673
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: JP 🇯🇵-trojan | 5-138
-    server: 153.121.76.9
-    port: 4054
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-139
-    server: 160.16.131.243
+    server: 160.16.70.180
     port: 4210
     type: trojan
     password: dd2f25b4c70689de8bc0f7fa9d6591cb
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: JP 🇯🇵-trojan | 5-139
+    server: 160.16.70.180
+    port: 4211
+    type: trojan
+    password: dd2f25b4c70689de8bc0f7fa9d6591cb
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: HK 🇭🇰-trojan | 5-140
-    server: 16.162.87.79
-    port: 2173
+    server: 116.49.237.130
+    port: 2569
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: VN 🇻🇳-ss | 5-141
-    server: 103.186.154.53
+    server: 103.186.154.225
     port: 38388
     type: ss
     cipher: aes-256-cfb
@@ -1259,17 +1259,17 @@ proxies:
     type: ss
     cipher: ss
     password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  - name: CN 🇨🇳-vmess | 5-143
-    server: 8.138.208.3
-    port: 11209
+  - name: JP 🇯🇵-vmess | 5-143
+    server: 178.157.57.166
+    port: 15003
     type: vmess
-    uuid: d975a2bf-0fa0-3c3e-947a-a7c75b159b1c
-    alterId: 2
+    uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
   - name: VN 🇻🇳-ss | 5-144
-    server: 103.186.154.53
+    server: 103.186.154.225
     port: 38388
     type: ss
     cipher: ss
@@ -1358,25 +1358,6 @@ proxies:
     reality-opts:
       public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
       short-id: ''
-  - name: FR 🇫🇷-vmess | 3-0
-    type: vmess
-    server: 2001:bc8:32d7:302::10
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
-    servername: ''
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: ''
-      headers: {}
-    grpc-opts:
-      serviceName: /
-    h2-opts:
-      path: /
-      host: []
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -1518,19 +1499,19 @@ proxy-groups:
       - HK 🇭🇰-trojan | 5-128
       - HK 🇭🇰-trojan | 5-129
       - HK 🇭🇰-trojan | 5-130
-      - CN 🇨🇳-vmess | 5-131
+      - JP 🇯🇵-trojan | 5-131
       - JP 🇯🇵-trojan | 5-132
       - JP 🇯🇵-trojan | 5-133
-      - JP 🇯🇵-trojan | 5-134
+      - JP 🇯🇵-vmess | 5-134
       - JP 🇯🇵-trojan | 5-135
-      - US 🇺🇸-trojan | 5-136
+      - JP 🇯🇵-trojan | 5-136
       - HK 🇭🇰-trojan | 5-137
       - JP 🇯🇵-trojan | 5-138
       - JP 🇯🇵-trojan | 5-139
       - HK 🇭🇰-trojan | 5-140
       - VN 🇻🇳-ss | 5-141
       - GB 🇬🇧-ss | 5-142
-      - CN 🇨🇳-vmess | 5-143
+      - JP 🇯🇵-vmess | 5-143
       - VN 🇻🇳-ss | 5-144
       - RU 🇷🇺-vless | 5-145
       - HK 🇭🇰-ss | 5-146
@@ -1538,7 +1519,6 @@ proxy-groups:
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
-      - FR 🇫🇷-vmess | 3-0
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1680,19 +1660,19 @@ proxy-groups:
       - HK 🇭🇰-trojan | 5-128
       - HK 🇭🇰-trojan | 5-129
       - HK 🇭🇰-trojan | 5-130
-      - CN 🇨🇳-vmess | 5-131
+      - JP 🇯🇵-trojan | 5-131
       - JP 🇯🇵-trojan | 5-132
       - JP 🇯🇵-trojan | 5-133
-      - JP 🇯🇵-trojan | 5-134
+      - JP 🇯🇵-vmess | 5-134
       - JP 🇯🇵-trojan | 5-135
-      - US 🇺🇸-trojan | 5-136
+      - JP 🇯🇵-trojan | 5-136
       - HK 🇭🇰-trojan | 5-137
       - JP 🇯🇵-trojan | 5-138
       - JP 🇯🇵-trojan | 5-139
       - HK 🇭🇰-trojan | 5-140
       - VN 🇻🇳-ss | 5-141
       - GB 🇬🇧-ss | 5-142
-      - CN 🇨🇳-vmess | 5-143
+      - JP 🇯🇵-vmess | 5-143
       - VN 🇻🇳-ss | 5-144
       - RU 🇷🇺-vless | 5-145
       - HK 🇭🇰-ss | 5-146
@@ -1700,7 +1680,6 @@ proxy-groups:
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
-      - FR 🇫🇷-vmess | 3-0
   - name: 📺 巴哈姆特
     type: select
     proxies:
