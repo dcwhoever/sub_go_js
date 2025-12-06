@@ -78,79 +78,146 @@ proxies:
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: GB 🇬🇧-vless | 5-2
-    server: 25.25.25.253
-    port: 2096
-    type: vless
-    uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-    tls: true
-    skip-cert-verify: false
-    servername: spplesh.hatlikarious.org
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: spplesh.hatlikarious.org
+  - name: CA 🇨🇦-ss | 5-2
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
   - name: CloudFlare 🇨🇱-vless | 5-3
-    server: cosmin.ns.cloudflare.com
+    server: serena.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: 7270612b-49f6-4b04-999c-34d8263da767
+    uuid: f028a8c0-6763-4558-aee3-2563db9d7825
     tls: true
     skip-cert-verify: false
-    servername: picassoo.info
+    servername: freudd.info
     network: ws
     ws-opts:
-      path: /aymdlws
+      path: /xxvclws
       headers:
-        Host: picassoo.info
-  - name: US 🇺🇸-vless | 5-4
-    server: 172.64.33.91
+        Host: freudd.info
+  - name: CloudFlare 🇨🇱-vless | 5-4
+    server: betty.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: 270b7522-bda3-4381-bffb-6156076e271e
+    uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
     tls: true
     skip-cert-verify: false
-    servername: 639004042094803957.legacy-amsit.info
+    servername: vangoghh.info
     network: ws
     ws-opts:
-      path: /amglzgws
+      path: /tixvuws
       headers:
-        Host: 639004042094803957.legacy-amsit.info
+        Host: vangoghh.info
   - name: CloudFlare 🇨🇱-vless | 5-5
-    server: delilah.ns.cloudflare.com
+    server: brenna.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: d37d61da-e50d-4f7f-9969-7f0136f97953
+    uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
     tls: true
     skip-cert-verify: false
-    servername: hazmkardan.info
+    servername: terazhedi.info
     network: ws
     ws-opts:
-      path: /fwgisws
+      path: /sghiyws
       headers:
-        Host: hazmkardan.info
+        Host: terazhedi.info
   - name: CloudFlare 🇨🇱-vless | 5-6
     server: norman.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+    uuid: ee122f13-9b54-49b6-abc5-aa47b464fdb3
     tls: true
     skip-cert-verify: false
-    servername: 639001966559968893.yaris-amsiq.info
+    servername: azizoarjmand.info
     network: ws
     ws-opts:
-      path: /cahttingws
+      path: /yhowcws
       headers:
-        Host: 639001966559968893.yaris-amsiq.info
-  - name: PY 🇵🇾-ss | 5-7
-    server: 45.83.20.206
+        Host: azizoarjmand.info
+  - name: JP 🇯🇵-trojan | 5-7
+    server: 160.16.107.37
+    port: 507
+    type: trojan
+    password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: HK 🇭🇰-trojan | 5-8
+    server: 58.152.110.154
     port: 443
+    type: trojan
+    password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: CloudFlare 🇨🇱-vless | 5-9
+    server: ovhwuxian.pai50288.uk
+    port: 8443
+    type: vless
+    uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+    tls: true
+    skip-cert-verify: false
+    servername: ovhwuxian.pai50288.uk
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /57ba2ab1
+      headers:
+        Host: ovhwuxian.pai50288.uk
+  - name: CA 🇨🇦-ss | 5-10
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: KH 🇰🇭-ss | 5-11
+    server: 38.54.4.87
+    port: 990
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: g5RQoxQuVtnFv3Xxsa8edPisXNPnyWKy
-  - name: SE 🇸🇪-vless | 5-8
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: FR 🇫🇷-trojan | 5-12
+    server: 13.37.111.9
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http%2F1.1
+    skip-cert-verify: false
+  - name: FR 🇫🇷-trojan | 5-13
+    server: 52.47.206.247
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http%2F1.1
+    skip-cert-verify: false
+  - name: CloudFlare 🇨🇱-vless | 5-14
+    server: ua.griffon-guard.com
+    port: 8443
+    type: vless
+    uuid: 6a753f74-b279-44d7-a442-b5cbc425569f
+    tls: true
+    flow: xtls-rprx-vision
+    skip-cert-verify: false
+    reality-opts:
+      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+    servername: apple.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: US 🇺🇸-trojan | 5-15
+    server: 23.247.137.64
+    port: 443
+    type: trojan
+    password: 3c4e10af98c30972
+    sni: n2.gladns.com
+    skip-cert-verify: false
+    network: grpc
+    grpc-opts:
+      grpc-service-name: db
+  - name: SE 🇸🇪-vless | 5-16
     server: 84.8.145.58
     port: 443
     type: vless
@@ -164,1116 +231,126 @@ proxies:
       path: /proxyip=sjc.o00o.ooo
       headers:
         Host: ak.suoni.nyc.mn
-  - name: US 🇺🇸-vless | 5-9
-    server: 216.106.176.106
+  - name: RU 🇷🇺-vless | 5-17
+    server: 217.16.24.170
     port: 8443
     type: vless
-    uuid: f7af49ea-f51f-4c71-9e12-0c2f3085f3b8
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: NR1UvDvyRqeRmYG1MRf-Ie78a97cmYvI_MAVpmzsexk
-      short-id: 1c588428648ffc71
-    servername: www.microsoft.com
-    client-fingerprint: safari
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-10
-    server: cosmin.ns.cloudflare.com
-    port: 443
-    type: vless
-    uuid: 4f590914-6d75-4f1d-a361-2fddb3cdf669
-    tls: true
-    skip-cert-verify: false
-    servername: 639003456256484486.giulia-amsis.info
-    network: ws
-    ws-opts:
-      path: /ccemutws
-      headers:
-        Host: 639003456256484486.giulia-amsis.info
-  - name: NL 🇳🇱-vless | 5-11
-    server: 89.110.68.47
-    port: 8443
-    type: vless
-    uuid: 787ae54e-40ad-4caf-899b-ad3a19ff1103
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: UBwue-cEE6w4gTS4dngQng5JEykNTR6d9f65p6RyA2w
-      short-id: 50c860b05993532d
-    servername: cdn.discordapp.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-12
-    server: V2ngnet.heloisfood.ir
-    port: 4488
-    type: vless
-    uuid: 71a712db-3843-4d24-b4c4-724ee0813044
-    tls: false
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: >-
-        %40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet-%40V2ngnet
-  - name: DE 🇩🇪-vless | 5-13
-    server: 91.99.27.92
-    port: 443
-    type: vless
-    uuid: 2ee2a715-d541-416a-8713-d66567448c2e
-    tls: false
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: /
-  - name: JP 🇯🇵-trojan | 5-14
-    server: 160.16.150.76
-    port: 1596
-    type: trojan
-    password: 79314e99f0a473fe86efc7827942ad00
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: JP 🇯🇵-trojan | 5-15
-    server: 160.16.144.208
-    port: 3145
-    type: trojan
-    password: 79314e99f0a473fe86efc7827942ad00
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: HK 🇭🇰-trojan | 5-16
-    server: 58.152.30.120
-    port: 443
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: RU 🇷🇺-ss | 5-17
-    server: 87.121.162.249
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: JGv616hMWdjfuZ00jYfq7XkBHJZrOBrg
-  - name: US 🇺🇸-ss | 5-18
-    server: 15.204.247.49
-    port: 12000
-    type: ss
-    cipher: aes-256-gcm
-    password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: CloudFlare 🇨🇱-vless | 5-19
-    server: delilah.ns.cloudflare.com
-    port: 443
-    type: vless
-    uuid: 5b687f17-0176-495e-84a1-0835f8feec91
-    tls: true
-    skip-cert-verify: false
-    servername: 639002592262919469.sentra-amsir.info
-    network: ws
-    ws-opts:
-      path: /egakxows
-      headers:
-        Host: 639002592262919469.sentra-amsir.info
-  - name: CloudFlare 🇨🇱-vless | 5-20
-    server: norman.ns.cloudflare.com
-    port: 443
-    type: vless
-    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-    tls: true
-    skip-cert-verify: false
-    servername: 639001966536690941.prius-amsiq.info
-    network: ws
-    ws-opts:
-      path: /cahttingws
-      headers:
-        Host: 639001966536690941.prius-amsiq.info
-  - name: FR 🇫🇷-vless | 5-21
-    server: 141.227.162.151
-    port: 33919
-    type: vless
-    uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
-    tls: false
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  - name: FR 🇫🇷-ss | 5-22
-    server: 162.19.175.40
-    port: 7425
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: VeUJj6HWCyDZeSaqpmf8AM
-  - name: UA 🇺🇦-vless | 5-23
-    server: 104.165.205.170
-    port: 8443
-    type: vless
-    uuid: 805b52df-0581-495b-b8b5-b99594424053
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: Oxa7_rWhui5jFI7p8Fyg0G_Msev5-T6aalS4q2qMViI
-      short-id: '3415'
-    servername: gos9.portal-guard.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: LB 🇱🇧-vless | 5-24
-    server: 213.165.60.21
-    port: 443
-    type: vless
-    uuid: f6f0191f-1edc-446b-b7d0-a90c19cf6a7a
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: zqK2uIx7zaEDvGbKLX3Rqqt1PYVm8BFBUmS7jK9HF1M
-      short-id: f524d345e26375ca
-    servername: rsr.fasssst.ru
-    client-fingerprint: chrome
-    network: tcp
-  - name: RU 🇷🇺-vless | 5-25
-    server: 45.92.176.55
-    port: 1243
-    type: vless
-    uuid: d29bde62-daa4-4804-9c69-6e23a4150006
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: jcJeCbLo5JtfveFIQLV6WNm1148XzxDc0Rzy336hXy0
-      short-id: ff3cef7cdcf9
-    servername: rontgen.fasssst.ru
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-26
-    server: rontgen.fasssst.ru
-    port: 5343
-    type: vless
-    uuid: 74053bef-bd35-4654-b45b-a79f75a60637
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: fmBHlPC9Fmxx3aMQnV-Hw9wAZpe7WJROiGa11lLXRjc
-      short-id: e207433b2a
-    servername: rontgen.fasssst.ru
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-27
-    server: rontgen.fasssst.ru
-    port: 6443
-    type: vless
-    uuid: f12bdba5-7ff5-4398-b859-08cdd7347fb3
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: DsiKWpNmI1TkNyvhHmQzRwkvJ0aaZeShzYCZa559Hn0
-      short-id: 30271931b36a50b5
-    servername: rontgen.fasssst.ru
-    client-fingerprint: chrome
-    network: tcp
-  - name: UA 🇺🇦-vless | 5-28
-    server: 104.165.205.172
-    port: 8443
-    type: vless
-    uuid: 805b52df-0581-495b-b8b5-b99594424053
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: Oxa7_rWhui5jFI7p8Fyg0G_Msev5-T6aalS4q2qMViI
-      short-id: '3415'
-    servername: gos9.portal-guard.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-29
-    server: plr.strelkavpn.ru
-    port: 8443
-    type: vless
-    uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM
-      short-id: 5626dfc4162fd4f2
-    servername: plr.strelkavpn.ru
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-30
-    server: n1761184282.74qxv.top
-    port: 443
-    type: vless
-    uuid: 824dc1b1-e35b-4121-ad73-9acaf13d6410
-    tls: true
-    skip-cert-verify: false
-    servername: n1761184282.74qxv.top
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /824dc1b1-e35b-4121-ad73-9acaf13d6410
-      headers:
-        Host: n1761184282.74qxv.top
-  - name: CloudFlare 🇨🇱-vless | 5-31
-    server: bg.fasssst.ru
-    port: 443
-    type: vless
-    uuid: c1853115-eb6b-4592-b01f-05037d33505d
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: v5phvruLtbRahHL0xJtl77s4sXHiuSHzUTPq2znyCF4
-      short-id: f5b76860a3c9c3f5
-    servername: bg.fasssst.ru
-    client-fingerprint: chrome
-    network: tcp
-  - name: RU 🇷🇺-vless | 5-32
-    server: 45.92.176.55
-    port: 2243
-    type: vless
-    uuid: d7e2c1ec-b2ba-4a4c-a73a-c08f5bd7923b
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: _ee-ouMazAzx7Q4_cYhWbu6pw53-8VVpt7tuBuCXziU
-      short-id: e3cbc70477
-    servername: rontgen.fasssst.ru
-    client-fingerprint: chrome
-    network: tcp
-  - name: US 🇺🇸-vless | 5-33
-    server: 170.64.232.45
-    port: 28899
-    type: vless
-    uuid: f61d9aee-63b8-439e-bebf-afaa53c015fd
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: UcJ-s55xl9msAtzJcBghDUTSnyilzB6d7NpUfkHoQmY
-    servername: s0.awsstatic.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-34
-    server: brenna.ns.cloudflare.com
-    port: 443
-    type: vless
-    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-    tls: true
-    skip-cert-verify: false
-    servername: 639000411272225027.swift-amsin.info
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /cahttingws
-      headers:
-        Host: 639000411272225027.swift-amsin.info
-  - name: RO 🇷🇴-ss | 5-35
-    server: 145.249.109.148
-    port: 16548
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ge0S0k9UQZuJS4N5pEH80E
-  - name: TR 🇹🇷-ss | 5-36
-    server: 185.39.204.161
-    port: 33563
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: bSlgCoGhApOb55tIMD0zxY
-  - name: CloudFlare 🇨🇱-vless | 5-37
-    server: www.speedtest.net
-    port: 443
-    type: vless
-    uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
-    tls: true
-    skip-cert-verify: false
-    servername: kalam.mrconfigur.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: kalam.mrconfigur.site
-  - name: AT 🇦🇹-vless | 5-38
-    server: 152.53.162.122
-    port: 6093
-    type: vless
-    uuid: e5603527-ac9b-4f69-906e-34bea11c5835
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: W91d6Qp8Avflj9K7rMYGGdhxV_W0Ds_FSu_c996zknk
-      short-id: 57e13c11bb421329
-    servername: eas1goauth.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: US 🇺🇸-vless | 5-39
-    server: 72.56.69.193
-    port: 443
-    type: vless
-    uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: yP1V_oAX1Sehc_102nMHuQgTOYk7T9KbJQmTlK4maVE
-      short-id: 5485e4d782145257
-    servername: sun6-22.userapi.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: DE 🇩🇪-vless | 5-40
-    server: 37.120.184.180
-    port: 80
-    type: vless
-    uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /news
-      headers:
-        Host: cdn.ir
-  - name: SG 🇸🇬-ss | 5-41
-    server: 156.59.243.6
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: DE 🇩🇪-vless | 5-42
-    server: 37.120.186.241
-    port: 80
-    type: vless
-    uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /news
-      headers:
-        Host: cdn.ir
-  - name: NL 🇳🇱-vless | 5-43
-    server: 194.147.221.62
-    port: 443
-    type: vless
-    uuid: 8debba78-83f7-4a7d-8353-b49122edfdca
-    tls: true
-    alpn:
-      - h2
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: pbO31C8T53OfUhnw152DBaQ0qRPPcStHth61s5OYdV4
-      short-id: 6e6b8ba24bc957
-    servername: www.microsoft.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-44
-    server: cosmin.ns.cloudflare.com
-    port: 443
-    type: vless
-    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
-    tls: true
-    skip-cert-verify: false
-    servername: 639000411272217052.swift-amsin.info
-    network: ws
-    ws-opts:
-      path: /cahttingws
-      headers:
-        Host: 639000411272217052.swift-amsin.info
-  - name: TW 🇹🇼-vless | 5-45
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: US 🇺🇸-ss | 5-46
-    server: 38.89.142.56
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: CL 🇨🇱-ss | 5-47
-    server: 38.54.20.59
-    port: 8881
-    type: ss
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: DE 🇩🇪-vless | 5-48
-    server: 91.99.113.207
-    port: 443
-    type: vless
-    uuid: 2ee2a715-d541-416a-8713-d66567448c2e
-    tls: false
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: /
-  - name: CloudFlare 🇨🇱-vless | 5-49
-    server: poland.geodema.network
-    port: 8443
-    type: vless
-    uuid: eb7c7631-6c7c-4f34-a65a-974b4565d01d
+    uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
     tls: true
     flow: xtls-rprx-vision
     skip-cert-verify: false
     reality-opts:
       public-key: 8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ
       short-id: 5540e44a53c3d01c
-    servername: music.yandex.ru
-    client-fingerprint: chrome
+    servername: api-maps.yandex.ru
+    client-fingerprint: edge
     network: tcp
-  - name: RU 🇷🇺-ss | 5-50
-    server: 213.159.76.21
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: pNqnYf3kHesOpCchRvUZxfwTafRsOj7g
-  - name: MD 🇲🇩-ss | 5-51
-    server: 176.123.1.175
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: RS 🇷🇸-ss | 5-52
-    server: 45.89.55.173
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ixPymFma6P7U41wk9MNP7znPnvax3mjd
-  - name: LV 🇱🇻-ss | 5-53
-    server: 94.131.104.147
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6VAcll4P8xPTUVVtHeST3onRmLoVIBSU
-  - name: RU 🇷🇺-ss | 5-54
-    server: 45.138.157.162
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: qFAJdBEqsI71jaSML67nHoPBCGhX94uk
-  - name: US 🇺🇸-ss | 5-55
-    server: 95.164.116.33
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
-  - name: AR 🇦🇷-ss | 5-56
-    server: 190.103.176.32
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: IL 🇮🇱-ss | 5-57
-    server: 89.221.225.15
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
-  - name: FI 🇫🇮-ss | 5-58
-    server: 65.21.243.22
-    port: 31348
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: mZGUFWMAlfWqI4vP58zw9DAHxR8TZLndKkvRgHHFa9eqWdnx
-  - name: NL 🇳🇱-ss | 5-59
-    server: 178.23.190.238
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
-  - name: AU 🇦🇺-ss | 5-60
-    server: 95.111.222.113
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
-  - name: US 🇺🇸-ss | 5-61
-    server: 193.135.174.135
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: TW 🇹🇼-vless | 5-62
-    server: 167.179.27.92
+  - name: CloudFlare 🇨🇱-vless | 5-18
+    server: norman.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    uuid: ee122f13-9b54-49b6-abc5-aa47b464fdb3
     tls: true
     skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
+    servername: azizoarjmand.info
     network: ws
     ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
+      path: /yhowcws
       headers:
-        Host: gaosir.unfeeling.sbs
-  - name: CloudFlare 🇨🇱-vless | 5-63
-    server: m39a.vip784.com
-    port: 33801
-    type: vless
-    uuid: c99262ae-ee77-4dac-8437-2d7f68fd3938
-    tls: false
-    skip-cert-verify: false
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-      headers:
-        Host:
-          - varzesh3.ir
-  - name: TW 🇹🇼-vless | 5-64
-    server: 167.179.27.92
+        Host: azizoarjmand.info
+  - name: CloudFlare 🇨🇱-vless | 5-19
+    server: brenna.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    uuid: 1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63
     tls: true
     skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
+    servername: terazhedi.info
     network: ws
     ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
+      path: /sghiyws
       headers:
-        Host: gaosir.unfeeling.sbs
-  - name: TW 🇹🇼-vless | 5-65
-    server: 167.179.27.92
+        Host: terazhedi.info
+  - name: CloudFlare 🇨🇱-vless | 5-20
+    server: betty.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
     tls: true
     skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
+    servername: vangoghh.info
     network: ws
     ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
+      path: /tixvuws
       headers:
-        Host: gaosir.unfeeling.sbs
-  - name: TW 🇹🇼-vless | 5-66
-    server: 167.179.27.92
+        Host: vangoghh.info
+  - name: CloudFlare 🇨🇱-vless | 5-21
+    server: serena.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    uuid: f028a8c0-6763-4558-aee3-2563db9d7825
     tls: true
     skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
+    servername: freudd.info
     network: ws
     ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
+      path: /xxvclws
       headers:
-        Host: gaosir.unfeeling.sbs
-  - name: CloudFlare 🇨🇱-vless | 5-67
-    server: russia.whitenet.online
+        Host: freudd.info
+  - name: US 🇺🇸-vless | 5-22
+    server: 154.31.113.124
     port: 443
     type: vless
-    uuid: 4ce38652-b84c-5aab-8b2c-f897a217b41b
+    uuid: b964cfbe-5f8a-47ae-9f14-4a6e36bfed2b
     tls: true
     flow: xtls-rprx-vision
     skip-cert-verify: false
     reality-opts:
-      public-key: xdNyDss0OLTu3z6kcdg8X2wfTOLtmDTobE2on3vKe34
-      short-id: ab1cd2
-    servername: vk.com
+      public-key: vNWTKraW-w1e5fUKLJhjDpslQX7OFnRbavF2VHowNhk
+      short-id: cb37b04594
+    servername: tesla.com
     client-fingerprint: chrome
     network: tcp
-  - name: TW 🇹🇼-vless | 5-68
-    server: 167.179.27.92
-    port: 443
+  - name: CloudFlare 🇨🇱-vless | 5-23
+    server: hitrafa.top
+    port: 6013
     type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: TW 🇹🇼-vless | 5-69
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: DE 🇩🇪-vless | 5-70
-    server: 179.61.251.78
-    port: 443
-    type: vless
-    uuid: fabc8a38-76c5-48fe-ada7-a9e52dd16225
+    uuid: c1a46bb0-029b-4a4e-bdc0-26ee9993f750
     tls: true
     flow: xtls-rprx-vision
     skip-cert-verify: false
     reality-opts:
-      public-key: esHsu3-Fj0aZ0xuNBV6qW1zu1hLbas8YDn7AO0QGsBw
-      short-id: 0ff58d687a4c6c
-    servername: refersion.com
+      public-key: PA5o3z2JEgSZQNKifILMs6kxPlihWXFFkw4KtlQ6WXM
+      short-id: 16562e6057229b7a
+    servername: dropbox.com
     client-fingerprint: chrome
     network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-71
-    server: us1.candyfans.win
+  - name: CloudFlare 🇨🇱-vless | 5-24
+    server: delilah.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: d82baa81-c138-49fc-b81e-7ef0eb7ff063
+    uuid: d37d61da-e50d-4f7f-9969-7f0136f97953
     tls: true
     skip-cert-verify: false
-    servername: us1.candyfans.win
+    servername: hazmkardan.info
     network: ws
     ws-opts:
-      path: /cgunws
+      path: /fwgisws
       headers:
-        Host: us1.candyfans.win
-  - name: IR 🇮🇷-vless | 5-72
-    server: 91.98.38.116
+        Host: hazmkardan.info
+  - name: CloudFlare 🇨🇱-vless | 5-25
+    server: cosmin.ns.cloudflare.com
     port: 443
     type: vless
-    uuid: 2ee2a715-d541-416a-8713-d66567448c2e
-    tls: false
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: /
-  - name: TW 🇹🇼-vless | 5-73
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    uuid: 7270612b-49f6-4b04-999c-34d8263da767
     tls: true
     skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
+    servername: picassoo.info
     network: ws
     ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
+      path: /aymdlws
       headers:
-        Host: gaosir.unfeeling.sbs
-  - name: CloudFlare 🇨🇱-trojan | 5-74
-    server: kuame.missionsec.us
-    port: 443
-    type: trojan
-    password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
-    sni: kuame.missionsec.us
-    skip-cert-verify: false
-  - name: TW 🇹🇼-vless | 5-75
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: TW 🇹🇼-vless | 5-76
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: CY 🇨🇾-ss | 5-77
-    server: 91.148.135.31
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: TW 🇹🇼-vless | 5-78
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: CloudFlare 🇨🇱-vless | 5-79
-    server: fr.nextseesion.ir
-    port: 35789
-    type: vless
-    uuid: be72cd92-92d2-4543-9bef-1673fcd03b45
-    tls: false
-    skip-cert-verify: false
-    network: tcp
-  - name: TW 🇹🇼-vless | 5-80
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: AE 🇦🇪-vless | 5-81
-    server: 86.107.168.100
-    port: 7070
-    type: vless
-    uuid: be32c9ad-92e1-485b-dc74-2a65e9dae480
-    tls: true
-    alpn:
-      - h2,http/1.1
-    skip-cert-verify: false
-    servername: src.smnsoft.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: TW 🇹🇼-vless | 5-82
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: TW 🇹🇼-vless | 5-83
-    server: 167.179.27.92
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    network: ws
-    ws-opts:
-      path: telegram🇨🇳@wangcai2/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: IR 🇮🇷-vless | 5-84
-    server: 91.98.168.173
-    port: 443
-    type: vless
-    uuid: 2ee2a715-d541-416a-8713-d66567448c2e
-    tls: false
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: /
-  - name: US 🇺🇸-trojan | 5-85
-    server: 38.96.254.102
-    port: 18509
-    type: trojan
-    password: .ie4rghJuMkcf0oF
-    sni: shoppingmall.electricbanana.click
-    skip-cert-verify: false
-  - name: DE 🇩🇪-vless | 5-86
-    server: 185.193.17.80
-    port: 2066
-    type: vless
-    uuid: 44830663-914e-4127-a9b3-412406f59cbe
-    tls: true
-    skip-cert-verify: false
-    reality-opts:
-      public-key: '-Z0BnqW2MHBXjDsB2a8-KPfg8GqTO1uIPXriHQAMhSY'
-      short-id: 6b245ab1
-    servername: yahoo.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: PL 🇵🇱-trojan | 5-87
-    server: 5.188.108.13
-    port: 11790
-    type: trojan
-    password: .+QAJot50sDi6mvb
-    sni: runningshoes.purpletornado.click
-    skip-cert-verify: false
-  - name: JP 🇯🇵-ss | 5-88
-    server: 103.75.118.125
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
-  - name: JP 🇯🇵-vless | 5-89
-    server: 188.253.21.106
-    port: 443
-    type: vless
-    uuid: 247a22e1-0795-4852-9bdd-a65ac1078034
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: 4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws
-      short-id: 73d3fec4
-    servername: yahoo.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: KR 🇰🇷-ss | 5-90
-    server: 141.164.45.187
-    port: 7001
-    type: ss
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: RU 🇷🇺-vless | 5-91
-    server: 178.236.16.98
-    port: 35728
-    type: vless
-    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
-    tls: true
-    skip-cert-verify: false
-    reality-opts:
-      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
-      short-id: 69a2
-    servername: yahoo.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: IN 🇮🇳-vless | 5-92
-    server: 20.235.105.146
-    port: 443
-    type: vless
-    uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
-    tls: true
-    skip-cert-verify: false
-    servername: ak.suoni.nyc.mn
-    client-fingerprint: random
-    network: ws
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: ak.suoni.nyc.mn
-  - name: US 🇺🇸-ss | 5-93
-    server: 193.135.174.135
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: GR 🇬🇷-ss | 5-94
-    server: 185.156.110.92
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
-  - name: CloudFlare 🇨🇱-vless | 5-95
-    server: wolfy.ufavpn.ru
-    port: 27121
-    type: vless
-    uuid: cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c
-    tls: true
-    skip-cert-verify: false
-    reality-opts:
-      public-key: QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA
-      short-id: fdc8125ea6f61323
-    servername: www.ok.ru
-    client-fingerprint: chrome
-    network: tcp
-  - name: 🏳 CloudFlare-vless | 5-96
-    server: 104.26.1.221
-    port: 443
-    type: vless
-    uuid: 3f9c8463-8610-3ed8-86c8-a26713067825
-    tls: true
-    skip-cert-verify: false
-    servername: dabaius2.sylu.net
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /db10240eb751d6ab
-      headers:
-        Host: dabaius2.sylu.net
-  - name: AT 🇦🇹-vless | 5-97
-    server: 5.181.21.72
-    port: 443
-    type: vless
-    uuid: e4b8df56-b680-4a34-ab47-5bf5738ed718
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8
-      short-id: 85225c27630d023f
-    servername: www.google.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: HK 🇭🇰-trojan | 5-98
-    server: 58.152.18.95
-    port: 443
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vless | 5-99
-    server: www.speedtest.net
-    port: 443
-    type: vless
-    uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
-    tls: true
-    skip-cert-verify: false
-    servername: piaz.mrconfigur.site
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: piaz.mrconfigur.site
-  - name: CA 🇨🇦-trojan | 5-100
-    server: 198.57.27.27
-    port: 12990
-    type: trojan
-    password: 6pRjKQJ0CWyFtG.9
-    sni: diningtable.electricbanana.click
-    skip-cert-verify: false
-  - name: JP 🇯🇵-vless | 5-101
-    server: 202.84.53.85
-    port: 19999
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: x@节点狂魔/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: US 🇺🇸-ss | 5-102
-    server: 173.234.29.2
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: JP 🇯🇵-vless | 5-103
-    server: 160.16.203.210
-    port: 443
-    type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    tls: true
-    skip-cert-verify: false
-    servername: gaosir.unfeeling.sbs
-    client-fingerprint: chrome
-    network: ws
-    ws-opts:
-      path: /节点狂魔/?ed=2560
-      headers:
-        Host: gaosir.unfeeling.sbs
-  - name: PA 🇵🇦-ss | 5-104
-    server: 138.186.142.81
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: US 🇺🇸-ss | 5-105
-    server: 23.95.76.59
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: US 🇺🇸-ss | 5-106
-    server: 167.150.100.115
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: pJtDFXMfdW9VNdJpaf4e2LfFkXdWgxrz
-  - name: JP 🇯🇵-trojan | 5-107
-    server: 153.121.65.107
-    port: 1331
-    type: trojan
-    password: 79314e99f0a473fe86efc7827942ad00
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: LT 🇱🇹-ss | 5-108
-    server: 45.87.175.28
-    port: 8080
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: JP 🇯🇵-vless | 5-109
-    server: 38.60.212.251
-    port: 29059
-    type: vless
-    uuid: d706bf16-124a-417b-aaa0-0d6d5efd58fd
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: V_eMkcHXf237wGyfggMHHRvQqw51rW1UJPEIw_T2IE4
-      short-id: 6ba85179e30d4fc2
-    servername: mensura.cdn-apple.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: IR 🇮🇷-vless | 5-110
-    server: 91.98.33.242
-    port: 443
-    type: vless
-    uuid: 95b1344a-2b59-419f-ab7d-2ff7e5c6aa34
-    tls: false
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: /
-  - name: NG 🇳🇬-ss | 5-111
-    server: 185.255.123.110
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: SE 🇸🇪-trojan | 5-112
-    server: 70.34.218.149
-    port: 11930
-    type: trojan
-    password: BaeSzHdfJIR13l67
-    sni: softpillow.silentrocket.click
-    skip-cert-verify: false
-  - name: US 🇺🇸-ss | 5-113
-    server: 167.160.90.178
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: JP 🇯🇵-trojan | 5-114
-    server: 160.16.63.16
-    port: 4054
-    type: trojan
-    password: 79314e99f0a473fe86efc7827942ad00
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: NL 🇳🇱-ss | 5-115
-    server: 136.244.100.113
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: yODLXVLz2FWNTFeSSng3Fm
-  - name: RU 🇷🇺-ss | 5-116
-    server: 213.159.67.124
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+        Host: picassoo.info
   - name: CloudFlare 🇨🇱-Hysteria | 0-0
     type: hysteria
     server: '[2604'
@@ -1342,121 +419,30 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
       - CA 🇨🇦-ss | 5-1
-      - GB 🇬🇧-vless | 5-2
+      - CA 🇨🇦-ss | 5-2
       - CloudFlare 🇨🇱-vless | 5-3
-      - US 🇺🇸-vless | 5-4
+      - CloudFlare 🇨🇱-vless | 5-4
       - CloudFlare 🇨🇱-vless | 5-5
       - CloudFlare 🇨🇱-vless | 5-6
-      - PY 🇵🇾-ss | 5-7
-      - SE 🇸🇪-vless | 5-8
-      - US 🇺🇸-vless | 5-9
-      - CloudFlare 🇨🇱-vless | 5-10
-      - NL 🇳🇱-vless | 5-11
-      - CloudFlare 🇨🇱-vless | 5-12
-      - DE 🇩🇪-vless | 5-13
-      - JP 🇯🇵-trojan | 5-14
-      - JP 🇯🇵-trojan | 5-15
-      - HK 🇭🇰-trojan | 5-16
-      - RU 🇷🇺-ss | 5-17
-      - US 🇺🇸-ss | 5-18
+      - JP 🇯🇵-trojan | 5-7
+      - HK 🇭🇰-trojan | 5-8
+      - CloudFlare 🇨🇱-vless | 5-9
+      - CA 🇨🇦-ss | 5-10
+      - KH 🇰🇭-ss | 5-11
+      - FR 🇫🇷-trojan | 5-12
+      - FR 🇫🇷-trojan | 5-13
+      - CloudFlare 🇨🇱-vless | 5-14
+      - US 🇺🇸-trojan | 5-15
+      - SE 🇸🇪-vless | 5-16
+      - RU 🇷🇺-vless | 5-17
+      - CloudFlare 🇨🇱-vless | 5-18
       - CloudFlare 🇨🇱-vless | 5-19
       - CloudFlare 🇨🇱-vless | 5-20
-      - FR 🇫🇷-vless | 5-21
-      - FR 🇫🇷-ss | 5-22
-      - UA 🇺🇦-vless | 5-23
-      - LB 🇱🇧-vless | 5-24
-      - RU 🇷🇺-vless | 5-25
-      - CloudFlare 🇨🇱-vless | 5-26
-      - CloudFlare 🇨🇱-vless | 5-27
-      - UA 🇺🇦-vless | 5-28
-      - CloudFlare 🇨🇱-vless | 5-29
-      - CloudFlare 🇨🇱-vless | 5-30
-      - CloudFlare 🇨🇱-vless | 5-31
-      - RU 🇷🇺-vless | 5-32
-      - US 🇺🇸-vless | 5-33
-      - CloudFlare 🇨🇱-vless | 5-34
-      - RO 🇷🇴-ss | 5-35
-      - TR 🇹🇷-ss | 5-36
-      - CloudFlare 🇨🇱-vless | 5-37
-      - AT 🇦🇹-vless | 5-38
-      - US 🇺🇸-vless | 5-39
-      - DE 🇩🇪-vless | 5-40
-      - SG 🇸🇬-ss | 5-41
-      - DE 🇩🇪-vless | 5-42
-      - NL 🇳🇱-vless | 5-43
-      - CloudFlare 🇨🇱-vless | 5-44
-      - TW 🇹🇼-vless | 5-45
-      - US 🇺🇸-ss | 5-46
-      - CL 🇨🇱-ss | 5-47
-      - DE 🇩🇪-vless | 5-48
-      - CloudFlare 🇨🇱-vless | 5-49
-      - RU 🇷🇺-ss | 5-50
-      - MD 🇲🇩-ss | 5-51
-      - RS 🇷🇸-ss | 5-52
-      - LV 🇱🇻-ss | 5-53
-      - RU 🇷🇺-ss | 5-54
-      - US 🇺🇸-ss | 5-55
-      - AR 🇦🇷-ss | 5-56
-      - IL 🇮🇱-ss | 5-57
-      - FI 🇫🇮-ss | 5-58
-      - NL 🇳🇱-ss | 5-59
-      - AU 🇦🇺-ss | 5-60
-      - US 🇺🇸-ss | 5-61
-      - TW 🇹🇼-vless | 5-62
-      - CloudFlare 🇨🇱-vless | 5-63
-      - TW 🇹🇼-vless | 5-64
-      - TW 🇹🇼-vless | 5-65
-      - TW 🇹🇼-vless | 5-66
-      - CloudFlare 🇨🇱-vless | 5-67
-      - TW 🇹🇼-vless | 5-68
-      - TW 🇹🇼-vless | 5-69
-      - DE 🇩🇪-vless | 5-70
-      - CloudFlare 🇨🇱-vless | 5-71
-      - IR 🇮🇷-vless | 5-72
-      - TW 🇹🇼-vless | 5-73
-      - CloudFlare 🇨🇱-trojan | 5-74
-      - TW 🇹🇼-vless | 5-75
-      - TW 🇹🇼-vless | 5-76
-      - CY 🇨🇾-ss | 5-77
-      - TW 🇹🇼-vless | 5-78
-      - CloudFlare 🇨🇱-vless | 5-79
-      - TW 🇹🇼-vless | 5-80
-      - AE 🇦🇪-vless | 5-81
-      - TW 🇹🇼-vless | 5-82
-      - TW 🇹🇼-vless | 5-83
-      - IR 🇮🇷-vless | 5-84
-      - US 🇺🇸-trojan | 5-85
-      - DE 🇩🇪-vless | 5-86
-      - PL 🇵🇱-trojan | 5-87
-      - JP 🇯🇵-ss | 5-88
-      - JP 🇯🇵-vless | 5-89
-      - KR 🇰🇷-ss | 5-90
-      - RU 🇷🇺-vless | 5-91
-      - IN 🇮🇳-vless | 5-92
-      - US 🇺🇸-ss | 5-93
-      - GR 🇬🇷-ss | 5-94
-      - CloudFlare 🇨🇱-vless | 5-95
-      - 🏳 CloudFlare-vless | 5-96
-      - AT 🇦🇹-vless | 5-97
-      - HK 🇭🇰-trojan | 5-98
-      - CloudFlare 🇨🇱-vless | 5-99
-      - CA 🇨🇦-trojan | 5-100
-      - JP 🇯🇵-vless | 5-101
-      - US 🇺🇸-ss | 5-102
-      - JP 🇯🇵-vless | 5-103
-      - PA 🇵🇦-ss | 5-104
-      - US 🇺🇸-ss | 5-105
-      - US 🇺🇸-ss | 5-106
-      - JP 🇯🇵-trojan | 5-107
-      - LT 🇱🇹-ss | 5-108
-      - JP 🇯🇵-vless | 5-109
-      - IR 🇮🇷-vless | 5-110
-      - NG 🇳🇬-ss | 5-111
-      - SE 🇸🇪-trojan | 5-112
-      - US 🇺🇸-ss | 5-113
-      - JP 🇯🇵-trojan | 5-114
-      - NL 🇳🇱-ss | 5-115
-      - RU 🇷🇺-ss | 5-116
+      - CloudFlare 🇨🇱-vless | 5-21
+      - US 🇺🇸-vless | 5-22
+      - CloudFlare 🇨🇱-vless | 5-23
+      - CloudFlare 🇨🇱-vless | 5-24
+      - CloudFlare 🇨🇱-vless | 5-25
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -1473,121 +459,30 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
       - CA 🇨🇦-ss | 5-1
-      - GB 🇬🇧-vless | 5-2
+      - CA 🇨🇦-ss | 5-2
       - CloudFlare 🇨🇱-vless | 5-3
-      - US 🇺🇸-vless | 5-4
+      - CloudFlare 🇨🇱-vless | 5-4
       - CloudFlare 🇨🇱-vless | 5-5
       - CloudFlare 🇨🇱-vless | 5-6
-      - PY 🇵🇾-ss | 5-7
-      - SE 🇸🇪-vless | 5-8
-      - US 🇺🇸-vless | 5-9
-      - CloudFlare 🇨🇱-vless | 5-10
-      - NL 🇳🇱-vless | 5-11
-      - CloudFlare 🇨🇱-vless | 5-12
-      - DE 🇩🇪-vless | 5-13
-      - JP 🇯🇵-trojan | 5-14
-      - JP 🇯🇵-trojan | 5-15
-      - HK 🇭🇰-trojan | 5-16
-      - RU 🇷🇺-ss | 5-17
-      - US 🇺🇸-ss | 5-18
+      - JP 🇯🇵-trojan | 5-7
+      - HK 🇭🇰-trojan | 5-8
+      - CloudFlare 🇨🇱-vless | 5-9
+      - CA 🇨🇦-ss | 5-10
+      - KH 🇰🇭-ss | 5-11
+      - FR 🇫🇷-trojan | 5-12
+      - FR 🇫🇷-trojan | 5-13
+      - CloudFlare 🇨🇱-vless | 5-14
+      - US 🇺🇸-trojan | 5-15
+      - SE 🇸🇪-vless | 5-16
+      - RU 🇷🇺-vless | 5-17
+      - CloudFlare 🇨🇱-vless | 5-18
       - CloudFlare 🇨🇱-vless | 5-19
       - CloudFlare 🇨🇱-vless | 5-20
-      - FR 🇫🇷-vless | 5-21
-      - FR 🇫🇷-ss | 5-22
-      - UA 🇺🇦-vless | 5-23
-      - LB 🇱🇧-vless | 5-24
-      - RU 🇷🇺-vless | 5-25
-      - CloudFlare 🇨🇱-vless | 5-26
-      - CloudFlare 🇨🇱-vless | 5-27
-      - UA 🇺🇦-vless | 5-28
-      - CloudFlare 🇨🇱-vless | 5-29
-      - CloudFlare 🇨🇱-vless | 5-30
-      - CloudFlare 🇨🇱-vless | 5-31
-      - RU 🇷🇺-vless | 5-32
-      - US 🇺🇸-vless | 5-33
-      - CloudFlare 🇨🇱-vless | 5-34
-      - RO 🇷🇴-ss | 5-35
-      - TR 🇹🇷-ss | 5-36
-      - CloudFlare 🇨🇱-vless | 5-37
-      - AT 🇦🇹-vless | 5-38
-      - US 🇺🇸-vless | 5-39
-      - DE 🇩🇪-vless | 5-40
-      - SG 🇸🇬-ss | 5-41
-      - DE 🇩🇪-vless | 5-42
-      - NL 🇳🇱-vless | 5-43
-      - CloudFlare 🇨🇱-vless | 5-44
-      - TW 🇹🇼-vless | 5-45
-      - US 🇺🇸-ss | 5-46
-      - CL 🇨🇱-ss | 5-47
-      - DE 🇩🇪-vless | 5-48
-      - CloudFlare 🇨🇱-vless | 5-49
-      - RU 🇷🇺-ss | 5-50
-      - MD 🇲🇩-ss | 5-51
-      - RS 🇷🇸-ss | 5-52
-      - LV 🇱🇻-ss | 5-53
-      - RU 🇷🇺-ss | 5-54
-      - US 🇺🇸-ss | 5-55
-      - AR 🇦🇷-ss | 5-56
-      - IL 🇮🇱-ss | 5-57
-      - FI 🇫🇮-ss | 5-58
-      - NL 🇳🇱-ss | 5-59
-      - AU 🇦🇺-ss | 5-60
-      - US 🇺🇸-ss | 5-61
-      - TW 🇹🇼-vless | 5-62
-      - CloudFlare 🇨🇱-vless | 5-63
-      - TW 🇹🇼-vless | 5-64
-      - TW 🇹🇼-vless | 5-65
-      - TW 🇹🇼-vless | 5-66
-      - CloudFlare 🇨🇱-vless | 5-67
-      - TW 🇹🇼-vless | 5-68
-      - TW 🇹🇼-vless | 5-69
-      - DE 🇩🇪-vless | 5-70
-      - CloudFlare 🇨🇱-vless | 5-71
-      - IR 🇮🇷-vless | 5-72
-      - TW 🇹🇼-vless | 5-73
-      - CloudFlare 🇨🇱-trojan | 5-74
-      - TW 🇹🇼-vless | 5-75
-      - TW 🇹🇼-vless | 5-76
-      - CY 🇨🇾-ss | 5-77
-      - TW 🇹🇼-vless | 5-78
-      - CloudFlare 🇨🇱-vless | 5-79
-      - TW 🇹🇼-vless | 5-80
-      - AE 🇦🇪-vless | 5-81
-      - TW 🇹🇼-vless | 5-82
-      - TW 🇹🇼-vless | 5-83
-      - IR 🇮🇷-vless | 5-84
-      - US 🇺🇸-trojan | 5-85
-      - DE 🇩🇪-vless | 5-86
-      - PL 🇵🇱-trojan | 5-87
-      - JP 🇯🇵-ss | 5-88
-      - JP 🇯🇵-vless | 5-89
-      - KR 🇰🇷-ss | 5-90
-      - RU 🇷🇺-vless | 5-91
-      - IN 🇮🇳-vless | 5-92
-      - US 🇺🇸-ss | 5-93
-      - GR 🇬🇷-ss | 5-94
-      - CloudFlare 🇨🇱-vless | 5-95
-      - 🏳 CloudFlare-vless | 5-96
-      - AT 🇦🇹-vless | 5-97
-      - HK 🇭🇰-trojan | 5-98
-      - CloudFlare 🇨🇱-vless | 5-99
-      - CA 🇨🇦-trojan | 5-100
-      - JP 🇯🇵-vless | 5-101
-      - US 🇺🇸-ss | 5-102
-      - JP 🇯🇵-vless | 5-103
-      - PA 🇵🇦-ss | 5-104
-      - US 🇺🇸-ss | 5-105
-      - US 🇺🇸-ss | 5-106
-      - JP 🇯🇵-trojan | 5-107
-      - LT 🇱🇹-ss | 5-108
-      - JP 🇯🇵-vless | 5-109
-      - IR 🇮🇷-vless | 5-110
-      - NG 🇳🇬-ss | 5-111
-      - SE 🇸🇪-trojan | 5-112
-      - US 🇺🇸-ss | 5-113
-      - JP 🇯🇵-trojan | 5-114
-      - NL 🇳🇱-ss | 5-115
-      - RU 🇷🇺-ss | 5-116
+      - CloudFlare 🇨🇱-vless | 5-21
+      - US 🇺🇸-vless | 5-22
+      - CloudFlare 🇨🇱-vless | 5-23
+      - CloudFlare 🇨🇱-vless | 5-24
+      - CloudFlare 🇨🇱-vless | 5-25
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
