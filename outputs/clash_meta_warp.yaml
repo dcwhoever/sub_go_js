@@ -91,19 +91,202 @@ proxies:
     protocol: udp
     up: 11 Mbps
     down: 55 Mbps
-  - name: CA 🇨🇦-ss | 5-1
+  - name: FR 🇫🇷-vless | 5-1
+    server: 141.227.178.242
+    port: 29803
+    type: vless
+    uuid: aa4f8c93-e4ec-48fe-8043-2f8e4f1c006d
+    tls: false
+    skip-cert-verify: false
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  - name: FR 🇫🇷-vless | 5-2
+    server: 141.227.134.118
+    port: 18925
+    type: vless
+    uuid: d3f74fb2-9c47-4689-bfec-aabdf7612582
+    tls: false
+    skip-cert-verify: false
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  - name: FR 🇫🇷-vless | 5-3
+    server: 141.227.174.26
+    port: 32415
+    type: vless
+    uuid: 6a3ca433-b1ec-43bd-aede-cae68ee535f1
+    tls: false
+    skip-cert-verify: false
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  - name: CloudFlare 🇨🇱-vless | 5-4
+    server: France.phantompanel.shop
+    port: 2024
+    type: vless
+    uuid: 0a05fb33-e39e-46a3-bfca-fcc0fb20052d
+    tls: true
+    skip-cert-verify: false
+    reality-opts:
+      public-key: hMvv9d1PfBXI7ow9PqaUJYqo9_uHTKQYWt0go0enwzQ
+      short-id: 650bbd4b5cae0713
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: yourServiceName
+  - name: CA 🇨🇦-ss | 5-5
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: CA 🇨🇦-ss | 5-2
+  - name: FR 🇫🇷-trojan | 5-6
+    server: 52.47.134.169
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http%2F1.1
+    skip-cert-verify: false
+  - name: CloudFlare 🇨🇱-vless | 5-7
+    server: pl.locations-sub.com
+    port: 5058
+    type: vless
+    uuid: 3f8dc127-4eb8-4061-add1-81e35fcd1668
+    tls: true
+    skip-cert-verify: false
+    reality-opts:
+      public-key: SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604
+    servername: refersion.com
+    client-fingerprint: firefox
+    network: tcp
+  - name: CloudFlare 🇨🇱-vless | 5-8
+    server: fi.locations-sub.com
+    port: 5051
+    type: vless
+    uuid: 3f8dc127-4eb8-4061-add1-81e35fcd1668
+    tls: true
+    skip-cert-verify: false
+    reality-opts:
+      public-key: SIZUCP8kFTMNONyzojhPmYWM_530dU3MEJVsJAV_604
+    servername: refersion.com
+    client-fingerprint: firefox
+    network: tcp
+  - name: CA 🇨🇦-ss | 5-9
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: CloudFlare 🇨🇱-vless | 5-3
+  - name: FI 🇫🇮-vless | 5-10
+    server: 65.109.215.51
+    port: 23940
+    type: vless
+    uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
+    tls: false
+    skip-cert-verify: false
+    network: tcp
+  - name: DE 🇩🇪-vless | 5-11
+    server: 91.107.155.145
+    port: 8885
+    type: vless
+    uuid: c8e85b36-1f7a-4574-b48e-d2099372ce3c
+    tls: false
+    skip-cert-verify: false
+    network: tcp
+  - name: CA 🇨🇦-ss | 5-12
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: CloudFlare 🇨🇱-vless | 5-13
+    server: progr.soreanapanel.com
+    port: 443
+    type: vless
+    uuid: b77ce9ea-feed-40f6-8cd0-3da007208050
+    tls: true
+    flow: xtls-rprx-vision
+    skip-cert-verify: false
+    reality-opts:
+      public-key: UqOnYKBtVUADBnjVw1rS2ZYcMa0vsCFFe6c1OkFXzGM
+      short-id: ce83bcae62c7c148
+    servername: refersion.com
+    client-fingerprint: firefox
+    network: tcp
+  - name: ES 🇪🇸-vless | 5-14
+    server: 5.22.217.244
+    port: 2080
+    type: vless
+    uuid: 684ead3d-43b1-4707-904a-24e3e9e91fb1
+    tls: false
+    skip-cert-verify: false
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: /
+  - name: CloudFlare 🇨🇱-vless | 5-15
+    server: n1761184273.mv7wh.tech
+    port: 443
+    type: vless
+    uuid: a4c6bbd7-6ea5-44b2-9829-08f5ae615d49
+    tls: true
+    skip-cert-verify: false
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /a4c6bbd7-6ea5-44b2-9829-08f5ae615d49
+      headers:
+        Host: n1761184273.mv7wh.tech
+  - name: US 🇺🇸-vless | 5-16
+    server: 69.84.182.13
+    port: 443
+    type: vless
+    uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+    tls: true
+    skip-cert-verify: false
+    servername: fr-1-fr-1.aiopen.sbs
+    network: ws
+    ws-opts:
+      path: /kbjc/fr1
+      headers:
+        Host: fr-1-fr-1.aiopen.sbs
+  - name: CloudFlare 🇨🇱-vless | 5-17
+    server: news.zoom.us
+    port: 8443
+    type: vless
+    uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
+    tls: true
+    skip-cert-verify: false
+    servername: premium.vkehi.shop
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: premium.vkehi.shop
+  - name: EC 🇪🇨-ss | 5-18
+    server: 185.47.253.227
+    port: 990
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: f8f7aCzcPKbsF8p3
+  - name: IT 🇮🇹-ss | 5-19
+    server: 212.102.54.45
+    port: 990
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: CloudFlare 🇨🇱-vless | 5-20
     server: serena.ns.cloudflare.com
     port: 443
     type: vless
@@ -116,7 +299,7 @@ proxies:
       path: /xxvclws
       headers:
         Host: freudd.info
-  - name: CloudFlare 🇨🇱-vless | 5-4
+  - name: CloudFlare 🇨🇱-vless | 5-21
     server: betty.ns.cloudflare.com
     port: 443
     type: vless
@@ -129,7 +312,7 @@ proxies:
       path: /tixvuws
       headers:
         Host: vangoghh.info
-  - name: CloudFlare 🇨🇱-vless | 5-5
+  - name: CloudFlare 🇨🇱-vless | 5-22
     server: brenna.ns.cloudflare.com
     port: 443
     type: vless
@@ -142,7 +325,7 @@ proxies:
       path: /sghiyws
       headers:
         Host: terazhedi.info
-  - name: CloudFlare 🇨🇱-vless | 5-6
+  - name: CloudFlare 🇨🇱-vless | 5-23
     server: norman.ns.cloudflare.com
     port: 443
     type: vless
@@ -155,22 +338,22 @@ proxies:
       path: /yhowcws
       headers:
         Host: azizoarjmand.info
-  - name: JP 🇯🇵-trojan | 5-7
+  - name: JP 🇯🇵-trojan | 5-24
     server: 160.16.107.37
     port: 507
     type: trojan
     password: 79314e99f0a473fe86efc7827942ad00
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: HK 🇭🇰-trojan | 5-8
+  - name: HK 🇭🇰-trojan | 5-25
     server: 58.152.110.154
     port: 443
     type: trojan
     password: 79314e99f0a473fe86efc7827942ad00
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vless | 5-9
-    server: ovhwuxian.pai50288.uk
+  - name: 🏳 CloudFlare-vless | 5-26
+    server: 104.21.3.219
     port: 8443
     type: vless
     uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
@@ -183,37 +366,13 @@ proxies:
       path: /57ba2ab1
       headers:
         Host: ovhwuxian.pai50288.uk
-  - name: CA 🇨🇦-ss | 5-10
-    server: 144.217.164.29
-    port: 12000
-    type: ss
-    cipher: aes-256-gcm
-    password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: KH 🇰🇭-ss | 5-11
+  - name: KH 🇰🇭-ss | 5-27
     server: 38.54.4.87
     port: 990
     type: ss
     cipher: chacha20-ietf-poly1305
     password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: FR 🇫🇷-trojan | 5-12
-    server: 13.37.111.9
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    alpn:
-      - http%2F1.1
-    skip-cert-verify: false
-  - name: FR 🇫🇷-trojan | 5-13
-    server: 52.47.206.247
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    alpn:
-      - http%2F1.1
-    skip-cert-verify: false
-  - name: CloudFlare 🇨🇱-vless | 5-14
+  - name: CloudFlare 🇨🇱-vless | 5-28
     server: ua.griffon-guard.com
     port: 8443
     type: vless
@@ -226,17 +385,7 @@ proxies:
     servername: apple.com
     client-fingerprint: chrome
     network: tcp
-  - name: US 🇺🇸-trojan | 5-15
-    server: 23.247.137.64
-    port: 443
-    type: trojan
-    password: 3c4e10af98c30972
-    sni: n2.gladns.com
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-service-name: db
-  - name: SE 🇸🇪-vless | 5-16
+  - name: SE 🇸🇪-vless | 5-29
     server: 84.8.145.58
     port: 443
     type: vless
@@ -250,7 +399,7 @@ proxies:
       path: /proxyip=sjc.o00o.ooo
       headers:
         Host: ak.suoni.nyc.mn
-  - name: RU 🇷🇺-vless | 5-17
+  - name: RU 🇷🇺-vless | 5-30
     server: 217.16.24.170
     port: 8443
     type: vless
@@ -264,7 +413,7 @@ proxies:
     servername: api-maps.yandex.ru
     client-fingerprint: edge
     network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-18
+  - name: CloudFlare 🇨🇱-vless | 5-31
     server: norman.ns.cloudflare.com
     port: 443
     type: vless
@@ -277,7 +426,7 @@ proxies:
       path: /yhowcws
       headers:
         Host: azizoarjmand.info
-  - name: CloudFlare 🇨🇱-vless | 5-19
+  - name: CloudFlare 🇨🇱-vless | 5-32
     server: brenna.ns.cloudflare.com
     port: 443
     type: vless
@@ -290,7 +439,7 @@ proxies:
       path: /sghiyws
       headers:
         Host: terazhedi.info
-  - name: CloudFlare 🇨🇱-vless | 5-20
+  - name: CloudFlare 🇨🇱-vless | 5-33
     server: betty.ns.cloudflare.com
     port: 443
     type: vless
@@ -303,7 +452,7 @@ proxies:
       path: /tixvuws
       headers:
         Host: vangoghh.info
-  - name: CloudFlare 🇨🇱-vless | 5-21
+  - name: CloudFlare 🇨🇱-vless | 5-34
     server: serena.ns.cloudflare.com
     port: 443
     type: vless
@@ -316,35 +465,7 @@ proxies:
       path: /xxvclws
       headers:
         Host: freudd.info
-  - name: US 🇺🇸-vless | 5-22
-    server: 154.31.113.124
-    port: 443
-    type: vless
-    uuid: b964cfbe-5f8a-47ae-9f14-4a6e36bfed2b
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: vNWTKraW-w1e5fUKLJhjDpslQX7OFnRbavF2VHowNhk
-      short-id: cb37b04594
-    servername: tesla.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-23
-    server: hitrafa.top
-    port: 6013
-    type: vless
-    uuid: c1a46bb0-029b-4a4e-bdc0-26ee9993f750
-    tls: true
-    flow: xtls-rprx-vision
-    skip-cert-verify: false
-    reality-opts:
-      public-key: PA5o3z2JEgSZQNKifILMs6kxPlihWXFFkw4KtlQ6WXM
-      short-id: 16562e6057229b7a
-    servername: dropbox.com
-    client-fingerprint: chrome
-    network: tcp
-  - name: CloudFlare 🇨🇱-vless | 5-24
+  - name: CloudFlare 🇨🇱-vless | 5-35
     server: delilah.ns.cloudflare.com
     port: 443
     type: vless
@@ -357,7 +478,7 @@ proxies:
       path: /fwgisws
       headers:
         Host: hazmkardan.info
-  - name: CloudFlare 🇨🇱-vless | 5-25
+  - name: CloudFlare 🇨🇱-vless | 5-36
     server: cosmin.ns.cloudflare.com
     port: 443
     type: vless
@@ -426,6 +547,25 @@ proxies:
     reality-opts:
       public-key: pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M
       short-id: ''
+  - name: FR 🇫🇷-vmess | 3-0
+    type: vmess
+    server: 2001:bc8:32d7:302::10
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: ''
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: ''
+      headers: {}
+    grpc-opts:
+      serviceName: /
+    h2-opts:
+      path: /
+      host: []
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -438,35 +578,47 @@ proxy-groups:
       - FR 🇫🇷-tuic | 2-1
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
-      - CA 🇨🇦-ss | 5-1
-      - CA 🇨🇦-ss | 5-2
-      - CloudFlare 🇨🇱-vless | 5-3
+      - FR 🇫🇷-vless | 5-1
+      - FR 🇫🇷-vless | 5-2
+      - FR 🇫🇷-vless | 5-3
       - CloudFlare 🇨🇱-vless | 5-4
-      - CloudFlare 🇨🇱-vless | 5-5
-      - CloudFlare 🇨🇱-vless | 5-6
-      - JP 🇯🇵-trojan | 5-7
-      - HK 🇭🇰-trojan | 5-8
-      - CloudFlare 🇨🇱-vless | 5-9
-      - CA 🇨🇦-ss | 5-10
-      - KH 🇰🇭-ss | 5-11
-      - FR 🇫🇷-trojan | 5-12
-      - FR 🇫🇷-trojan | 5-13
-      - CloudFlare 🇨🇱-vless | 5-14
-      - US 🇺🇸-trojan | 5-15
-      - SE 🇸🇪-vless | 5-16
-      - RU 🇷🇺-vless | 5-17
-      - CloudFlare 🇨🇱-vless | 5-18
-      - CloudFlare 🇨🇱-vless | 5-19
+      - CA 🇨🇦-ss | 5-5
+      - FR 🇫🇷-trojan | 5-6
+      - CloudFlare 🇨🇱-vless | 5-7
+      - CloudFlare 🇨🇱-vless | 5-8
+      - CA 🇨🇦-ss | 5-9
+      - FI 🇫🇮-vless | 5-10
+      - DE 🇩🇪-vless | 5-11
+      - CA 🇨🇦-ss | 5-12
+      - CloudFlare 🇨🇱-vless | 5-13
+      - ES 🇪🇸-vless | 5-14
+      - CloudFlare 🇨🇱-vless | 5-15
+      - US 🇺🇸-vless | 5-16
+      - CloudFlare 🇨🇱-vless | 5-17
+      - EC 🇪🇨-ss | 5-18
+      - IT 🇮🇹-ss | 5-19
       - CloudFlare 🇨🇱-vless | 5-20
       - CloudFlare 🇨🇱-vless | 5-21
-      - US 🇺🇸-vless | 5-22
+      - CloudFlare 🇨🇱-vless | 5-22
       - CloudFlare 🇨🇱-vless | 5-23
-      - CloudFlare 🇨🇱-vless | 5-24
-      - CloudFlare 🇨🇱-vless | 5-25
+      - JP 🇯🇵-trojan | 5-24
+      - HK 🇭🇰-trojan | 5-25
+      - 🏳 CloudFlare-vless | 5-26
+      - KH 🇰🇭-ss | 5-27
+      - CloudFlare 🇨🇱-vless | 5-28
+      - SE 🇸🇪-vless | 5-29
+      - RU 🇷🇺-vless | 5-30
+      - CloudFlare 🇨🇱-vless | 5-31
+      - CloudFlare 🇨🇱-vless | 5-32
+      - CloudFlare 🇨🇱-vless | 5-33
+      - CloudFlare 🇨🇱-vless | 5-34
+      - CloudFlare 🇨🇱-vless | 5-35
+      - CloudFlare 🇨🇱-vless | 5-36
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
+      - FR 🇫🇷-vmess | 3-0
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -478,35 +630,47 @@ proxy-groups:
       - FR 🇫🇷-tuic | 2-1
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
-      - CA 🇨🇦-ss | 5-1
-      - CA 🇨🇦-ss | 5-2
-      - CloudFlare 🇨🇱-vless | 5-3
+      - FR 🇫🇷-vless | 5-1
+      - FR 🇫🇷-vless | 5-2
+      - FR 🇫🇷-vless | 5-3
       - CloudFlare 🇨🇱-vless | 5-4
-      - CloudFlare 🇨🇱-vless | 5-5
-      - CloudFlare 🇨🇱-vless | 5-6
-      - JP 🇯🇵-trojan | 5-7
-      - HK 🇭🇰-trojan | 5-8
-      - CloudFlare 🇨🇱-vless | 5-9
-      - CA 🇨🇦-ss | 5-10
-      - KH 🇰🇭-ss | 5-11
-      - FR 🇫🇷-trojan | 5-12
-      - FR 🇫🇷-trojan | 5-13
-      - CloudFlare 🇨🇱-vless | 5-14
-      - US 🇺🇸-trojan | 5-15
-      - SE 🇸🇪-vless | 5-16
-      - RU 🇷🇺-vless | 5-17
-      - CloudFlare 🇨🇱-vless | 5-18
-      - CloudFlare 🇨🇱-vless | 5-19
+      - CA 🇨🇦-ss | 5-5
+      - FR 🇫🇷-trojan | 5-6
+      - CloudFlare 🇨🇱-vless | 5-7
+      - CloudFlare 🇨🇱-vless | 5-8
+      - CA 🇨🇦-ss | 5-9
+      - FI 🇫🇮-vless | 5-10
+      - DE 🇩🇪-vless | 5-11
+      - CA 🇨🇦-ss | 5-12
+      - CloudFlare 🇨🇱-vless | 5-13
+      - ES 🇪🇸-vless | 5-14
+      - CloudFlare 🇨🇱-vless | 5-15
+      - US 🇺🇸-vless | 5-16
+      - CloudFlare 🇨🇱-vless | 5-17
+      - EC 🇪🇨-ss | 5-18
+      - IT 🇮🇹-ss | 5-19
       - CloudFlare 🇨🇱-vless | 5-20
       - CloudFlare 🇨🇱-vless | 5-21
-      - US 🇺🇸-vless | 5-22
+      - CloudFlare 🇨🇱-vless | 5-22
       - CloudFlare 🇨🇱-vless | 5-23
-      - CloudFlare 🇨🇱-vless | 5-24
-      - CloudFlare 🇨🇱-vless | 5-25
+      - JP 🇯🇵-trojan | 5-24
+      - HK 🇭🇰-trojan | 5-25
+      - 🏳 CloudFlare-vless | 5-26
+      - KH 🇰🇭-ss | 5-27
+      - CloudFlare 🇨🇱-vless | 5-28
+      - SE 🇸🇪-vless | 5-29
+      - RU 🇷🇺-vless | 5-30
+      - CloudFlare 🇨🇱-vless | 5-31
+      - CloudFlare 🇨🇱-vless | 5-32
+      - CloudFlare 🇨🇱-vless | 5-33
+      - CloudFlare 🇨🇱-vless | 5-34
+      - CloudFlare 🇨🇱-vless | 5-35
+      - CloudFlare 🇨🇱-vless | 5-36
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
+      - FR 🇫🇷-vmess | 3-0
   - name: ⚖ 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -518,35 +682,47 @@ proxy-groups:
       - FR 🇫🇷-tuic | 2-1
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
-      - CA 🇨🇦-ss | 5-1
-      - CA 🇨🇦-ss | 5-2
-      - CloudFlare 🇨🇱-vless | 5-3
+      - FR 🇫🇷-vless | 5-1
+      - FR 🇫🇷-vless | 5-2
+      - FR 🇫🇷-vless | 5-3
       - CloudFlare 🇨🇱-vless | 5-4
-      - CloudFlare 🇨🇱-vless | 5-5
-      - CloudFlare 🇨🇱-vless | 5-6
-      - JP 🇯🇵-trojan | 5-7
-      - HK 🇭🇰-trojan | 5-8
-      - CloudFlare 🇨🇱-vless | 5-9
-      - CA 🇨🇦-ss | 5-10
-      - KH 🇰🇭-ss | 5-11
-      - FR 🇫🇷-trojan | 5-12
-      - FR 🇫🇷-trojan | 5-13
-      - CloudFlare 🇨🇱-vless | 5-14
-      - US 🇺🇸-trojan | 5-15
-      - SE 🇸🇪-vless | 5-16
-      - RU 🇷🇺-vless | 5-17
-      - CloudFlare 🇨🇱-vless | 5-18
-      - CloudFlare 🇨🇱-vless | 5-19
+      - CA 🇨🇦-ss | 5-5
+      - FR 🇫🇷-trojan | 5-6
+      - CloudFlare 🇨🇱-vless | 5-7
+      - CloudFlare 🇨🇱-vless | 5-8
+      - CA 🇨🇦-ss | 5-9
+      - FI 🇫🇮-vless | 5-10
+      - DE 🇩🇪-vless | 5-11
+      - CA 🇨🇦-ss | 5-12
+      - CloudFlare 🇨🇱-vless | 5-13
+      - ES 🇪🇸-vless | 5-14
+      - CloudFlare 🇨🇱-vless | 5-15
+      - US 🇺🇸-vless | 5-16
+      - CloudFlare 🇨🇱-vless | 5-17
+      - EC 🇪🇨-ss | 5-18
+      - IT 🇮🇹-ss | 5-19
       - CloudFlare 🇨🇱-vless | 5-20
       - CloudFlare 🇨🇱-vless | 5-21
-      - US 🇺🇸-vless | 5-22
+      - CloudFlare 🇨🇱-vless | 5-22
       - CloudFlare 🇨🇱-vless | 5-23
-      - CloudFlare 🇨🇱-vless | 5-24
-      - CloudFlare 🇨🇱-vless | 5-25
+      - JP 🇯🇵-trojan | 5-24
+      - HK 🇭🇰-trojan | 5-25
+      - 🏳 CloudFlare-vless | 5-26
+      - KH 🇰🇭-ss | 5-27
+      - CloudFlare 🇨🇱-vless | 5-28
+      - SE 🇸🇪-vless | 5-29
+      - RU 🇷🇺-vless | 5-30
+      - CloudFlare 🇨🇱-vless | 5-31
+      - CloudFlare 🇨🇱-vless | 5-32
+      - CloudFlare 🇨🇱-vless | 5-33
+      - CloudFlare 🇨🇱-vless | 5-34
+      - CloudFlare 🇨🇱-vless | 5-35
+      - CloudFlare 🇨🇱-vless | 5-36
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
       - FR 🇫🇷-vless | 2-0
+      - FR 🇫🇷-vmess | 3-0
   - name: ☁ WARP前置节点
     type: select
     proxies:
