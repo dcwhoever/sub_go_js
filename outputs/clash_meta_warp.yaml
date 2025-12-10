@@ -92,6 +92,249 @@ proxies:
     up: 11 Mbps
     down: 55 Mbps
   - name: US 🇺🇸-ss | 5-1
+    server: 15.204.247.49
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: CloudFlare 🇨🇱-vless | 5-2
+    server: www.speedtest.net
+    port: 443
+    type: vless
+    uuid: 6921f001-cd28-4b6d-eb9e-1563fba40e54
+    tls: true
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+    servername: fish.speedtest24.ir
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: >-
+        /@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android--------@Archive_Android
+      headers:
+        Host: fish.speedtest24.ir
+  - name: US 🇺🇸-ss | 5-3
+    server: 15.204.247.49
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: CA 🇨🇦-ss | 5-4
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: US 🇺🇸-ss | 5-5
+    server: 15.204.247.49
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: CA 🇨🇦-ss | 5-6
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: DE 🇩🇪-vless | 5-7
+    server: 128.140.94.109
+    port: 443
+    type: vless
+    uuid: 80683c47-3706-406b-83b8-1d3695fb1bfb
+    tls: true
+    skip-cert-verify: false
+    reality-opts:
+      public-key: uJqfENqH6w2k1sM4qJo2m_nJMmOo91DCNmsxUhgjpQc
+      short-id: 7b4a5e44
+    servername: www.ea.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: RU 🇷🇺-ss | 5-8
+    server: 185.22.154.19
+    port: 1281
+    type: ss
+    cipher: aes-256-gcm
+    password: f34579d0148b2581
+  - name: RU 🇷🇺-ss | 5-9
+    server: 185.22.154.75
+    port: 10081
+    type: ss
+    cipher: aes-256-gcm
+    password: d989ff3d46a63f63
+  - name: RU 🇷🇺-ss | 5-10
+    server: 45.140.169.26
+    port: 1012
+    type: ss
+    cipher: aes-256-gcm
+    password: 7ae4e68cf77f6089
+  - name: HK 🇭🇰-ss | 5-11
+    server: 212.192.15.59
+    port: 10189
+    type: ss
+    cipher: aes-256-gcm
+    password: 7e1dd4c55bf85da5
+  - name: AU 🇦🇺-ss | 5-12
+    server: 203.32.26.157
+    port: 60120
+    type: ss
+    cipher: aes-256-gcm
+    password: 63d7c17506d1f48b
+  - name: US 🇺🇸-ss | 5-13
+    server: 209.74.82.227
+    port: 26515
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: uA1rLP5m0mMOQ8FcxRXxgr
+  - name: CloudFlare 🇨🇱-vless | 5-14
+    server: norman.ns.cloudflare.com
+    port: 443
+    type: vless
+    uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+    tls: true
+    skip-cert-verify: false
+    servername: 639004957474582477.tiguan-amsit.info
+    network: ws
+    ws-opts:
+      path: /cahttingws
+      headers:
+        Host: 639004957474582477.tiguan-amsit.info
+  - name: CA 🇨🇦-ss | 5-15
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: US 🇺🇸-ss | 5-16
+    server: 15.204.247.49
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: FR 🇫🇷-ss | 5-17
+    server: 57.128.214.100
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: FR 🇫🇷-ss | 5-18
+    server: 57.128.214.100
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: HK 🇭🇰-trojan | 5-19
+    server: 58.152.110.82
+    port: 443
+    type: trojan
+    password: 76d630f2af6619c4a5de0ef953df3c6a
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: TR 🇹🇷-ss | 5-20
+    server: 83.217.9.17
+    port: 25232
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: YHtXD4pojvormVWRiHgIfv
+  - name: CA 🇨🇦-ss | 5-21
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: FR 🇫🇷-trojan | 5-22
+    server: 51.44.38.121
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http%2F1.1
+    skip-cert-verify: false
+  - name: US 🇺🇸-trojan | 5-23
+    server: 51.45.34.110
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http%2F1.1
+    skip-cert-verify: false
+  - name: DE 🇩🇪-trojan | 5-24
+    server: 18.153.199.156
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http%2F1.1
+    skip-cert-verify: false
+  - name: US 🇺🇸-ss | 5-25
+    server: 15.204.247.49
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: ID 🇮🇩-trojan | 5-26
+    server: 180.131.145.161
+    port: 23274
+    type: trojan
+    password: FodSUXysuS
+    skip-cert-verify: false
+  - name: FR 🇫🇷-ss | 5-27
+    server: 57.128.214.100
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: NL 🇳🇱-ss | 5-28
+    server: 193.29.139.150
+    port: 8080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: NL 🇳🇱-ss | 5-29
+    server: 193.29.139.151
+    port: 8080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: CA 🇨🇦-ss | 5-30
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: RU 🇷🇺-vless | 5-31
+    server: 185.251.90.45
+    port: 4443
+    type: vless
+    uuid: 281d153a-2fae-4725-84ed-602fb3627ca6
+    tls: true
+    flow: xtls-rprx-vision
+    skip-cert-verify: false
+    reality-opts:
+      public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+      short-id: aa7e96542880027a
+    servername: github.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: RU 🇷🇺-vless | 5-32
+    server: 147.45.230.128
+    port: 4443
+    type: vless
+    uuid: 3121850a-24aa-41f9-936d-dbdf10a3b31f
+    tls: true
+    flow: xtls-rprx-vision
+    skip-cert-verify: false
+    reality-opts:
+      public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+      short-id: aa7e96542880027a
+    servername: github.com
+    client-fingerprint: chrome
+    network: tcp
+  - name: US 🇺🇸-ss | 5-33
     server: 209.74.81.149
     port: 21166
     type: ss
@@ -185,6 +428,38 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
       - US 🇺🇸-ss | 5-1
+      - CloudFlare 🇨🇱-vless | 5-2
+      - US 🇺🇸-ss | 5-3
+      - CA 🇨🇦-ss | 5-4
+      - US 🇺🇸-ss | 5-5
+      - CA 🇨🇦-ss | 5-6
+      - DE 🇩🇪-vless | 5-7
+      - RU 🇷🇺-ss | 5-8
+      - RU 🇷🇺-ss | 5-9
+      - RU 🇷🇺-ss | 5-10
+      - HK 🇭🇰-ss | 5-11
+      - AU 🇦🇺-ss | 5-12
+      - US 🇺🇸-ss | 5-13
+      - CloudFlare 🇨🇱-vless | 5-14
+      - CA 🇨🇦-ss | 5-15
+      - US 🇺🇸-ss | 5-16
+      - FR 🇫🇷-ss | 5-17
+      - FR 🇫🇷-ss | 5-18
+      - HK 🇭🇰-trojan | 5-19
+      - TR 🇹🇷-ss | 5-20
+      - CA 🇨🇦-ss | 5-21
+      - FR 🇫🇷-trojan | 5-22
+      - US 🇺🇸-trojan | 5-23
+      - DE 🇩🇪-trojan | 5-24
+      - US 🇺🇸-ss | 5-25
+      - ID 🇮🇩-trojan | 5-26
+      - FR 🇫🇷-ss | 5-27
+      - NL 🇳🇱-ss | 5-28
+      - NL 🇳🇱-ss | 5-29
+      - CA 🇨🇦-ss | 5-30
+      - RU 🇷🇺-vless | 5-31
+      - RU 🇷🇺-vless | 5-32
+      - US 🇺🇸-ss | 5-33
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -202,6 +477,38 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
       - US 🇺🇸-ss | 5-1
+      - CloudFlare 🇨🇱-vless | 5-2
+      - US 🇺🇸-ss | 5-3
+      - CA 🇨🇦-ss | 5-4
+      - US 🇺🇸-ss | 5-5
+      - CA 🇨🇦-ss | 5-6
+      - DE 🇩🇪-vless | 5-7
+      - RU 🇷🇺-ss | 5-8
+      - RU 🇷🇺-ss | 5-9
+      - RU 🇷🇺-ss | 5-10
+      - HK 🇭🇰-ss | 5-11
+      - AU 🇦🇺-ss | 5-12
+      - US 🇺🇸-ss | 5-13
+      - CloudFlare 🇨🇱-vless | 5-14
+      - CA 🇨🇦-ss | 5-15
+      - US 🇺🇸-ss | 5-16
+      - FR 🇫🇷-ss | 5-17
+      - FR 🇫🇷-ss | 5-18
+      - HK 🇭🇰-trojan | 5-19
+      - TR 🇹🇷-ss | 5-20
+      - CA 🇨🇦-ss | 5-21
+      - FR 🇫🇷-trojan | 5-22
+      - US 🇺🇸-trojan | 5-23
+      - DE 🇩🇪-trojan | 5-24
+      - US 🇺🇸-ss | 5-25
+      - ID 🇮🇩-trojan | 5-26
+      - FR 🇫🇷-ss | 5-27
+      - NL 🇳🇱-ss | 5-28
+      - NL 🇳🇱-ss | 5-29
+      - CA 🇨🇦-ss | 5-30
+      - RU 🇷🇺-vless | 5-31
+      - RU 🇷🇺-vless | 5-32
+      - US 🇺🇸-ss | 5-33
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
@@ -219,6 +526,38 @@ proxy-groups:
       - FR 🇫🇷-hysteria | 3-1
       - FR 🇫🇷-hysteria | 4-1
       - US 🇺🇸-ss | 5-1
+      - CloudFlare 🇨🇱-vless | 5-2
+      - US 🇺🇸-ss | 5-3
+      - CA 🇨🇦-ss | 5-4
+      - US 🇺🇸-ss | 5-5
+      - CA 🇨🇦-ss | 5-6
+      - DE 🇩🇪-vless | 5-7
+      - RU 🇷🇺-ss | 5-8
+      - RU 🇷🇺-ss | 5-9
+      - RU 🇷🇺-ss | 5-10
+      - HK 🇭🇰-ss | 5-11
+      - AU 🇦🇺-ss | 5-12
+      - US 🇺🇸-ss | 5-13
+      - CloudFlare 🇨🇱-vless | 5-14
+      - CA 🇨🇦-ss | 5-15
+      - US 🇺🇸-ss | 5-16
+      - FR 🇫🇷-ss | 5-17
+      - FR 🇫🇷-ss | 5-18
+      - HK 🇭🇰-trojan | 5-19
+      - TR 🇹🇷-ss | 5-20
+      - CA 🇨🇦-ss | 5-21
+      - FR 🇫🇷-trojan | 5-22
+      - US 🇺🇸-trojan | 5-23
+      - DE 🇩🇪-trojan | 5-24
+      - US 🇺🇸-ss | 5-25
+      - ID 🇮🇩-trojan | 5-26
+      - FR 🇫🇷-ss | 5-27
+      - NL 🇳🇱-ss | 5-28
+      - NL 🇳🇱-ss | 5-29
+      - CA 🇨🇦-ss | 5-30
+      - RU 🇷🇺-vless | 5-31
+      - RU 🇷🇺-vless | 5-32
+      - US 🇺🇸-ss | 5-33
       - CloudFlare 🇨🇱-Hysteria | 0-0
       - CloudFlare 🇨🇱-Hysteria2 | 0-0
       - 🏳 CloudFlare-vmess | 0-0
