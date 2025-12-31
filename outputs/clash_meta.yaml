@@ -49,9 +49,9 @@ proxies:
     down: 55 Mbps
   - name: CloudFlare 🇨🇱-Hysteria | 0-0
     type: hysteria
-    server: '[2604'
-    port: 6600
-    ports: 6600
+    server: '[2001'
+    port: .nan
+    ports: .nan
     auth-str: dongtaiwang.com
     up: 80
     down: 100
